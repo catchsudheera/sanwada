@@ -1,0 +1,812 @@
+හදවත ස්මෝක් ෆ්‍රොග්ටයි.###Statement
+ස්තූතියි.###Thanking
+අක්මාව කර්ල් නොස්ට.###Statement
+ස්තූතියි.###Thanking
+කොකො ලීෆ් කන් ස්තූතියි.###Thanking
+එතකොට මේක මොට්ටය උබට බෝල ආයෙත් නම් එපා.###Statement
+මම උඹට උදව්වක් කරන්නේ.###Statement
+උඹ උන් එක්ක කාපන්.###Request/Command/Order
+මට උන් ඕන නෑ.###Statement
+දරුවෝ එක්ක විවේක ගන්නවත් ඕන නැද්ද ?###Yes-No Question
+උඹට දරුවෝ ඉන්නවද ?###Yes-No Question
+නෑ.###No Answer
+සමහරවිට.###Back-channel/Acknowledge
+උඹ මොනවද හිතන්නේ ?###Open Question
+නෑ !###No Answer
+නෑ, නෑ !###No Answer
+ඒත් කී වතාවක් මම ඒව කන්නද ?###Open Question
+මට අවුරුදු අටක සහෝදරියකුයි, එක සහෝදරයෙකුයි ඉන්නවා.###Statement
+මගේ තාත්තා ටපිරාගෙ බෝල දහ සැරයක් කාල තියනවා.###Statement
+මම ඔහුට කීවෙ නැද්ද ?###Yes-No Question
+මට සමාවෙන්න.###Apology
+බෝල වලින් වැඩක් නෑ.###Statement
+උඹල කවදාවත් ඒව කාල නැද්ද ?###Yes-No Question
+ඒවගෙ මොන වගේ රසක්ද තියෙන්නෙ කියල උඹට කියන්න බැරිද ?###Open Question
+උඹල මොකෙක්ටවත්?###Open Question
+නෑ, ඒත් උඹ දිහා බලන් ඉන්න එක විනෝදයි.###No Answer
+මේක උඹේ අදහසක් වෙන්න ඕනේ !###Statement
+මේකව මගෙන් අයින් කරන්න !###Request/Command/Order
+සන්සුන් වෙයල්ලා.###Request/Command/Order
+ඇයි උඹට මෙහෙම සලකන්න උන්ට ඉඩ දෙන්නේ ?###Open Question
+ශක්තිමත් වෙයන්.###Request/Command/Order
+කෝ උඹේ අභිමානේ ?###Open Question
+ඔව් !###Yes Answers
+ඒ හැම දෙයක්ම ඔව් මට විතරක් දරුවො හදන්න බෑ.###Statement
+මට උඹට දෙයක් කියන්න තියනවා.###Statement
+ඒත් මන් උඹට අනතුරු අගවනවා, ඒක හුගක් බලසම්පන්නයි.###Statement
+උඹ මොනවා ගැනද කියන්නේ ?###Open Question
+සොඅන්සෝ කොළ ගැන.###Back-channel/Acknowledge
+නෑ!###Expressive
+නෑ! ඉදපන් උඹ මේවගෙන් පහළ තියන එක අතුල්ල ගන්න ඕන.###Statement
+උඹේ ඊළග උත්සහයට කලින්.###Statement
+ලෝබ නැතිව අතුල්ල ගනින් හොදට.###Request/Command/Order
+මේක වැඩ කරොත්, එයා මට වද දෙන එකත් නවත්වයි.###Statement
+උඹේ ගෑණිද ?###Yes-No Question
+නාකි ගෑණිට මුණුපුරෝ ඕනලු.###Statement
+මට මස් ටිකක් දීපල්ලා.###Request/Command/Order
+මෙන්න ගනින් හොද මස්.###Back-channel/Acknowledge
+බෝල වල සුවද.###Statement
+උඹට මොනවද ඕනෙ ?###Open Question
+උඹට මොනවද ඕනෙ ?###Open Question
+මම ෆ්ලින්ටි ස්කයි.###Statement
+මන් ඉපදුන දා ඉදන් මේ කැළේ දඩයම් කරන්නෙ.###Statement
+මගෙත් එක්ක දඩයම් කරන්නත් කලින් ඉදලයි මගේ තාත්තා මේ කැළේ දඩයම් කරන්නෙ.###Statement
+මේ ජගුවර් පෝ, මගේ පුතා.###Statement
+ඔහු මේ කැළේ මගෙත් එක්ක දඩයම් කරනවා.###Statement
+මම මැරුනට පස්සෙ එයා එයාගෙ පුතත් එක්ක දඩයම් කරාවි.###Statement
+හොදට අල්ලලා තියනවා.###Statement
+මෙහෙ හොදට වතුර තියනවා.###Statement
+මේ වගේ ගොඩක් මේ කැළේ තියනවා.###Statement
+අපි අහන්නේ උබලව පහු කරලා යන්නයි.###Statement
+පහු කරලා යන්න පරිස්සමින් යන්න.###Statement
+අපි යමු.###Statement
+අපේ භුමිය කොල්ල කාල දැම්මා.###Statement
+අපි අළුත් තැනක් හොයනවා.###Statement
+ඔව් !###Yes Answers
+අපි අළුත් තැනක් හොයාගෙන යනවා.###Statement
+ඔහොම ඉන්න.###Request/Command/Order
+ඔහොම ඉන්න.###Request/Command/Order
+ආපහු ගමට යමු.###Statement
+කවුරුත් අද කැළේදි වෙච්ච දේ ගැන කථා කරන්න එපා.###Request/Command/Order
+උඹට ඒක ප්‍රශ්නයක්ද ?###Yes-No Question
+ඔව් මට ප්‍රශ්නයක්.###Yes Answers
+කැළේ හිටපු මිනිස්සුන්ගෙන් උඹ මොනවද දැක්කෙ ?###Open Question
+බය.###Statement
+පතුලෙන්ම ආපු බයක්.###Statement
+උන්ට ඒකෙන් බය කියන එක පැතිරිලා.###Statement
+උඹ දැක්කද ?###Yes-No Question
+බය ලෙඩක්.###Statement
+ඕන කෙනෙක්ට එහෙම උනාම මුළු ආත්මයම නලියනවා.###Statement
+ඒක දැනටමත් උඹේ හිතේ සැනසීම නැති කරලා.###Statement
+මන් උඹව හැදුවේ භයෙන් ජීවත් වෙන්න නෙමෙයි.###Statement
+ඒක උඹ හිතට ගනින්.###Request/Command/Order
+ඒක අපේ ගම ඇතුලට ගේන්න එපා.###Request/Command/Order
+මුල්ම හිරු උදාවෙන්ම අපේ වැඩිහිටියෝ එකතු කරගෙන අපේ පැරැන්ණ්ගෙ පූජනීය කදු වලට යමු.###Statement
+එහිදී අපිව රැක ගන්න කියල අපි එයාලගෙ ආත්ම වලින් ඉල්ලමු.###Statement
+ඔහ් මෙන්න ඔහු එනවා.###Statement
+මෝඩ තඩියා !###Statement
+මූ වැඩකට නැති එකෙක්.###Statement
+මූට ඒක කරන්න බෑ.###Statement
+උඹ !###Statement
+ඔව්, උඹ !###Statement
+උඹේ උසෙනුයි මහතෙනුයි උඹ අපිව රැවැට්ටුවා.###Statement
+ඇතුලට පලයන්.###Request/Command/Order
+ශාප වෙයන් !###Request/Command/Order
+ඇතුලට පලයන්.###Request/Command/Order
+පලයන්.###Request/Command/Order
+උඹට ඒක කරන්න බැරිද ?###Yes-No Question
+මන් උඹව එළවලා දාන්න කලින් මට මුණුපුරෙක් දීපන්.###Request/Command/Order
+දැන් ඔය ඇති.###Statement
+ළමයෙක් හදනකම් එළියට යන්න එපා.###Request/Command/Order
+දෙන්නෙක් නම් ගොඩක් හොදයි.###Statement
+මොකක් ?###Open Question
+අම්මේ !###Conventional Opening
+ඔයා පොඩ්ඩක් එහාට යනවද ?###Request/Command/Order
+ඔයා ඔතන ඉදගෙන ඉන්න නිසා එයා බෑ කියනවා.###Statement
+දැන් වැඩේ කරපන්.###Request/Command/Order
+අම්මේ!###Conventional Opening
+ඇය ගියා.###Statement
+අම්මේ මොනවද ඔයා කීවේ, අද රෑට අපි උත්සවයක් තියනවද ?###Yes-No Question
+මම ඌරෙක් ගෙනාව.###Statement
+මට මේ කොල්ලවත් හම්බවුනා.###Statement
+මන් කියන්නෙ කොල්ලෙක්.###Statement
+තම්බපු මස් !###Statement
+මේ ඌරගෙ සුවද නම් හොදයි.###Statement
+මට හිතෙන්නෙ මූ අලුත්.###Statement
+එපා තාත්තේ එපා !###Request/Command/Order
+මේ මම !###Statement
+මේ මම !###Statement
+අපේ හිත් වෙනස් කරපු කොල්ලව මම දැන් මෙතන් එල්ලනවා.###Statement
+ඉන්න මේ අපේ ටර්ටල්ස් රන් නේ, මෙයා තමයි අපේ වැඩිමලා.###Statement
+ඔව් ඒ මම තමයි, ඔයාලගෙ වැඩිමහල් පුතා.###Statement
+ඒ නිසා මන් මගේ වැඩිමයල් පුතාට හුගක් ආදරේ කරනවා ඒ වගේම මගේ පොඩි පුතාටත් හුගක් ආදරේ කරනවා.###Statement
+ඌරන්ටත් එහෙමද ?###Yes-No Question
+එක දවසක, නාකි මිනිහෝ !###Statement
+එක දවසක් ඒවි උඹට කොහේටවත් දුවන්න බැරි !###Statement
+එක මිනිහෙක් හුදෙකලාව ඉදගෙන හිටියා.###Statement
+පතුලෙන්ම එන දුකකින් පෙලෙමින්.###Statement
+හැම සතෙක්ම වගේ ඔහු ළගට ඇවිත් කීවා: ඔයා දුකින් ඉන්නවට අපි කැමති නෑ.###Statement
+අපෙන් ඉල්ලන ඕනම දෙයක් ඔබට ලැබේවි.###Statement
+කියලා කීවා. මට හොද පෙනීමක් ඕනෙ.###Statement
+මිනිහා කීවා. ඔයාට මන් ඉන්නවනේ!###Statement
+කියලා ගිජුලිහිනියා පිළිතුරු දුන්නා.###Statement
+මට ශක්තිමත් වෙන්න ඕනෙ.###Statement
+මිනිහ කීවා. එතකොට කොටියා කියනවා: ඔයාට මන් වගේ ශක්තිමත් වෙන්න පුළුවන්නේ.###Statement
+ඊට පස්සෙ ඊට පස්සෙ මිනිහ කියනවා: මට භුමියෙ තියන හැම රහසක්ම දැන ගන්න ඕනෙ.###Statement
+මන් ඔයාට ඒ හැම දෙයක්ම පෙන්වන්නම්.###Statement
+සර්පයා පිළිතුරු දුන්නා.###Statement
+ඉතින් හැම සතෙක්ගෙන්ම එහෙම ප්‍රශ්න ඇහුවා.###Statement
+ඔවුන් දුන්නු තෑගිත් අරන් මිනිහා යන්න ගියා.###Statement
+බකමූණා හැම සතෙකුටම මෙහෙම කීවා.###Statement
+දැන් නම් මිනිහා ගොඩක් දෙවල් කරන්න දන්නවා කියලා.###Statement
+හදිසියෙම මං බය වුනා.###Statement
+මිනිහට ඕනෙ හැම දේම ඔහුට තියනවා.###Statement
+කියලා මුවා කීවා. දැන් ඔහුගේ දුක් වීම නැති වෙයි.###Statement
+නැහැ.###No Answer
+බකමූණා පිලිතුරු දුන්නා. මං මිනිහගෙ ඇස් දෙක දැක්කා ඔහුට කවදාවත් සම්පූර්ණ කර ගන්න බැරි බඩගින්නක් තිබුනා.###Statement
+ඒ නිසා තමයි ඔහුට දුකින් ඉන්න උනේ, ඔහුට මොනවද ඕන උනේ ?###Open Question
+ඔහු දිගටම හිතමින් ඉදිරියට ගියා එක දවසක ලෝකයම කියාවි: මට තවදුරටත් ඔබට දෙන්න දෙයක් නෑ කියල.###Statement
+මං ළගට එන්න.###Request/Command/Order
+ආපහු මං ළගට එන්න.###Request/Command/Order
+මගෙ පුතා නටනවා.###Statement
+ඔයාගේ පුතා සතුටින් ඉන්නේ.###Statement
+මොනවද උඹට ඕනේ ?###Open Question
+දුවන්න !###Request/Command/Order
+දැන් ඔයා නැඟිටලා ඉන්න එකේ බල්ලව මරන්න පුළුවන්ද ?###Yes-No Question
+බල්ලව ?###Backchannel Question
+නැඟිටින්න, දැන්ම නැඟිටින්න.###Request/Command/Order
+කැළේට දුවන්න.###Request/Command/Order
+පස්ස නොබලා දුවන්න.###Request/Command/Order
+එපා !###Reject
+එපා !###Reject
+මං බය වෙලා ඉන්නෙ.###Statement
+මගෙ ඇස් දිහා බලන්න !###Request/Command/Order
+මගෙ ඇස් දිහා බලන්න !###Request/Command/Order
+ශක්තිමත් වෙන්න.###Request/Command/Order
+මං බයයි.###Statement
+ශක්තිමත් වෙන්න.###Request/Command/Order
+ඌව ගැට ගහන්න.###Request/Command/Order
+තාත්තේ !###Conventional Opening
+මං අනිත් අයට උදව් කරන්න ඕනේ.###Statement
+අපිට දාල යන්න එපා !###Request/Command/Order
+යන්න එපා !###Request/Command/Order
+මං පොරොන්දු උනානෙ.###Statement
+අනේ යන්න එපා, අනේ යන්න එපා තාත්තේ.###Request/Command/Order
+නියමයි.###Expressive
+නවත්වනවා !###Request/Command/Order
+ඌව ගැටගහන්න.###Request/Command/Order
+සමාවෙන්න තාත්තේ.###Apology
+ඔය ඇති.###Request/Command/Order
+ඌව නැගිට්ටවන්න.###Request/Command/Order
+අයින් වෙයල්ලා.###Request/Command/Order
+මගේ පුතා.###Statement
+බය වෙන්න එපා.###Request/Command/Order
+ඕල්මෝස්ට් ඒක තමා උබේ නම.###Statement
+ඕල්මෝස්ට් අපේ ජීවිත වල අවසානය.###Statement
+නින්දාවක් නින්දාවක් බයගුල්ලෝ !###Statement
+අපි යමු !###Statement
+අපි දැන්ම යමු.###Statement
+ඔවුන් ආයෙ ඇවිත්.###Statement
+නැඟිටපල්ලා.###Request/Command/Order
+උඹට ගලක් වැදිල තියෙන්නෙඔලුව නමපන්.###Request/Command/Order
+ඔහොම ඉදපන්.###Request/Command/Order
+උඹට පේනවද ?###Yes-No Question
+ඔව් !###Yes Answers
+උඹේ පේලියට යමන්.###Request/Command/Order
+අපිත් එක්ක එන්න.###Request/Command/Order
+නැඟිටපන්.###Request/Command/Order
+ඌට තනියම කරන්න දීපන්.###Request/Command/Order
+ඕල්මෝස්ට් මං කීවෙ නැඟිටපන්.###Request/Command/Order
+උඩට, උඩට අන්න එහෙම.###Statement
+අපි යමු.###Statement
+මේ මිනිහා උබේ හොද යාළුවෙක්.###Statement
+දුක් වෙන්න එපා.###Request/Command/Order
+මං ඔවුන්ව බලා ගන්නම්.###Statement
+ඔවුන් දැන් මගේ.###Statement
+අනේ දෙවියනේ ඔවුන්ට අනුකම්පා කරන්න.###Request/Command/Order
+ඔවුන්ට හානියක් වෙන්න දෙන්න එපා, කරුණාකරලා ඔවුන්ව ආරක්ෂා කරන්න.###Request/Command/Order
+තව එකෙක්.###Statement
+ලෑස්තිද ?###Yes-No Question
+ඔහොම ඉන්න !###Request/Command/Order
+ඔහොම ඉන්න !###Request/Command/Order
+ඉන්න අපි බලමු මොකද වෙන්නෙ කියලා.###Statement
+ඔය තියෙන්නෙ !###Statement
+අදින්න, ශක්තිමත් වෙයල්ලා !###Request/Command/Order
+ඔව් !###Yes Answers
+උඹලා ඒක කළා !###Statement
+හොඳ වැඩක්.###Statement
+උඹට හුස්ම ගන්න පුළුවන්ද ?###Yes-No Question
+හොඳයි.###Statement
+මෙතන ඉන්න.###Request/Command/Order
+මගෙ හිරකාරයට මොකද උනේ ?###Open Question
+හැමෝටම ඌ නිසා විවේකය ලැබෙනවා.###Statement
+මං ඌට යන්න දුන්නා.###Statement
+උඹ ඌට යන්න දුන්නා ?###Backchannel Question
+දැන් අපි උඹට ඕනදේද කරන්න ඕනෙ?###Yes-No Question
+අපි ඒක කරලා බලමු.###Back-channel/Acknowledge
+අනිත් එකෙක්ටවත් යන්න දෙන්න එපා.###Request/Command/Order
+අපි යමු.###Statement
+නැඟිටපන් ඕල්මෝස්ට් අපිට දැන් උඹලව නැති කරගන්න බෑ.###Request/Command/Order
+නැඟිටපන් කොල්ලෝ.###Request/Command/Order
+අද උඹ, උඹ ගැන ඔප්පු කලා මගෙ පුතේ.###Statement
+දැන් උඹ අපිත් එක්ක ඉන්න සුදුසු කෙනෙක්.###Statement
+ස්තූතියි තාත්තේ.###Thanking
+ඒක ගනින් ඒක උඹේ.###Request/Command/Order
+ඒකෙන් ජීවිතා ගොඩක් නැති කරලා තියනවා.###Statement
+පොඩි විවේකයක් ගනින්.###Request/Command/Order
+විවේකගනින් සහෝදරයා.###Request/Command/Order
+තාත්තලා, අම්මලා, බිරින්දෑවරුන්.###Statement
+අද උදේ තිබුන සීතල උඹට දැනුනද ?###Yes-No Question
+ඒ රාත්‍රියේ සීතල දැන් උඹට දැනෙන් නෑ.###Statement
+ඇය කෑ ගහන එක නැවතුනා.###Statement
+උන් එන්න ගොඩාක් කලින් ඇයට කෑ ගහන එක නවත්වන්න තිබුනා.###Statement
+අපි දැක්ක ඇය කොහොමද උන් එක්ක සටන් කලේ කියල.###Statement
+ඒත් අන්තිම මොහොතේ ඇය ඉඩ දුන්න නම්!###Statement
+මරණයේ දෙව්දුව දුර්වලයන්ට කිසිම අනුකම්පාවක් දක්වන් නෑ.###Statement
+ඇය අඳුරෙ ඉඳන් උඹේ ආත්මය බලාපොරොත්තුවෙන් ඉන්නවා.###Statement
+අද දවස අවසන් වෙන්න කලින් මට මේ ලෝකෙන් යන්න වේවිද කියලා.###Statement
+මට පුළුවන් නම් මං මේ අවජාතක බල්ලෝ මරාගෙන මැරෙනවා.###Statement
+අපායෙ තියන වධ හිංසාවල් මං සතුටෙන් වැළඳගන්නවා.###Statement
+මට මගෙ ජීවිතේට වෙන දේ හිතා ගන්න බෑ.###Statement
+වහින්න එපා.###Request/Command/Order
+මං මෙතනින් යනවා.###Statement
+අයින් වෙන්න, ඇයට ලෙඩක් තියනවා.###Request/Command/Order
+පස්සට වෙන්න.###Request/Command/Order
+උඹ මට බයද ?###Yes-No Question
+උඹ දැන ගන්න ඕනෙ උඹලා හැමෝම අධමයෝ.###Statement
+උඹට දැන ගන්න ඕනද උඹලා මැරෙන්නේ කොහොමද කියලා.###Yes-No Question
+ඒ පූජනීය වෙලාව ළං වෙනවා.###Statement
+ඒ අදුරු දවසෙදි පරිස්සම් වෙයල්ලා.###Request/Command/Order
+කොටියෙක් වගේ එන මිනිහෙක්ගෙන් පරිස්සම් වෙයල්ලා.###Request/Command/Order
+ඔහු මඩ වගුරකින් නැවත උපදීවි.###Statement
+ඒ කියන මිනිහා උඹලව මරන්න ගද්දි අවකාශය ඒක අවලංගු කරලා දමාවි.###Statement
+උඹලව මේ ලෝකෙන් මකලා දමාවි.###Statement
+අතුගාලා දමාවි.###Statement
+උඹලගේ ලෝකය අවසාන වේවි.###Statement
+ඔහු දැන් අපි සමගයි.###Statement
+ඒ දවස රාත්‍රියක් වේවි.###Statement
+කොටියෙක් වගේ මිනියා උඹලගේ අවසානය වෙනකම් එක්කන් යාවි.###Statement
+ඔවුන් අපිව කොහේටද එක්කන් යන්නෙ ?###Open Question
+ගල් වලින් හදපු තැනකට.###Back-channel/Acknowledge
+එතන මොකද වෙන්නෙ ?###Open Question
+මං දන් නෑ ඒත් ඒ භූමියෙ ලේ වැඟිරීම් සිද්ද වෙනවා.###Back-channel/Acknowledge
+අපි ළඟ ඉන්නෙ.###Statement
+විමුක්තිය.###Abandoned/Uninterpretable/Other
+ඔහුට සිනාවීමේ ලෙඩක් තියනවා.###Statement
+ඌ උඹට කැමතියි.###Statement
+මට උදව් කරන්න.###Request/Command/Order
+මාව බේරගන්න.###Request/Command/Order
+මිනිහෙක් වගේ මැරියන්.###Request/Command/Order
+නැවත සාදරෙයෙන් පිළිගන්නව.###Statement
+උඹේ ගමන සාර්ථකද ?###Yes-No Question
+හිරකාරයෝ කී දෙනක් ඉන්නවද ?###Open Question
+මගෙ පුතත් එක්ක ගණුදෙනුව කරන්න.###Request/Command/Order
+සාධාරණ ගානක් කියපන්.###Request/Command/Order
+හැම වෙලාවෙම මාව විශ්වාස කරනවා වගේ.###Statement
+හොඳයි.###Statement
+උඹ මට කීයක් දෙනවද ?###Open Question
+කවුද මේ ගෑණිව මිලට ගන්නෙ ?###Open Question
+එපාඇය ගොඩක් වයසයි.###Reject
+ඇය ප්‍රයෝජනවත් වෙන්න පුලුවන්.###Back-channel/Acknowledge
+ඇයට උයන්න පිරිසිදු කරන්න පුලුවන්.###Statement
+වැඩකට නැති නාකි ගෑණියෙක්.###Statement
+විකිණෙන් නෑ.###Statement
+පලයන්.###Request/Command/Order
+පලයන් පලයන්.###Request/Command/Order
+මේ අපේ වැළපීමේ දවස්.###Statement
+භූමියට පිපාසිතයි.###Statement
+වසංගත රෝග අපේ අස්වැන්නට හානියක් වෙලා.###Statement
+වසංගත රෝග අපිට හිරිහැරයක් වෙලා.###Statement
+ඔවුන් කියනවා මේ අරගලය අපිව දුර්වල කරනවා කියලා.###Statement
+ඒකයි අපි හිස් මිනිස්සු වෙලා ඉන්නෙ.###Statement
+ඔවුන් කියනවා අපි විනාශ වෙනව කියලා.###Statement
+සූර්‍යාගෙන් පැවත එන ශ්‍රේෂ්ඨ මිනිස්සු, මං කියනවා අපි ශක්තිමත් කියලා.###Statement
+අපි ඉරණමක් තියන මිනිස්සු.###Statement
+ඉරණම තමා කාලය විසින් නියම කරන ලද පාලකයා.###Statement
+ඉරණම නියම කරනා ලද දෙවියන්ට ළඟම පුද්ගලයා.###Statement
+ශ්‍රේෂ්ඨ කුකුල්කාන් ඔහුගේ වියරුවට පුළුවන් මේ භූමිය දවාලන්න.###Statement
+මේ බිලි පූජාව ඔබේ සතුට වෙනුවෙන්!###Statement
+ඔබගේ තේජස මුදුන්පත් කරන්නට.###Statement
+අපේ මිනිසුන්ට සතුට උදා කරන්නට.###Statement
+ඔබේ නැවත පැමිණීම සූදානම් කරන්නට.###Statement
+නිභයව සතුටු වෙයන්, රණශූරයා.###Request/Command/Order
+නුඹේ ලේ වලින් මේ ලෝකය අලුත් වෙනවා.###Statement
+දෙවියන් වෙනුවෙන් වූ හදවත.###Statement
+මා වෙතට එන්න.###Request/Command/Order
+නෑ මට යන්න බෑ දැන් නෙමෙයි.###Statement
+සූර්‍යාගෙන් පැවත එන මිනිස්සු බය නැහැ.###Statement
+සංතෝෂවෙයල්ලා.###Request/Command/Order
+කුකුල්කාන් ඇති වෙන්නම ලේ බීල.###Statement
+අපි ඔහුගෙ ලේ පිපාසාව තෘප්තිමත් කලා.###Statement
+ශ්‍රේෂ්ඨ දෙවියනේ !###Conventional Opening
+ඔබ සතුටෙන් බව අපිට පෙන්වන්න.###Request/Command/Order
+ඔබේ ආලෝකය නැවත අපිට ලබා දෙන්න.###Request/Command/Order
+මේ හිරකාරයන්ට මොකද කරන්නේ.###Open Question
+ඔවුන්ව සූදනම් කරලා තියන්න.###Back-channel/Acknowledge
+මට අවසන් කරන්නෙක් ඕන කරනවා.###Statement
+උඹ.###Statement
+නිදහස් කරන්න ඔවුන්ව.###Request/Command/Order
+උඹ බලන් හිටපන්.###Request/Command/Order
+මං ලෑස්තියි !###Statement
+ඉරිඟු වලින් එපිට උඹලගේ කැළේ තියනවා.###Statement
+ඒකට පලයල්ලා.###Request/Command/Order
+දැන් උඹලා නිදහස්.###Statement
+දැන්දුවපල්ලා.###Request/Command/Order
+මං කීවෙ දුවපල්ලා.###Request/Command/Order
+උඹේ වාරෙ.###Statement
+දුවපන්.###Request/Command/Order
+දුවපන්.###Request/Command/Order
+නිදාගන්න.###Request/Command/Order
+නිදාගන්න, නිදාගනින් මගේ පුතා.###Request/Command/Order
+තව දුරටත් වේදනාවක් දැනෙන් නෑ.###Statement
+නිදාගන්න.###Request/Command/Order
+ඌ මේ පැත්තෙන් එන්නේ නැති වෙයි.###Statement
+ඌ ඉන්නෙ ගස් උඩ.###Statement
+විහිදිලා යමු.###Statement
+අවදානයෙන් යමල්ලා.###Request/Command/Order
+නිශ්ශබ්ද වෙයල්ලා ඔහු අපි ඉන්න පැත්තට එනවා.###Request/Command/Order
+හරි, එල්මි.###Back-channel/Acknowledge
+මට හයිය තියෙන මිනිහෙක් ඕනේ.###Statement
+මෙයා වගේ ද?###Yes-No Question
+මට ඕනේ එයාව.###Statement
+අහකට වෙයල්ලා පාරෙන්!###Request/Command/Order
+ඇයි උඹ එකාව තෝරාගත්තේ?###Open Question
+බලහන් උඹට තව බලය ගන්න පුලුවන්ද කියලා.###Request/Command/Order
+හොඳයි උඹ, උඹ!###Back-channel/Acknowledge
+වරෙන් මෙහාට!###Request/Command/Order
+වරෙන් ඇවිත් අපිට උදවු කරහන්!###Request/Command/Order
+ජූන් සූ, අර ඉන්නේ ඔයාගේ පුංචි නංගි.###Statement
+ලස්සනයි නේද?###Yes-No Question
+මම ඉක්මනට එනවා.###Statement
+කොහේවත් දුවන්න එපා.###Request/Command/Order
+ඔයාට මෙහෙ සෙල්ලම් කරන්න බෑ.###Statement
+ඔයාද මේවා බිම දැම්මේ?###Yes-No Question
+ජුන් සු, පිස්සු මල යකෙක්.###Statement
+ජුන්-සූ, ඔයා මොනවද මෙහෙ කරන්නේ?###Open Question
+ඔයා මේ ලියුම එළියට විසීකළාද?###Yes-No Question
+සමාවෙන්න.###Apology
+විසිකරන්න මම හිතුවේ් නෑ.###Statement
+කවුද එව්වේ කියලා ගහලා තිබුනේ නෑ නේ.###Statement
+ඒකයි ඔයාට දෙන්න බැරිවුනේ.###Statement
+ඔයා මට කැමති නැද්ද?###Yes-No Question
+මට වෙන කෙනෙක් ඉන්නවා.###Back-channel/Acknowledge
+ඔයා මොනවද මෙහෙ කරන්නේ?###Open Question
+මෙන්න.###Statement
+ඔයත් මේ වැඩවලට එකතුවෙන්න එපා.###Request/Command/Order
+මොකද වුනේ?###Open Question
+කියන්නකෝ.###Statement
+මොකද වුනේ, මේ අපේ එකද?###Yes-No Question
+එයා ඒක ඇරලා බලලත් නෑ.###Statement
+කොහෙන්ද මෙච්චර හයියක්?###Open Question
+මං එනකම් ඉන්න.###Request/Command/Order
+ජුන් සූ, මම හරියට බයිසකලේ පදින්න දන්නේ නෑ.###Statement
+මගේ අයියා අකමැති දෙයක් මට කරන්න සිද්ධවුනා නේ.###Statement
+මම පසුතැවෙනවා.###Statement
+ඒත් ඒකට වැරදි මම විතරක් නෙමේ.###Statement
+මම කොහොමද ජ්‍යෙෂ්ඨයන්ට බෑ කියන්නේ.###Statement
+එයා කැමති නැත්තං එක එක්කෙනා එයාගේ පස්සෙන් එනවට.###Statement
+කා එක්ක හරි යාළු වුනානම් ඉවරයි නේ.###Statement
+මට මේ පණිවිඩ ගෙනියන වැඩේ එපාවෙලයි තියෙන්නේ.###Statement
+ඇත්තටම කියනවනම්, නෑ.###Statement
+මම කියන දේ ටිකක් අහන්නකෝ.###Request/Command/Order
+ඔයාට සමාව දුන්නා.###Statement
+කවුද එයා?###Open Question
+කවුද?###Backchannel Question
+කට වහගන්නවා.###Request/Command/Order
+කියන්නකෝ.###Request/Command/Order
+ඒක රහසක්.###Back-channel/Acknowledge
+යුන් ඉන් සූ.###Abandoned/Uninterpretable/Other
+ඒක මම බලාගන්නම්කෝ.###Statement
+හරි, අපි ඒක වෙනුවෙන්.###Statement
+මම ආයිමත් පැරදුනා.###Statement
+කොහොමද ඔයා හැමතිස්සෙම දිනන්නේ?###Open Question
+ඔයා හැමවෙලේම තෝරගන්නේ ගල්.###Statement
+ඒකයි.###Statement
+වහිනවා.###Statement
+ඇයි මේක අඩුවෙන්නේ නැත්තේ?###Open Question
+ඒක ඉක්මණටම ඉවර වේවි.###Back-channel/Acknowledge
+මාව තෙතබරියං වෙලා.###Statement
+සායත් බරයි.###Statement
+මොනවද ඔයා කරන්න හදන්නේ?###Open Question
+කවුරුත් ළඟපාතක නෑ.###Statement
+අනිත් එක මට යට සායක් තියෙනවනේ.###Statement
+කවද ඉඳංද ඔයා ඕවා අඳින්නේ?###Open Question
+මම දැන් ලොකු ලමයෙක්.###Back-channel/Acknowledge
+මොනවද ඔයා බලන්නේ?###Open Question
+එයා කිව්වේ ඒක රහසක් කියලා විතරයි.###Back-channel/Acknowledge
+ඉන්නවා.###Back-channel/Acknowledge
+කවුද ඒ?###Open Question
+ඒ ජුන් සූ.###Back-channel/Acknowledge
+කෝ බලන්න.###Request/Command/Order
+කවද ඉඳංද මේවා මෙච්චර ලොකු වුනේ?###Open Question
+මට පේන්නේ ඔයාගේ පස්සෙන් දැන් මට ඉන්න වෙයි වගේ.###Statement
+දැන් ඔයා.###Statement
+ඔයා කාටහරි ආදරේ කරන්න පටංගත්තොත්, මුලින්ම කියන්න ඕනේ මට.###Request/Command/Order
+අනිවාර්යෙන්ම.###Back-channel/Acknowledge
+අම්මේ ඔයත් පෝසත් කෙනෙක් වෙයි.###Statement
+ඇයි?###Backchannel Question
+ඔයාට ලොකු කන් පෙති තියෙනවා.###Back-channel/Acknowledge
+ආච්චිගෙත් මෙහෙමයි.###Statement
+ඒත් මගේ හීනියි නේ.###Statement
+එහෙමද?###Backchannel Question
+ඒවා කලින් හොඳට තිබුනනේ.###Statement
+කොහොමද හීනි වුනේ.###Open Question
+සමහරවිට මම ඔයාගේ දුව නෙවෙයිද දන්නේ නෑනේ.###Back-channel/Acknowledge
+අනික මම ඔයා වගෙත් නෙමෙයිනේ.###Statement
+මාව දරුකමට හදාගත්තද දන්නේ නෑනේ.###Statement
+මොකද?###Open Question
+මගේ ලස්සන ඉන් සූ.###Statement
+මට දැන් ඇති.###Statement
+අද කෑවා වැඩියි.###Statement
+තව කන්න ඕනේ.###Statement
+එතකොට තමයි පපුව හොඳට වැඩෙන්නේ.###Statement
+අම්මා.###Conventional Opening
+ඇහුනද, අපේ ඉන් සූත් දැන්.###Statement
+ඔව්.###Yes Answers
+ඉතිං දැනටමත්?###Backchannel Question
+අම්මේ.###Conventional Opening
+එයාගේ පපුව.###Statement
+පපුව?###Backchannel Question
+කෝ බලන්න.###Request/Command/Order
+මම පන්ති නායකයා වුනාම ගෙදර වැඩ පැහැර හරින්න වෙයිද කියලා මට හරියටම කියන්න බෑ.###Statement
+ඒත් මම පන්තියේ හැමෝම වෙනුයෙන් මහන්සි වෙලා වැඩ කරනවා.###Statement
+කොහොමද නිකන් වදන් ටික?###Open Question
+ඔයා හිතන්නේ මම ඬඬඅනේ ඔයා මාරයිනේඬඬ කියයි කියලද?###Yes-No Question
+එතකොට ඔයා හිතන්නේ එයාට පන්ති නායිකාව වෙන්න බෑ කියලද?###Yes-No Question
+ඔයා හිතන්නේ මම ඡන්දෙන් දිනලා එයාට පෙන්නන්නම්කෝ කියලද?###Yes-No Question
+ඔයා හිතන් ඉන්නේ එයා චොයි ෂින් ඒට පරදීවි කියලද?###Yes-No Question
+චොයි ෂින් ඒ?###Backchannel Question
+එයා මගේ විරුද්ධවාදියා.###Back-channel/Acknowledge
+එයා ඔයාට කරදර කරනවද?###Yes-No Question
+නෑ.###No Answer
+ජ්‍යෙෂ්ඨ සිසු.###Statement
+කණිෂ්ඨ සිසුවිය.###Statement
+ඔයා මාව හම්බවෙන්නද?###Yes-No Question
+ඔව්.###Yes Answers
+මොකක්ද කාරණේ?###Open Question
+උදව්වක් ඕනේ.###Back-channel/Acknowledge
+කොරිඩෝවේ එල්ලලා තියෙන ඔයාගේ පින්තූරවලට මම හරි කැමතියි.###Statement
+ඉතිං?###Backchannel Question
+මම කවි තරෙඟට ඉදිරිපත් කරන කවියට ඔයාට කියලා චිත‍්‍රයක් අන්දවගන්නයි ඕනේ.###Statement
+ඔයාට මීට කලින් මාව මුනගැහිලා නෑනේ?###Yes-No Question
+නෑ.###No Answer
+වැඩ තියෙනවා.###Statement
+සමාවෙන්න.###Apology
+ඉන්න.###Request/Command/Order
+එයාගේ නම චොයි ෂිං ඒද?###Yes-No Question
+ඔව්.###Yes Answers
+එයා ඉන්නේ දෙවෙනි පන්තියේද?###Yes-No Question
+මේ තමයි අවසාන ඡන්දය.###Statement
+යූන් ඉන් සූ.###Abandoned/Uninterpretable/Other
+ඉන් සූට ඡුන්ද 29ක් තියෙනවා.###Statement
+සීං ඒට තියෙන්නේ 16යි.###Statement
+ඒ අනුව දෙවෙනි වාරය සඳහා පන්තියේ නායිකාව වෙන්නේ එයුන් සූ.###Statement
+උප නායිකාව ෂිං ඒ.###Statement
+අපේ පන්තිය තමයි දෙවෙනි වාරයේ හොඳම පන්තිය විදයට තේරිලා තියෙන්නේ.###Statement
+ෂිං ඒ තමයි පන්තියෙන්ම පළවෙනියා.###Statement
+සුභ පැතුම්.###Statement
+හැමෝම දන්නවා ඇති ලබන මාසේ තියෙන කවි චිත‍්‍ර තරඟය.###Statement
+ඔව්.###Yes Answers
+චිත‍්‍ර ගුරුවරයා නිර්දේශ කරලා තියෙන්නේ ඉන් සූගෙයි, ෂිං ඒ ගෙයි නම්.###Statement
+මගේ අදහස නම් ඉන් සූ ඒක කළොත් හොඳයි කියලයි.###Opinion
+අනික ඉන් සූගේ අයියට පුළුවන් එයාට චිත‍්‍ර අඳින්න උදව් කරන්නත්.###Statement
+ෂිං ඒ, කමක් නෑ නේද එහෙම කළාට?###Yes-No Question
+කමක් නෑ.###Back-channel/Acknowledge
+ඉන් සූගේ අම්මා අපිට බත් කේක් එවන්නම් කිව්වා මේ සෙනසුරාදට.###Statement
+ඇත්තමද?###Yes-No Question
+මට ඔයා ගැන ඉරිසියයි.###Statement
+ඉන් සූගේ අම්මා බත් කේක එවන්නම් කිව්වලූ මේ සෙනසුරාදා.###Statement
+ෂිං ඒ තමයි පන්තියේම පළවෙනියා.###Statement
+එහෙනම් කොහොමද ඉන් සු පන්ති නායිකාව වෙන්නේ?###Open Question
+ඉන් සූ ඡන්දය නිතරඟයෙන් ජයග‍්‍රහණය කළානේ.###Statement
+යිං කැන්ග් හී, ඔයා මේකෙන් අයින් වෙලා ඉන්න.###Request/Command/Order
+ඔයා එයාගේ වැඩකාරිද?###Yes-No Question
+මොකක්?###Backchannel Question
+කුමාරයෙක් වගේ ඉන්න ඔයාගේ අයියා නිසා තමයි ඔයා කවි තරෙඟට තේරිලා ඉන්නේ.###Statement
+මොන වාසනාවක්ද?###Open Question
+මම වාසනාවන්තයි තමා.###Back-channel/Acknowledge
+මගේ අයියා කුමාරයෙක් නම්.###Statement
+එයාගේ නංගී වෙච්ච මම කුමාරිකාවක්.###Statement
+මට කුමාරිකාවක් කිව්වට ස්තූතියි.###Thanking
+ඔව්, ජුන් සූ කුමාරයෙක්.###Statement
+එතකොට මම එයාගේ කුමාරි.###Statement
+එකට වැඩ කරමු.###Statement
+ඔයාට මොනවාහරි කියන්න ඕනෙ නම්, ඒක ඇවිත් මට කියන්න.###Request/Command/Order
+ඕන වෙලාවක මා එක්ක කතාකරන්න.###Request/Command/Order
+ඉන් සූ මාර වැඩක් වෙලා තියෙන්නේ.###Statement
+ඔයාගේ යට සාය අන්න ගහක එල්ලලා.###Statement
+මට විශ්වාසයි ඕක කරන්න ඇත්තේ ෂිං ඒ.###Opinion
+මම ගිහිල්ලා ටීචර්ට කියනවා.###Statement
+ඒ යුන් සූ නේද?###Yes-No Question
+ඔයාට තරහද?###Yes-No Question
+ඔයා මා එක්ක තරහද?###Yes-No Question
+මටත් තරහයි.###Back-channel/Acknowledge
+ඔයා එයාට පාඩමක් උගන්නන්න.###Request/Command/Order
+කවුද මේක කළේ?###Open Question
+මම දන්නේ නෑ.###Back-channel/Acknowledge
+එයාගේ නම චොයි ෂිං ඒ.###Statement
+එයා කොයිවෙලෙත් ඉන් සූට වද දෙනවා.###Statement
+චොයි ෂිං ඒ?###Backchannel Question
+ඒ එයා නෙවෙයි.###Back-channel/Acknowledge
+ඒ එයා තමයි.###Statement
+ඒ ඉන්නේ එයාමයි.###Statement
+එ එයා තමයි.###Statement
+මෙයා දන්නේ නෑ ඒ එයා කියලා.###Statement
+දන්නවා ඇති.###Statement
+ජූන් සූ.###Conventional Opening
+ඉන් සූ.###Conventional Opening
+මොකද වුනේ?###Open Question
+එයාට හුඟාක් අමාරුද?###Yes-No Question
+කෝ දැන් එයා?###Open Question
+වැරැද්ද මගේ.###Statement
+මම එයා එනකම් හිටියානම්.###Statement
+මම එයාව දාලා ආවා.###Statement
+ඒක මගේ වැරැද්ද.###Statement
+එයාට හුඟක් තුවාලයි.###Statement
+සැත්කමක් කරන්න ඕනෙලූ.###Statement
+සැත්කමට කොච්චර වෙලා යයිද?###Open Question
+ඔයා ඒ ගැන වදවෙන්න ඕනේ නෑ.###Back-channel/Acknowledge
+කැළැලක් තියෙනවා.###Statement
+ඒ ඇරෙන්න වෙන නරක කිසිදෙයක් නෑ.###Statement
+හොඳවෙයි.###Statement
+එයාට ලේ දෙන්න වෙනවා.###Statement
+මම එයාට ලේ දෙන්නම්.###Statement
+මම ඒක කරන්නම්.###Statement
+කාටද බී වර්ගයේ ලේ තියෙන්නේ?###Open Question
+මොකක්ද කිව්වේ?###Backchannel Question
+ඒක වෙන්න බෑ.###Statement
+එයාට තියෙන්න ඕනේ ඕ .###Statement
+අපි දෙන්නම ඕ නේ.###Statement
+ඔයාට වැරදිලාද?###Yes-No Question
+එහෙම නැත්තං, එයාට කොහොමද බී වර්ගය තියෙන්නේ?###Open Question
+අපිට ප‍්‍රථිඵල ලැබුනා.###Statement
+ඔයයි, ඔයාගේ නෝනයි දෙන්නටම තියෙන්නේ ඕ වර්ගයේ ලේ.###Statement
+ඉතිං දෙන්නම ඕ වර්ගයේ නම්.###Statement
+දුව කොහොමද බී වර්ගයේ වුනේ?###Open Question
+ඒක හරි.###Back-channel/Acknowledge
+මොකක්හරි වැරදීමක් වෙන්න බැරිද?###Yes-No Question
+නෑ.###No Answer
+එහෙම වෙන්න බෑ.###Statement
+පි‍්‍රයේ.###Conventional Opening
+ටිකක් කතාකරමු.###Statement
+මට ගෙදර නෑවිත් ඉන්නයි තිබුනේ.###Statement
+ඉන් සු එද්දි මම එහෙ ඉන්න ඕනේ.###Statement
+මම ආපහු යන්න ඕනේ.###Statement
+අපි කතාකරමු.###Statement
+මොනවා කතාකරන්නද?###Backchannel Question
+අමුතුවෙන් කතාකරන්න කිසි දෙයක් නෑ.###Statement
+එයාගේ ලේ වර්ගය.###Statement
+අපි දෙන්නම ඕ වර්ගයේ.###Statement
+මොකද ඒ ගැන කියන්නේ?###Open Question
+ඔයා එයාගේ ලේ වර්ගය ගැන දැනගෙන හිටියේ නැද්ද?###Yes-No Question
+එයා අපේ දුව නොවෙන්න පුළුවන්.###Back-channel/Acknowledge
+අධිපතිතුමාට ඕනේ මේ වෙළඳ මාර්ග නැවත විවෘත කරන්න.###Statement
+මේ කරලිකාරයන් සදහටම ඉවරයක් කරලා දාන්න ඕනේ.###Statement
+මේ මුළු රාජධානියම නිදහස් කරගන්න ඕනේ කරනවා සහ අර්ථාන්විත පණිවිඩයක්.###Statement
+එසේයි, නායක කොර්වස්.###Back-channel/Acknowledge
+මරන්න උන්ව.###Request/Command/Order
+උන් හැමෝවම මරලා දාන්න.###Request/Command/Order
+මේ අපා ගුලේ සීසර් දැක්කේ මොනවද කියලා මම නම් දන්නේ නැහැ.###Statement
+මේ ත්‍රේසියන් කාරයන්ට කන්න දෙන එක අධික වියදම් සහිත වැඩක්.###Statement
+උන් හැමවෙලේම ආරක්ෂකයන් අංගවිකල කරනවා.###Statement
+මම මොකක් හරි අලුත් දෙයක් බලාපොරාත්තු වෙන්නේ, බොලාටර්.###Statement
+මොනවහරි අලුත් දෙයක්.###Statement
+උන් මෙයාට කියන්නේ කෙල්ට් කියලා.###Statement
+එයාල කියනවා මොහුගේ මිනිසුන් අශ්වමිනිසුන් කියලා සහ ඔවුන්ගේ අවසානතමයත් මොහු කියලා.###Statement
+අශ්වයා වේදනාවකින් ඉන්නේ.###Statement
+එහෙමයි මගේ ආර්යාවනි.###Back-channel/Acknowledge
+හෙමිට, හෙමිට කොල්ලෝ.###Request/Command/Order
+මට සමාවෙන්න මාගේ ආර්යාවනි, එකා මිලේච්චයෙක්.###Apology
+වෙනත් අශ්වයෙකුට අශ්ව ඇඳුම දාන්න.###Request/Command/Order
+ඇයි ඒ මෘගයා ඒක කලේ?###Open Question
+මොකද ඒක කරුණාවන්ත දෙයක් කරන්න ඕනේ කරන.###Back-channel/Acknowledge
+එන්න.###Request/Command/Order
+ස්තුතියි ඔබට.###Thanking
+රෝමයේ හිටපු මුළු අවුරුද්දටම මම දැක්කේ නැහැ ඔබ පිරිමියෙක් දෙස බලනවා ඔබ වහලා දෙස බලා සිටි අකාරයෙන්.###Statement
+මට හිතා ගන්නවත් බැහැ ඔහුට එය කරන්න හයියක් තිබුනා කියලා.###Statement
+ඔබ දැක්කේ නැද්ද ඔහුගේ මාංශ පේශි?###Yes-No Question
+මම ඒක නෙමේ අදහස් කලේ.###Back-channel/Acknowledge
+ඇත්තට?###Backchannel Question
+කරුණාකරලා.###Statement
+බලන්න.###Request/Command/Order
+අන්න තියෙනවා ඒක.###Statement
+අපි ගෙදර ඇවිත්.###Statement
+රියදුරු, මොකද්ද ඒ?###Open Question
+විනාලියා, මගේ ආර්යාවනි.###Conventional Opening
+මාර්ග හිරවෙලා.###Statement
+බේබද්දෝ සෑම තැනකම.###Statement
+මොකද?###Open Question
+එන්න.###Request/Command/Order
+මගේ ආර්යාවනි?###Open Question
+මට සෑම පිළිමයක්ම මතකයි, සෑම පාරක මුල්ලකම.###Statement
+එකෙන් ඔබට රෝමය සිහිවෙනවද?###Yes-No Question
+ඒවා මට ඒක අමතක කරන්න උදවු වෙනවා.###Back-channel/Acknowledge
+කැසියා, ඔයාව දකින්න ලැබුන එක කොච්චර හොඳද.###Statement
+එත් කොහොමද ඔබ මෙහාට ආවේ? අපි ඔබව බලාපොරාත්තු උනේ නැහැ විනාලියා උත්සවය අවසන් වෙන තෙක්.###Open Question
+මට තවත් දවසක් රෝමයේ ඉන්න එක දරාගන්න නොහැකි උනා.###Statement
+ඔබ ගැන බොරු වර්ණනා කරන නොසැහෙන්න අහංකාර මිනිස්සු එහෙ ඉන්නේ.###Statement
+එකෙන් පෙනෙන්නේ මගේ දැරුවා තවදුරටත් පොඩි ළමයෙක් නෙමෙයි කියලා.###Statement
+පියාණෙනි, ඔබ හඬනවද?###Yes-No Question
+කිසි කෙනෙක්ට කියන්න එපා.###Request/Command/Order
+එහෙම උනොත් මට ආයේ කවදාවත් මේ වගේ තෑග්ගක් ලැබෙන එකක් නැහැ.###Statement
+අපිට ඔයාව ගොඩක් මතක් උනා.###Statement
+මේ සේරම ඔබේ මලුද?###Yes-No Question
+කුමක්ද ඔබ මේ කර තිබෙන්නේ, ඔබ මුළු රෝමයම මිලට ගත්තද?###Yes-No Question
+ඔයාට කවුරුන් හෝ එහෙදි මුණ ගැසුනද?###Yes-No Question
+පොම්පේ ගැන කතා කරන කිසිම වටිනා කෙනෙක් මුණ ගැසුනේ නැහැ.###Back-channel/Acknowledge
+හරි, වදවෙන්න එපා.###Request/Command/Order
+අපොයි, නැහැ, ඇත්තට?###Back-channel/Acknowledge
+දැන්, එන්න.###Request/Command/Order
+මට රෝමය ගැන සෑම දෙයක් ගැනම අහන්න ඕනේ.###Statement
+මට ඔබව මතක් වේවි.###Statement
+උඹලගේ අලුත් නවාතැනට පිලිගන්නවා, තිරිසනුනේ.###Statement
+මේ සත්තුන්ට කන්න දෙන්න.###Request/Command/Order
+මට ඔයාව මතක් උනා.###Statement
+මට ඔයාව මතක් උනා.###Statement
+හෙලෝ.###Conventional Opening
+දකින්න ලැබීම සතුටක්, මගේ ආර්යාවනි.###Conventional Opening
+මට පේනවා ඔහුට හොඳින් සාත්තු සප්පායම් කරලා කියලා, ස්තුතියි ඔබට ෆිලික්ස්.###Thanking
+මම හෙට උදෑසනම ඔබට වීරෙස්ව සූදානම් කරන්නම්.###Statement
+මමම ඔහුට ව්‍යායාම කරවන්නම් අද රාත්‍රියේ.###Statement
+ස්තුතියි.###Thanking
+මම හෙට ඔබව මුණ ගැහෙන්නම්.###Statement
+ඇටිකස්.###Statement
+මම හිතන්නේ ඒ තමයි කෙල්ට්.###Opinion
+මොන කෙල්ට්ද?###Backchannel Question
+කෙල්ට්.###Back-channel/Acknowledge
+එයාල කියනවා කෙල්ට් ඔබටත් වඩා වේගවත් කියලා.###Statement
+එයාල ඒක හැමවෙලේම කියනවා.###Statement
+ඔහුට ඔබේ නම දැනගන්න ඕනේ කරනවා, කෙල්ට්.###Statement
+එයාට දැනගන්න ඕනෙලු තමන්ගේ සහෝදරයව මරපු මිනිහගේ නම.###Statement
+එයාට මගේ නම දැනගන්න ඕනේ?###Yes-No Question
+වයින් සලාක දෙකක් ලොකු ත්‍රේසියන් කාරයට.###Statement
+එයා ඒක පටන් ගත්තේ නැහැ.###Statement
+එයා කෑම කන්න උත්සාහ කළා.###Statement
+ඔබේ රාජකාරිය මේ මිනිසුන් ගැන බලන එක, එහෙම නේද?###Yes-No Question
+එකිනෙකා ඇනකොටා ගන්න එකෙන් කිසි කෙනෙක්ට ලාබයක් ලැබෙන්නේ නැහැ ඒක බලන්න කිසි කෙනෙක් ගෙවන්නේ නැත්තන්.###Statement
+මට සමා වෙන්න ග්‍රේකස් උතුමාණෙනි.###Apology
+අරකා ඉවරයි.###Statement
+මේකා.###Statement
+අලුත් වැඩියා කරගන්න පුළුවන්.###Statement
+ඊළඟ වතාවේ ඒක ඔබේ වියදමට බැර වේවි.###Statement
+මම උඹව මතක තියාගන්නම්, කෙල්ට්.###Statement
+ඔහේ මට වයින් සලාක දෙකක් ණයයි, කෙල්ට්.###Statement
+තිබහද? හරි.###Yes-No Question
+මොකද්ද අවුල?###Open Question
+කකුල් දෙකෙන් හිටගන්නවා.###Request/Command/Order
+සන්සුන් වෙනවා.###Request/Command/Order
+මම උඹව මරන්න නම් යන්නේ කෙල්ට්.###Statement
+මම ඒක මෙලහකටත් කරලා.###Statement
+මොකද්ද ඔහේගේ නම?###Open Question
+අපි අඩු තරමේ ටිකක් කතා කරමු.###Statement
+නැහැ, ඕනේ නැහැ.###Reject
+අපිට තියෙන්නේ එකිනෙකා මරාගන්න එක කරන්න.###Statement
+මගේ නම තියෙද්දෙන් මටත් තමුන්ගේ නම දැනගන්න කිසි උවමනාවක් නැහැ.###Statement
+ඔහේ නාකි වෙනවා, ඇටිකස්.###Statement
+සෑහෙන්න අලුත් අය ඇවිත් ඉන්නවා වීරයාට වේදනාව ගෙනෙන්න පුළුවන් විදිහේ.###Statement
+හෙට මම මල්ලවපිටියේදී දිනුවහම මම නිදහස් මිනිහෙක්.###Statement
+ඒක තමයි රෝම නීතිය.###Statement
+ඔහෙට ඒකට කරන්න කිසිම දෙයක් නැහැ.###Statement
+ඇටිකස්, මගේ වීරයා.###Statement
+ඔබට හෙට තරංග අහවර කිරීමේ ගෞරවය ලැබෙනවා.###Statement
+මුලින්, අපි බලමු ඔබට වටිනා විදිහේ තරඟකරුවෙක් ඉන්නවද කියලා.###Statement
+දැන්.###Statement
+මොන පාහර අසරණයටද මගේ නිදහස වෙනුවෙන් මැරෙන්න වෙන්නේ?###Open Question
+අවාසනාවන්ත, කෙල්ට්.###Back-channel/Acknowledge
+ගොඩක් අවාසනාවන්තයි.###Statement
+එත් මම ඔබව බැරෑරුම් විදිහට සලකන්නේ නැහැ.###Statement
+හෙටත් සටන් කරන්න ඔබට අවස්ථාවක් දෙනවා.###Statement
+ඔහේ ප්‍රසිද්ධිය උපයාගෙන ඇති එත් මම වගේ කඩු මල්ලවයෙක් එක්ක සටන් කරලා නම් නෙමෙයි.###Statement
+ඔහේ ඒක ටිකක් විතර ඔප්පු කළා.###Statement
+මම ඒක පැහැදිලි කලාද?###Yes-No Question
+ඇයි ඔහේ මාව බේරුවේ?###Backchannel Question
+ඔහේ මැරෙන කොට පහර ලැබෙන්න ඕනේ ඉදිරියෙන්.###Statement
+මම පොරොන්දු වෙනවා ඒක හෙට සිද්ධ වේවි.###Statement
+සහ එය මගේ අතින්ම සිද්ධ වේවි.###Statement
+හොඳයි, මට ඔහෙට වඩා හොඳ පොරොන්දුවක් වෙන්නම්.###Statement
+වෙලාව පැමිණියාම, ඔබේ මරණය ඉක්මන් එකක් වේවි.###Statement
+ඒක මගේ අතින් පැමිණේවි.###Statement
+ඔයාගේ සැලසුම් වල දීප්තිය කිසිම අඩුකමක් නැහැ උමතු මිනිහෙකුට පමණයි උපදෙස් දෙන්න පුළුවන් අධිරාජ්‍යයකුට ආයෝජනයන් ගැන.###Statement
+හොඳයි අපි හිතමු අධිරාජ්‍යයා අපිව කෙනෙක් විදිහට පමණක් එවාවි කියලා.###Statement
+සෙවිරස්, ඔබ කාර්යබහුල මිනිසෙක්.###Statement
+මට ඒ ගැන තේරෙනවා.###Statement
+ඇරත්, මට ඔබේ වගේ සුන්දර බිරිඳක් සිටියා නම්, මට කිසිම හදිස්සියක් ඇති වෙන එකක් නැහැ ඇය හැර දමා එන්න.###Statement
+මම මන්ත්‍රණ සභික කුයින්ටස් ඇටියස් කොර්වස්.###Statement
+මට දෙවියන් අවසර ලබා දෙත්වා ඔබේ කාරුණික ආගන්තුක සත්කාර විඳින්න.###Statement
+ඔබව සාදරයෙන් පිලිගන්නවා, මන්ත්‍රණ සභික.###Conventional Opening
+ඉතින්, සෙනෙට් සභික අපට රෝමය ගැන ආරංචි මොනවද කියන්න.###Request/Command/Order
+කෙසේද නැව අධිරාජ්‍යයාට.###Open Question
+ටයිටස්ට?###Backchannel Question
+නැව අධිරාජ්‍යයා ටයිටස් හොඳින් සිටිනවා.###Back-channel/Acknowledge
+ඔහුගේ පියාණන් වෙස්පසියන්ට ඔහුගේ මිනිසුන් කැමැත්ත දක්වනවා ඒ ආදරය ඔහුගේ පුත්‍රයාටත් දිගටම ලැබෙනවා.###Statement
+දෙවියන් ඉල්ලා සිටින පරිදිද?###Yes-No Question
+නිසැකවම, සෙවරස්, මට ඔබෙන් අහන්න ප්‍රශ්නයක් තිබෙනවා.###Back-channel/Acknowledge
+මම වරායේ සිට ගමන් කරන අතරතුර මම දුටුවා සමහර නාගරික ජනයා මට පිටුපා යනවා.###Statement
+එයාලට මොකක් හෝ ගැටළුවක් ඇති වෙලාද?###Yes-No Question
+නැහැ, ඒ විදිහේ කිසිත් නෙමේ.###No Answer
+කුඩා.###Statement
+ඉතා කුඩා නොසැලකිය හැකි ප්‍රතිරෝධයක් තියෙනවා අපගේ සැලසුම් වලට.###Statement
+එත් අපේ ඉදිකිරීම් මගින් මිනිසුන්ට නව ජාල මාර්ග, වඩා හොඳ සනීපාරක්ෂක සේවා සහ නාන නිවාස.###Statement
+නව මල්ලව පිටියක්.###Statement
+සම්පූර්ණ අලුත් පොම්පේ නගරයක්.###Statement
+අලුත් අධිරාජ්‍යයා ගම මොකද්ද ගැටලුව උනේ?###Open Question
+ඔහු දේශපාලකයෙක්.###Back-channel/Acknowledge
+ඔයා හිතනවද අපට ඔහු එක්ක ව්‍යාපාර කරන්න පුළුවන් කියලා?###Yes-No Question
+ඇයි පියාණන් රෝම මන්ත්‍රණ සභා සභිකයෙක් අපේ නිවසට රැගෙන ආවේ?###Open Question
+කොහොමද එයා එවැනි දෙයකට ඉඩ ලබා දුන්නේ?###Open Question
+අපිට ඕනේ නම් රෝමයේ ධනය මෙහෙ වියදම් කරවන්න අපිට ඔවුන් ඉල්ලුම් කරන දේවල් සමඟ සිටින්න වෙනවා.###Statement
+මොනවද එයාල ඉල්ලන්නේ?###Open Question
+පියාණන්ට දැන් රෝමයේ වෙන්නේ කුමක්ද කියලා අදහසක් තියෙනවද?###Yes-No Question
+ටයිටස් බලය ගත් දා සිටන් සෑම දෙයක්ම වෙනස් වී තිබෙනවා.###Back-channel/Acknowledge
+සෑම වංක මිනිහෙකුටම දැන් අධිරාජ්‍යයා ඇහුම් කන් දෙනවා.###Statement
+සහ ඔවුන් හිතනවා ඔවුන්ට ඕන දේ දැන් ලබාගත හැකියි කියා.###Statement
+කැසියා, ඇයි ඔබ කලින්ම නිවසට පැමිණියේ?###Open Question
+රෝමයේ මොකද සිද්ධ වෙන්නේ?###Open Question
+අම්මේ ඒ වීරෙස් නේද?###Yes-No Question
+හෙමිට! වීරෙස් මොනවද ඔයා එළියේ කරන්නේ?###Open Question
+කොහෙද ෆිලික්ස්?###Open Question
+මට අහන්න ලැබුනා හෙට ඔබේ අවසන් සටන කියලා.###Statement
+ඒක හරි.###Back-channel/Acknowledge
+මම ඔහේව මැරුවට පස්සේ, එයාල මට නිදහස ලබා දේවි එයාල ඒක කරන්නේ නැහැ.###Statement
+ඔබේ දෑත් ශක්තිමත් වෙලා තියෙන අතරේදී නම් නැහැ.###Statement
+නිදහස කියන්නේ රෝම පොරොන්දුවක්.###Statement
+ඔබ ඔවුන්ව විශ්වාස කරනවඩ් ඒ පොරොන්දුව රකිවී කියලා?###Yes-No Question
+මම ඔවුන්ගේ නීතිය විශ්වාස කරනවා.###Back-channel/Acknowledge
+කඩු මල්ලවයෙකුට එකම එක නීතියයි තියෙන්නේ.###Statement
+ඔබ මැරෙනකොට ඒ මල්ලව පිටිය තුලදී, මැරෙන්න ඕනේ අපරාජිතයෙක් විදිහට.###Statement
+එහෙනම් මේක තමයි ඔබේ අනාගතය.###Statement
+ඔහේ වහලෙක් විදිහට මැරිලා යාවි.###Statement
+එත් මම නෙමේ.###Statement
+හෙට, රෝමය ඔවුන්ගේ පොරොන්දු රකිවී.###Statement
+ඔහේ අවාසනාවකට ජිවත් වෙලා ඉන්න එකක් නැහැ දකින්න මම නිවැරදියි කියලා.###Statement
+ඔහේගේ වම් අත දකුණට වඩා ගොඩක් දුර්වලයි.###Statement
+ඔහේගේ බෙල්ල බේරගන්න ඕනේ නම ඉල ඇටය ආරක්ෂා කරගන්න.###Statement
+අනිත් එක තමන්ගේ බර හුවමාරු කරනකොට කොහොමද තෙරපුම යොදන්නේ කියලත් ඉගෙන ගන්න ඕනේ.###Statement
+ඉහල මට්ටම ආරක්ෂා කරන්න බලන එක නතර කරන්න.###Request/Command/Order
+එකෙන් ඔබව කලින් කියන්න පුළුවන් බව තවත් අඩු වෙනවා.###Statement
+මේ දෙන්නා නැගිටිනවා, වහලෝ.###Request/Command/Order
+හරි.###Back-channel/Acknowledge
+ඔහේ මෙතන.###Statement
+දෙදෙනාම නියම සටන් කරුවෝ.###Statement
+කෙනෙක් වීරයෙක්.###Statement
+අනෙක් කෙනා පළාත් සටන් වලදී ඔප්පු කරලා පෙන්වලා තියෙනවා.###Statement
+මට ඔහුව පිටුපස ඉඳන් බලන්න ඕනේ.###Statement
+ඇයි ඔච්චර බරපතල වෙන්නේ?###Open Question
+රාත්‍රියේ වැඩකට එතරම්ම නරකත් නැහැ.###Statement
+ස්ථිරයි.###Statement
+එත් ඔහුගේ ආයුධ මොනවද?###Open Question
+එය ඔබ ගෙවිය යුතු පරික්ෂා කිරීමක්.###Statement
+මෙය තමයි නව මල්ලවපිටිය.###Statement
+විශේෂයෙන්ම යුධ රථ තරඟ වලට නිර්මාණය කර තිබෙන්නේ.###Statement
+ඔව්.###Yes Answers
+සැහෙන්න විස්තරත්මකයි, සෙවරස්.###Statement
+එත් මම හිතන්නේ නැහැ මේ ව්‍යාපෘතියට අධිරාජ්‍ය ආයෝජනයක් ඕනේ වේවි කියලා.###Opinion
+මේ වගේ පිටිසර පළාත් වලට අධිරාජ්‍යයාට තියෙන්නේ අඩු සැලකිල්ලක්.###Statement
+මට තේරුම් ගිය හැටියට.###Statement
+නැහැ.###No Answer
+නැහැ. අවාසනාවකට රෝමයේ අනාගතය සම්බන්ධව අධිරාජ්‍යයාගේ දැක්ම ස්ථිර එකක්.###Statement
+මම, කෙසේ නමුත් මම මේකට ආයෝජනය කිරීමට කැමතියි.###Statement
+හොඳයි.###Back-channel/Acknowledge
+පොරොන්දුව ලියවිල්ලක් මගින් සකස් කරන්න.###Request/Command/Order
+ඔබට වා හෙට උදෑසන වනවිට සූදානම් වී තියේවි.###Statement
+ඔබේ තරඟ වලට පසුව.###Statement
+මම හිතනවා පානයන් පිලිවෙකට ඇති කියා.###Opinion
+නිසැකවම.###Back-channel/Acknowledge
+අපි අපේ අමුත්තන්ට එකතු වෙමුද?###Yes-No Question
+සමහරවිට එය ඔබේ දියණිය රැගෙන ඒවි.###Statement
+මගේ දියණිය?###Backchannel Question
+අර පැත්ත දිහා බලන්න.###Request/Command/Order
+අශ්වයන්ට කතා කරන්න පුළුවන් වහලා.###Statement
+ඔහු නම් කදිම නිදර්ශකයක්.###Statement
+හොඳයි ඒක ඔබට ප්‍රතික්ෂේප කරන්න බැහැ.###Statement
+අනෙක් පැත්ත හැරෙනවා.###Request/Command/Order
+කැසියා.###Abandoned/Uninterpretable/Other
+මට මොහොතක් දෙන්න පුලුවන්ද?###Yes-No Question
+ඔබේ පැමිණීම අවශ්‍ය කර තිබෙනවා.###Statement
+නිසැකවම පියාණෙනි.###Back-channel/Acknowledge
+ඔබට මේක අවශ්‍ය කරනවා.###Statement
+ඒක ඔබට නෙමේ.###Statement
+කැසියා මම හඳුන්වා දෙන්නද.###Yes-No Question
+මන්ත්‍රණ සභික කොර්වස් කැසියා ආර්යාවනි.###Statement
+කොහොමද මම ඔබව අමතක කරන්නේ.###Statement
+ඔබ නම් උත්කෘෂ්ඨයි.###Statement
