@@ -4,7 +4,7 @@ import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.trees.J48;
 import weka.core.Attribute;
-import weka.core.BinarySparseInstance;
+import weka.core.DenseInstance;
 import weka.core.Instance;
 import weka.core.Instances;
 
@@ -69,13 +69,13 @@ public class FeatureSet01 {
 
 
         // Create an empty training set
-        TrainingSet = new Instances("Rel", featureVectorAttributes,10);
+        TrainingSet = new Instances("Rel", featureVectorAttributes,1000);
 
         // Set class index
         TrainingSet.setClassIndex(featureVectorAttributes.size() - 1);
 
         // Create an empty testing set
-        TestingSet = new Instances("Rel", featureVectorAttributes, 10);
+        TestingSet = new Instances("Rel", featureVectorAttributes, 1000);
         // Set class index
         TestingSet.setClassIndex(featureVectorAttributes.size() - 1);
 
@@ -95,14 +95,14 @@ public class FeatureSet01 {
             var=var.trim();
             String[] words = var.split("\\s+");
 
-            Instance temp = new BinarySparseInstance(3);
+            Instance temp = new DenseInstance(3);
 
             temp.setValue((Attribute)featureVectorAttributes.get(0),words.length);
             temp.setValue((Attribute)featureVectorAttributes.get(1),getHashValue(words[words.length-1]));
 
             //class value
             temp.setValue((Attribute)featureVectorAttributes.get(featureVectorAttributes.size() - 1),split[1]);
-
+            temp.setDataset(TrainingSet);
             TrainingSet.add(temp);
 
 
@@ -124,13 +124,14 @@ public class FeatureSet01 {
             String[] words = var.split("\\s+");
 
 
-            Instance temp = new BinarySparseInstance(3);
+            Instance temp = new DenseInstance(3);
+
             temp.setValue((Attribute)featureVectorAttributes.get(0),words.length);
             temp.setValue((Attribute)featureVectorAttributes.get(1),getHashValue(words[words.length-1]));
 
             //class value
             temp.setValue((Attribute) featureVectorAttributes.get(featureVectorAttributes.size() - 1), split[1]);
-
+            temp.setDataset(TestingSet);
             TestingSet.add(temp);
 
 
@@ -146,7 +147,6 @@ public class FeatureSet01 {
         try {
             initTrainingSet(trainingFile);
             initTestingSet(testingFile);
-
 
             Classifier cModel = (Classifier) new J48();
             cModel.buildClassifier(TrainingSet);
@@ -164,7 +164,6 @@ public class FeatureSet01 {
 
         } catch (Exception e) {
             e.printStackTrace();
-           // System.out.println(e.getStackTrace());
         }
 
     }
