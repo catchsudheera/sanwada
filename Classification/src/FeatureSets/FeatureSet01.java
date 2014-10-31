@@ -23,8 +23,8 @@ public class FeatureSet01 {
 
     Attribute segmentLength,lastWord;
     Attribute ClassAttribute;
-    ArrayList featureVectorClassValues;
-    ArrayList featureVectorAttributes;
+    ArrayList<String> featureVectorClassValues;
+    ArrayList<Attribute> featureVectorAttributes;
     Instances TrainingSet;
     Instances TestingSet;
     Hashtable table;
@@ -40,7 +40,7 @@ public class FeatureSet01 {
 
 
         // Declare the class attribute along with its values
-        featureVectorClassValues=new ArrayList();
+        featureVectorClassValues=new ArrayList<String>();
         featureVectorClassValues.add("Statement");
         featureVectorClassValues.add("Request/Command/Order");
         featureVectorClassValues.add("Abandoned/Uninterpretable/Other");
@@ -61,7 +61,7 @@ public class FeatureSet01 {
         ClassAttribute = new Attribute("theClass", featureVectorClassValues);
 
         // Declare the feature vector
-        featureVectorAttributes = new ArrayList();
+        featureVectorAttributes = new ArrayList<Attribute>();
         featureVectorAttributes.add(segmentLength);
         featureVectorAttributes.add(lastWord);
         //class
