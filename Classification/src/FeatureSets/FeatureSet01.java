@@ -25,8 +25,6 @@ public class FeatureSet01 {
     Attribute ClassAttribute;
     ArrayList featureVectorClassValues;
     ArrayList featureVectorAttributes;
-//    FastVector fvClassVal;
-//    FastVector fvWekaAttributes;
     Instances TrainingSet;
     Instances TestingSet;
     Hashtable table;
