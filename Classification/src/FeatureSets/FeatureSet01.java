@@ -32,7 +32,7 @@ public class FeatureSet01 {
 
     public FeatureSet01(){
 
-        table=new Hashtable();
+        table=new Hashtable<String,Integer>();
 
         // Declare numeric attributes
         segmentLength = new Attribute("segmentLength");
@@ -97,11 +97,11 @@ public class FeatureSet01 {
 
             Instance temp = new DenseInstance(3);
 
-            temp.setValue((Attribute)featureVectorAttributes.get(0),words.length);
-            temp.setValue((Attribute)featureVectorAttributes.get(1),getHashValue(words[words.length-1]));
+            temp.setValue(featureVectorAttributes.get(0),words.length);
+            temp.setValue(featureVectorAttributes.get(1),getHashValue(words[words.length-1]));
 
             //class value
-            temp.setValue((Attribute)featureVectorAttributes.get(featureVectorAttributes.size() - 1),split[1]);
+            temp.setValue(featureVectorAttributes.get(featureVectorAttributes.size() - 1),split[1]);
             temp.setDataset(TrainingSet);
             TrainingSet.add(temp);
 
@@ -126,11 +126,11 @@ public class FeatureSet01 {
 
             Instance temp = new DenseInstance(3);
 
-            temp.setValue((Attribute)featureVectorAttributes.get(0),words.length);
-            temp.setValue((Attribute)featureVectorAttributes.get(1),getHashValue(words[words.length-1]));
+            temp.setValue(featureVectorAttributes.get(0),words.length);
+            temp.setValue(featureVectorAttributes.get(1),getHashValue(words[words.length-1]));
 
             //class value
-            temp.setValue((Attribute) featureVectorAttributes.get(featureVectorAttributes.size() - 1), split[1]);
+            temp.setValue(featureVectorAttributes.get(featureVectorAttributes.size() - 1), split[1]);
             temp.setDataset(TestingSet);
             TestingSet.add(temp);
 
