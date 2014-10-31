@@ -148,18 +148,21 @@ public class FeatureSet01 {
             initTrainingSet(trainingFile);
             initTestingSet(testingFile);
 
-            Classifier cModel = (Classifier) new J48();
+            Classifier cModel =  new J48();
             cModel.buildClassifier(TrainingSet);
 
             Evaluation eTest = new Evaluation(TrainingSet);
             eTest.evaluateModel(cModel, TestingSet);
 
 
-            // Print the result à la Weka explorer:
+            //print out the results
+            System.out.println("=====================================================================");
+            System.out.println("Results for "+this.getClass().getSimpleName());
             String strSummary = eTest.toSummaryString();
             System.out.println(strSummary);
 
-            System.out.println(eTest.fMeasure(0));
+            System.out.println("F-measure : "+eTest.fMeasure(0));
+            System.out.println("=====================================================================");
 
 
         } catch (Exception e) {

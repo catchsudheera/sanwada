@@ -11,5 +11,11 @@ public class FeatureTest {
         FeatureSet01 s1=  new FeatureSet01();
         s1.classify(trainingDataFileLocation,testingDataFileLocation);
 
+        FeatureSet02 s2=  new FeatureSet02();
+        s2.classify(trainingDataFileLocation,testingDataFileLocation);
+
+
+
+
     }
 }

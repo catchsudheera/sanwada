@@ -159,11 +159,14 @@ public class FeatureSet02 {
             eTest.evaluateModel(cModel, TestingSet);
 
 
-            // Print the result à la Weka explorer:
+            //print out the results
+            System.out.println("=====================================================================");
+            System.out.println("Results for "+this.getClass().getSimpleName());
             String strSummary = eTest.toSummaryString();
             System.out.println(strSummary);
 
-            System.out.println(eTest.fMeasure(0));
+            System.out.println("F-measure : "+eTest.fMeasure(0));
+            System.out.println("=====================================================================");
 
 
         } catch (Exception e) {

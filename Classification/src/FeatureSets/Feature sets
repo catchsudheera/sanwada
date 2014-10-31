@@ -1,3 +1,4 @@
 FullSet of Features > https://docs.google.com/document/d/1DNGymtz5MB6bmNZewz1MYWCAKAY9i6ycZ3HVx1bg3AM/edit?usp=sharing
 
 FeatureSets.FeatureSet01 -> number of words in the utterance, last word of the utterance.
+FeatureSets.FeatureSet02 -> number of words in the utterance, last word of the utterance, punctuation marks
