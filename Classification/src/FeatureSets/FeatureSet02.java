@@ -152,8 +152,19 @@ public class FeatureSet02 {
             initTestingSet(testingFile);
 
 
-            Classifier cModel = new J48();
+            J48 cModel = new J48();
+            cModel.setUnpruned(true);
             cModel.buildClassifier(TrainingSet);
+
+
+//            for (int i = 0; i < TestingSet.numInstances(); i++) {
+//                double pred = cModel.classifyInstance(TestingSet.instance(i));
+//                System.out.print("ID: " + TestingSet.instance(i).value(0));
+//                System.out.print(", actual: " + TestingSet.classAttribute().value((int) TestingSet.instance(i).classValue()));
+//                System.out.println(", predicted: " + TestingSet.classAttribute().value((int) pred));
+//            }
+
+
 
             Evaluation eTest = new Evaluation(TrainingSet);
             eTest.evaluateModel(cModel, TestingSet);
