@@ -1,112 +1,963 @@
-මම තමයි ජගුවර් පෝ ෆ්ලින්ට් ස්ක්යිගෙ පුතා.###Statement
-මට කලින් මගෙ තාත්තා මේ කැළේ දඩයම් කලා.###Statement
-මම නම තමයි ජගුවර් පෝ මම දඩයක්කරුවෙක්.###Statement
-මේක මගේ කැළේ.###Statement
-මගෙන් පස්සෙ මගේ පුතා, ඔහුගේ දරුවෝ එක්ක මේ කැළේ දඩයම් කරාවි.###Statement
-වරෙව් !###Request/Command/Order
-අපිත් උඩින් පනිමු.###Statement
-අපි වටෙන් බහිමු.###Statement
-අපිට ඌ ගිය පාරෙ යන්න බෑ.###Statement
-අපිට උත්සහයක් දරන්න බෑ.###Statement
-අපි ඔක්කොම පනිනවා.###Statement
-මම තමයි ජගුවර් පෝ මේක මගේ කැළේ.###Statement
-මම කාටවත් බය නෑ.###Statement
-ඔයා යන්න, මම මෙතන ඉන්නවා.###Request/Command/Order
-විවේක ගන්න තාත්තේ, මට ඔබේ ශක්තිය දෙන්න.###Request/Command/Order
-මෙතෙන්ට නගින්න.###Request/Command/Order
-ආපහු යන්න.###Request/Command/Order
-ඉක්මන් කරන්න.###Request/Command/Order
-ඔවුන් කවුද?###Open Question
-ඔවුන් මිනිස්සු ගේනවා.###Back-channel/Acknowledge
-අපි ඔවුන් ලඟට යනවද ?###Yes-No Question
-අපි කැළේට යන්න් ඕනෙ.###Back-channel/Acknowledge
+ඇයි ඔයා මෙච්චර කෑම ගත්තේ?###Open Question
+ඔයා උගන්නන්න යන මුල්ම දවස අපි සමරන්නත් එපායෑ.###Statement
+අපි මොනවද අනිත් අයට කියන්නේ?###Open Question
+කියමු අපි නෑදෑයෝ කියලා.###Statement
+ඒක නම් හොඳයි.###Statement
+මං ගැන ඔයා ඒගොල්ලන්ට මුකුත් කියලා නෑනේ.###Statement
+මම හිතුවේ.###Opinion
+ඒකට කමක් නෑ.###Statement
+ෂිං ඒ මේක දැනගත්තොත් මොනවා කියයිද දන්නේ නෑ.###Statement
+අම්මලා ආවම අපි ඒක කතාකරමු.###Statement
+්හොඳයි.###Statement
+ඒත් ඇයි ඔයා සද්දෙට කතාකරන්නේ?###Open Question
+මට නිකන් හරි අමුතුයි වගේ.###Statement
+මේ ඉතිං කාලෙකට පස්සෙනේ.###Statement
+මම පොඩි කාලේ ඔයා එක්ක කතාකළේ මීට වඩා හෙමින්ද?###Yes-No Question
+ඒකෙන් කාරි නෑ.###Statement
+කොහොමද දැන් ෂිං ඒට?###Yes-No Question
+එයා දැන් සම්පූර්ණයෙන්ම වෙනස්.###Back-channel/Acknowledge
+හරිම උත්සාහවන්තයි.###Statement
+හොඳට ඉගෙනගත්තා.###Statement
+එයා එම් බී ඒ කරලා ඉවරවුනාම මෙහෙ එන්නයි ඉන්නේ.###Statement
+එහෙමද.###Back-channel/Acknowledge
+මොකක්ද එම් බී ඒ කියන්නේ?###Open Question
+එයා කළමනාකරණය හදාරනවා.###Statement
+ඒකෙන් ගන්න පුළුවන් ලොකුම උපාධියට තමයි එහෙම කියන්නේ.###Statement
+ඉස්කෝලේ ගිහින් ඉවර වුනාම කාටත් ඒක හදාරන්න පුළුවන්.###Statement
+අද රෑට විශේෂ දෙයක් හදමු.###Statement
+මම වඩා දක්‍ෂ ඉවුම් පිහුම් වලට.###Statement
+මම මගේ හැකියාව පෙන්නන්නම්කෝ.###Statement
+ජුන් සූ.###Conventional Opening
+කොහොමද?###Open Question
+අම්මා කෑම ජාති ගොඩාක් ගැටගහලා දුන්නා.###Statement
+ඉන් සූ.###Conventional Opening
+රස බලන්න.###Request/Command/Order
+ඔයාට කෝල් එකක් දීලා එන්නනේ තිබුනේ.###Statement
+ඔයාව පුදුම කරවන්නයි මට ඕනවුනේ.###Statement
+ඔයා එයා එක්ක සවාරි යනවද?###Yes-No Question
+කොච්චර කාලයක් මෙහෙ ඉන්නවද?###Yes-No Question
+ටික දවසයි ඉන්නේ.###Statement
+නෑ.###No Answer
+එයා දිගටම මාත් එක්ක ඉඳීවි.###Back-channel/Acknowledge
+අයියේ.###Conventional Opening
+ඇති යාන්තම් ඔයා මට අයියා කිව්වා.###Statement
+එයාට නවතින්න තැනක් නෑ.###Statement
+කොච්චර දෙයක්ද.###Yes-No Question
+මෙයා තනියෙන් ඉන්න එක මගේ හිතටත් වධයක්.###Statement
+එයාව හොඳට බලාගන්න ඕනේ.###Statement
+ඔයාද මේ කිම්චි හැදුවේ?###Open Question
+ඔව්.###Yes Answers
+එයා කියනවා ඒක හරිම රසයිලූ.###Statement
+හදන විදිය ටිකක් කියලා දෙන්නලූ.###Statement
+ඇයි ඔයා මට කිව්වේ නැත්තේ එයා ඔයා එක්ක නවතිනවා කියලා?###Open Question
+මට අදහගන්න බැරුව ගියා.###Statement
+ඒක අහම්බෙන් සිද්දවුනේ.###Statement
+ඔයාට පිස්සුද?###Yes-No Question
+එයා ඔයා එක්ක ඉන්න එක ගැන මට ප‍්‍රශ්නයක් නෑ.###Statement
+දැන් ඔයාට බෑනේ මාව රවට්ටන්න.###Statement
+එයා මෙතන නොහිටියත් මම ඔයාව රවට්ටන්නේ නෑ.###Statement
+මම ගෑණු ආශ‍්‍රය කරන්න දන්නේ නෑනේ.###Statement
+ඔයා මේ සති අන්තයේ පරණ ගෙදරට යන්න නේද හිතං හිටියේ?###Yes-No Question
+ඔව්.###Yes Answers
+බඩුමුට්ටු සේරම ඇවිල්ලයි තියෙන්නේ.###Statement
+ඇත්තද?###Yes-No Question
+ඔයා අස්පස් කරන්න මහන්සි වෙන්න ඕනේ නෑ.###Statement
+මම ඒක කරන්නම ඕනේ.###Statement
+එතකොට තමයි මගේ නැන්දම්මාගෙන් එක දාගන්න පුළුවන් වෙන්නේ.###Statement
+අපි ඉන් සූවයි, ටේ සූක්වයි එක්කං යමුකෝ.###Statement
+ඉන් සූ එක්ක?###Backchannel Question
+ඉන් සූ ඒ ගෙදරට කලින් ගිහිල්ලත් ඇති නේ.###Statement
+මොකෝ?###Open Question
+ඉන් සූ එහෙ යන්න කැමති වෙයි කියලා මම හිතන්නේ නෑ.###Opinion
+අපි විතරක් යමු.###Statement
+නැත්තං ටේ සූක්ව එක්කං යමු.###Statement
+දැන් ඇතූලට යන්න.###Request/Command/Order
+මට බෑ.###No Answer
+තව ටිකක් ඉන්න බැරිද?###Yes-No Question
+ඉන් සූ බලං ඉන්නවද?###Yes-No Question
+එයා තනියෙන් ඉන්න එක එච්චර හොඳ නෑ නේද?###Yes-No Question
+මම එයාට සුභ රාති‍්‍රයක් කිව්වෙත් නැ.###Statement
+ඔයා ගෙදර දුවන්න හදන්නේ එයාට සුභ රාති‍්‍රයක් කියන්නද?###Yes-No Question
 හරි.###Back-channel/Acknowledge
-ඔයා හොඳින්ද?###Yes-No Question
+ඔයා දිනුම්.###Statement
+සුභ රාති‍්‍රයක්.###Conventional Closing
+ජුන් සූ.###Statement
+ඔයා දිව්වද?###Yes-No Question
 ඔව්.###Yes Answers
-ඔයා හිතන්නේ මේ ගමන් ලෙහෙසි වෙනවා කියලද, නමුත් වෙන්නේ ඒකේ අනික් පැත්ත.###Statement
-මට දැනෙන්නෙත් ඒ විදිහම තමයි.###Back-channel/Acknowledge
-ඇන්ජි මම දන්නවා මේක තමා ජීවිතේදී කරන්න ඕනේ, මේ තමා අපේ ජීවිතය.###Statement
-නමුත් පේන විදිහට ලෝකය හිතනවට වඩා වේගෙකින් යනවා.###Statement
-මේ දැන් දේවල් සැහෙන්න වෙනස් වෙනවා.###Statement
-ඔව් එහෙම තමයි.###Back-channel/Acknowledge
-මම ඔයාට දෙයක් කියන්නද.###Yes-No Question
-ඒක අපේ ළමයින්ට නම් ඒ තරම් ලේසි වෙන එකක් නැහැ.###Statement
-ඒ ගොල්ලෝ වෙනස්ම ලෝකෙකට යාවි ඔයා, මම එනකොට තිබ්බට වඩා.###Statement
+ඇයි?###Backchannel Question
+මොකක් හරි ප‍්‍රශ්නයක්ද?###Yes-No Question
+නෑ.###No Answer
+සුභ රාති‍්‍රයක්.###Conventional Closing
+මට ඕනවුනේ සුභ රාති‍්‍රයක් කියන්නයි.###Back-channel/Acknowledge
+සුභ රාති‍්‍රයක්.###Conventional Closing
+ඒ ටික හරි ඔයාට කියන්න ආපහු මට වාසනාව ලැබුනා.###Statement
+සුභ රාති‍්‍රයක්.###Conventional Closing
+මම දන්නවා මම නිකන් රූකඩයක් විතරයි කියලා.###Statement
+ඒත් මම හැමදේම ඔහේට වාර්තා කරන්න ඕනේද?###Yes-No Question
+සේවකයෙක් අස් කළත් කියන්න ඕනේ?###Yes-No Question
+සේවකයන්ගේ මේ වගේ ගැටළු වෙනුවෙන් පිහිටවපු වෘත්තිය සමිතියක් තියෙනවා.###Statement
+චොයි ඉන් සූව ආපහු ගන්න ඕනෙයි කියලා ඔයාට මැනේජර් කෙනෙක්ව අස්කරන්න බෑ.###Statement
+මට බෑ?###Backchannel Question
+ඔහෙත් ඉක්මණට වෙලාව බලාගත්තොත් හොඳයි.###Statement
+ඒවාට වෙන විකල්ප තියෙනවනේ.###Statement
+ඔයා මැනේජර් කිම්ට කැමති නැත්තං, ඔයාට පුළුවන් එයාව වෙනත් අංශයකට අනුයුක්ත කරන්න.###Statement
+හැබැයි එයා මගේ මූනට මුලිච්චි වෙන්න බැ.###Statement
+හොඳමයි සර්.###Back-channel/Acknowledge
+මම ඒ ගැන බලාගන්නම්.###Statement
+වෙන මොනවත් තියෙනවද?###Yes-No Question
+නෑ.###No Answer
+ඇයි සර්.###Open Question
+මීටපස්සේ එයාට නිසි පරිදි අමතන්න ඕනේ.###Statement
+ඇහුනේ නෑ.###Back-channel/Acknowledge
+මීට පස්සේ, චොයි ඉන් සූ නෝනා කියලයි කවුරුත් එයාට කතාකරන්න ඕනේ.###Statement
+හොඳමයි.###Back-channel/Acknowledge
+හොඳයි.###Back-channel/Acknowledge
+අපි දැන්ලෑස්තිවෙන්නේ ඊජිප්තු කලා ඉිතිහාසය ගැන නිරීක්‍ෂනය කරන්නයි.###Statement
+ඔයා මහන්සි වෙලා වැඩකරන එක හොඳයි.###Statement
 ඔව්.###Yes Answers
-ඔයා දන්නවනේ, ළමයි දෙන්නම මේ යන විදිහට නම් හොඳයි.###Statement
-නමුත්, වදවීම තියෙන්නේ ඩැනී ගැන එයා ඉස්කෝලේ ගැන වැඩිය බරපතල විදිහට හිතන්නේ නැහැ.###Statement
-එයාඑයාට පන්ති මග ඇරෙනවා.###Statement
-එකෙන් වෙන්නේ, ඒක එයාට රිදීමක් වෙන්න පුළුවන් එයා රස්සාවක් හොයන්න යනකොට, ඔයා දන්නවනේ?###Yes-No Question
-එළියේ ලොකු තරඟයක් තියෙනවා.###Statement
-මම පටන් ගන්නකොට ඔයාට කැප්ටන් කෙනෙක් වෙන්න පුළුවන් ඔලුව පහත් කරගෙන වැඩ ටික කරගෙන ගියා නම්.###Statement
-නමුත් තරුණ මිනිස්සු දැන් එන්න අරගෙන.###Statement
-කොම්පැනි වලට දැන් දේවල් ලාබෙට වේගවත්ව ඕනේ වෙලා තියෙනවා.###Statement
-මිනිස්සු 50ක් විතර තරඟ කරනවා හැම රස්සාවකටම.###Statement
-හැම දෙයක්ම වෙනස්, ඒක ලොකුම ලොකු වෙනසක් වේවි.###Statement
-එළියේදී බේරිලා ඉන්න ගොඩක් ශක්තිමත් වෙලා ඉන්න ඕනේ.###Statement
-ළමයින්ට අවුලක් වෙන එකක් නැහැ නේද?###Yes-No Question
-අපොයි, ඔව්.###Yes Answers
-හැම දෙයක්ම හරි යයි.###Statement
-මේ විශේෂ ආරක්‍ෂිත නිවේදනයක්.###Statement
-අන්න.###Statement
-ඔහුට ඕනෙ උනා ඒක මට දෙන්න.###Statement
-මේ පෙර නිමිත්ත නරක එකක්.###Statement
-ශ්‍රේෂ්ඨ ඒක් චුඅහ් අපි ඔබෙන් අයදිනවා අපිට සමාවෙන්න ඔබේ කැළෑවට අනවසරයෙන් ඇතුල්වෙලා, ,ඔබේ පුතා වුන ජගුවර්ට අපි අතින් වුන වරදට.###Apology
-මේ පෙරනිමිත්ත නරකයි.###Statement
-ඉස්සරහට ඕනම දෙයක් සිද්ද වෙන්න පුළුවන්.###Statement
-මේක ඉදිරියෙදි වෙන්න පුළුවන් දේවල් ගැන පෙරනිමිත්තක්.###Statement
-අපිත දැන් පෙරට වඩා භයක් දැනෙනෙවා.###Statement
-අද මං දැක්කා දහවල රාත්‍රියක් වගේ උනා.###Statement
-මං දැක්ක ඒ මිනිහා කොටියත් එක්ක දුවනවා.###Statement
-මේ මිනිහට අපි පසුපස එන්න දෙන්න බෑ.###Statement
-දැන් ඇති උඹල කියන දේවල් වල කිසි තේරුමක් නෑ ඌ දුවන්නේ ඌ භයවෙලා ඉන්න් නිසයි.###Statement
-මං ඌව අල්ල ගත්තම මං උගෙ හම ගලවනවා.###Statement
-ඒක් මං ඇද ගන්නවා ඌට පේන්නම.###Statement
-අපි දැන් යනවා.###Statement
-පස්සට වෙන්න.###Request/Command/Order
-මෙහෙන්.###Statement
-පෙරනිමිත්ත නරක එකක්.###Statement
-ඌටත් කෙලවෙනවා.###Statement
-උදව් කරන්න, කරුණාකරලා.###Request/Command/Order
-මැරෙන්න ඇරපන්.###Request/Command/Order
-කරන්න දෙයක් නෑ.###Statement
-උඹේ නහර කපා ගනින්.###Request/Command/Order
-ඒක ඉක්මන් වේවි. සුභ ගමන්.###Conventional Closing
-එච්චරද ඔබේ අනාවැකිය.###Yes-No Question
-ඒක ඉවර නෑ.###No Answer
-කරුණාකර ඔබගේ පුද්ගලික බඩු බාහිරාදිය ගැන හැම විටම අවධානය යොමු කරන්න.###Request/Command/Order
-අයිතිකරුවන් නොමැති ගමන් මාළු පරික්ෂා කොට ඉවත් කිරීමට කටයුතු කරනු ලැබේ.###Statement
-ආදරෙයි ඔයාට.###Statement
-මමත් ආදරෙයි ඔයාට.###Back-channel/Acknowledge
-කරදරයක් නැතුව ගිහින් එන්න.###Conventional Closing
-මම ඔයාට කතා කරන්නම් එහෙට ගියාම.###Statement
-උන් ඇවිල්ලා.###Statement
-මුසේ, ඉක්මන් කරන්න!###Request/Command/Order
-මොන මඟුලක්ද උඹලා කරන්නේ?###Open Question
-ඇයි උඹලා මූදු යන්නේ නැත්තේ?###Open Question
-උඹලා සල්ලි හොයන්න එහෙ ගිහින් තියෙන්න ඕනේ.###Statement
-නමුත් අපි ගිය සතියේ නැවක් අල්ලාගෙන ආවා.###Statement
-ලොක්කට සල්ලි අද ඕනේ!###Statement
-තවත් නැවක් අරගෙන වරෙල්ලා එහෙම නැති උනොත් උඹලා සේරටම මේකට උත්තර බඳින්න වෙයි.###Statement
-හැමෝම වැඩට පලයල්ලා දැන්ම!###Request/Command/Order
-අද මගේ පාරෙන් අහකට වෙලා හිටහන්.###Request/Command/Order
-හුෆාන්!###Abandoned/Uninterpretable/Other
-මම යන්නේ මොකක් හරි ලොකු දෙයක් අල්ලගන්න!###Statement
-සල්ලි හොයන්න ඕනේ එවුන් ඉන්නවා නම්, වරෙල්ලා.###Request/Command/Order
-මුසේ, මාවත් උඹත් එක්ක එක්ක පලයන්.###Request/Command/Order
-උඹේ අක්කා දන්නවද උඹ මෙහෙ කියල?###Yes-No Question
-එයා කාට් විකුනනවා අරහේ.###Back-channel/Acknowledge
-මේක එයා විකුණන හොඳම වර්ගයේ එකක්.###Statement
-අපිට ලොකු නැවක් හම්බුනහම, උඹලට ගෙවනවා.###Statement
-උඹ දන්නවද වැඩ කරන්න?###Yes-No Question
-උඹට බෝට්ටුවක් එලවන්න පුලුවන්ද?###Yes-No Question
-යනවා, යනවා.###Request/Command/Order
-මොනවද උඹ ළඟ මට දෙන්න තියෙන්නේ?###Open Question
-සල්ලි.###Back-channel/Acknowledge
-කවද්ද උඹ මට ඒක ආපහු ලැබෙන්නේ?###Open Question
-මට සල්ලි ලැබුනහම.###Back-channel/Acknowledge
-අයින් වෙයල්ලා!###Request/Command/Order
-අනෙක් මිනිහටත් එයාගේ කණ්ඩායම තෝරාගන්න ඉඩ දියල්ලා ඊළඟ සැරේ මට මොනවහරි අරන් වරෙල්ලා උඹලට වැඩකරන්න ඕනේ නම්.###Request/Command/Order
-බිලාල්, වරෙන්.###Request/Command/Order
-හේයි, කෝට්ටෝ, මට උඹේ බෝට්ටුව එලවන්න පුළුවන්.###Statement
-උඹ මාව තෝරාගත්තොත්, ඒකට උඹට පසු තැවෙන්න ඔනෙවෙන එකක් නැහැ.###Statement
+ගොඩක් ස්තූතියි.###Thanking
+ටේ සූක් ඔයා මොනවද මෙහෙ කරන්නේ?###Open Question
+මම ආවේ උඹව බලලා යන්න.###Statement
+ඉතිං මොනවද මේ සති අන්තයේ කරන්නේ?###Open Question
+මම පරණ ගෙදරට යුමි එක්ක යනවා ටිකක් අස්පස් කරලා එන්න.###Statement
+ඔයත් එනවද?###Yes-No Question
+පරණ ගෙදර?###Backchannel Question
+ඔව්.###Yes Answers
+ඉන් සූත් ජීවත්වුනේ එහෙද?###Yes-No Question
+ඇත්තම කියනවනම් මම මේ උඹත් එක්ක කතාකරන්න ආවේ.###Statement
+ටිකක් ලැජ්ජත් වගේ.###Statement
+උඹට බැරිද ඉන් සූට කියන්න මම හොඳ කොල්ලෙක් කියලා?###Yes-No Question
+හිතවත් වුනාට කමක් නෑ කිව්වොත් ඇති.###Statement
+බෑ.###No Answer
+ඇයි?###Backchannel Question
+උඹ හොඳයි.###Statement
+ඒත් මගේ නංගිට බැල්ම දාන්න එන්න එපා.###Request/Command/Order
+ඒයි ජුන් සූ.###Open Question
+කොහොමවත් බෑ.###Back-channel/Acknowledge
+එයා හුඟාක් වටින කෙනෙක්.###Statement
+උඹව විශ්වාස කරන්න බෑ.###Statement
+උඹ හැමාදාම එයත් එක්ක ජීවත්වෙන්නේ නෑනේ.###Statement
+උඹ දන්නවද එයාව 40 පැන්න නාකියෙක්ට තීන්දු කලා කියලා?###Yes-No Question
+උඹ ඒක දන්නේ නෑ එහෙනම්.###Statement
+ටේ සුක්.###Conventional Opening
+මුලින්ම උත්සාහ කරන කෙනා තමයි වීරයා.###Statement
+මොනවද උඹ දොඩවන්නේ?###Open Question
+ඇත්තද?###Yes-No Question
+නැතුව?###Backchannel Question
+ඔයාට දැන් ඉඳං වුනත් වැඩට එන්න පුළුවන්.###Statement
+ඔයා කොහොමද මැනේජර් කිම්ව කැමති කරවාගත්තේ?###Yes-No Question
+ඔයා එයාගෙන් ඇහුවද?###Yes-No Question
+ඔයාට රස්සාව ආපහු ඕනේ නේ?###Yes-No Question
+ඔයා ඇත්තටම එයාගෙන් උදව් ඉල්ලූවද?###Yes-No Question
+ඔයා ආපහු වැඩට එනවද?###Yes-No Question
+ස්තූතියි.###Thanking
+මට ලොකු සහනයක් දැනෙනවා.###Statement
+හෙට ඉඳංම පුළුවන්ද?###Yes-No Question
+ඔව් පුළුවන්.###Yes Answers
+මම හුඟාක් බයවුනා.###Statement
+ස්තුති කරනවානම් මාව කෑමකට එක්කන් යන්න.###Request/Command/Order
+බැරි නෑ.###Back-channel/Acknowledge
+ඇයි බැරි?###Backchannel Question
+මම ඔයාගේ අයියගේ යාළුවෙක් නම් මමත් ඔයාට අයියා කෙනෙක් වගේ තමයි.###Statement
+හැමෝම එක්ක හිනාවෙන්න එපා හොඳේ?###Yes-No Question
+අයියේ.###Conventional Opening
+මම උඹට කිව්වනේ මුලින්ම මෙතනට එන කෙනාට තමයි තෑග්ග අයිති.###Statement
+සුභ උදෑසනක්.###Conventional Opening
+මොකද අරගොල්ලන්ට වෙලා තියෙන්නේ?###Open Question
+මම කිම් නෝනාව දැක්කෙත් නෑ.###Statement
+දන්නේ නැද්ද, එයාව දාලා නේ පිහිණුම් තටාකයේ වැඩ බලන්න.###Statement
+පිහිණුම් තටාකයෙ?###Backchannel Question
+ඒත් ඒක පිටින් පාලනය කෙරෙන අංශයක් නේ.###Statement
+එයාව අස්කරලා.###Statement
+ඇයි?###Open Question
+මම දන්නේ කොහොමද?###Open Question
+කටකතාවක් නම් තියෙනවා අලූත් ලොක්කා එයාට කැමති නෑ කියලා.###Statement
+ඒ කියන්නේ.###Back-channel/Acknowledge
+ඒක ඔයාට හොඳයි.###Statement
+එයා හිටියානම් ඔයාට ආපහු රස්සාව ලැබෙන එකක් නෑ.###Statement
+ඔයා වාසනාවන්තයි.###Statement
+ඒකයි කට්ටියම අර විදියට හැසිරෙන්නේ.###Statement
+කටකතාව යන විදියට ඔයයි, ඒ ලොක්කයි අතරේ ඇයි හොඳයියක් තියෙනවා.###Statement
+මොකක්?###Open Question
+මම දන්නවා.###Back-channel/Acknowledge
+ඒක මනස්ගාතයක්.###Statement
+ඔයා කොහොමද අයිතිකාරයාව දන්නේ?###Open Question
+කවුද එයා?###Open Question
+එයා තමයි සභාපතිගේ බාලම පුතා.###Back-channel/Acknowledge
+ඒගොල්ලෝ දඩබ්බර පුතාව හැදියන් කියලා මෙහෙ දක්කලා.###Statement
+ඇත්තද?###Yes-No Question
+මම එයාව දන්නවායෑ?###Yes-No Question
+එහෙම වෙන්න බෑනේ.###Back-channel/Acknowledge
+මොකක්ද එයාගේ නම?###Open Question
+හැන් ටේ සුක්.###Back-channel/Acknowledge
+මොනවා?###Backchannel Question
+ඉන් සුන්, රාජකාරියට සාදරෙන් පිළිගන්නවා.###Request/Command/Order
+මම ඔයාව හැමතැනම හෙව්වා.###Statement
+මාව අල්ලන්න ඒන්න එපා.###Request/Command/Order
+මොකක්ද ප‍්‍රශ්නේ?###Open Question
+ඉතිං මම මේකේ අධ්‍යක්‍ෂක වුනා කියලා මොකද වෙන්නේ?###Open Question
+ඔයා දන්නවනේ.###Statement
+මම කිසිම භාර¥ර රාජකාරියක් කරන්නේ නෑ කියලා?###Yes-No Question
+මම මොහොතකට හරි ඔයා හොඳ කෙනෙක් කියලා හිතලා රැවටුනා.###Statement
+මම හිතුවේ ඔයා මගේ රස්සාව ආපහු ගන්න මැනේජර් කිම්ගෙන් සමාව ඉල්ලූවා කියලා.###Statement
+කවුද කිව්වේ මම සමාව ගත්තේ නෑ කියලා?###Yes-No Question
+ඇයි?###Open Question
+ඒ මනුස්සයාවත් රස්සාවෙන් දොට්ට දාන්නද?###Yes-No Question
+අර ගෑනිද ඒක කිව්වේ?###Yes-No Question
+ඇයි මම.###Statement
+මට ඔයාලා වගේ මිනිස්සු ගැන හොඳට තේරෙනවා.###Statement
+ඇඟේ තියෙන පුංචි සිරිල්ලටත් ඔයාලා කඳුළු කප්පරක් වගුරනවා.###Statement
+ඒත් අනිත් මිනිස්සුන්ගේ ජීවිත ඔයාලා කඳුළු ගංගාවක් කරනවා.###Statement
+මම ඔයාට හිනා වෙනවා.###Statement
+ඔව් මම ඒ වගේ මිනිහෙක් තමා.###Statement
+මට අනිත් මිනිස්සුන්ගේ ජීවිත වැඩක් නෑ.###Statement
+මම යන මාර්ගය අවුරන් ඉන්න බාධකයක් අයින් කරලා දැම්මම මොකද වෙන්නේ?###Open Question
+මම තමුසෙට කැමතියි.###Statement
+ඔව් මම තමුසෙට කැමතියි.###Statement
+මම ඒ දේ කළේ තමුසෙට තියෙන ආදරේ නිසා.###Statement
+දැන් සතුටුද?###Yes-No Question
+මේක කොහෙන්ද තියන්නේ?###Open Question
+ඒක මෙතන තියමු.###Back-channel/Acknowledge
+නගින්න.###Request/Command/Order
+මම ඔයාව ගෙදර එක්කං යන්නම්.###Statement
+මෙතන කලබලයක් වෙනවා දකින්න කැමති නැත්නම් නගිනවා වාහනේට.###Request/Command/Order
+මම කියපු දේවල් ගැන.###Statement
+මම දන්නවා ඔයා ඒ දේවල් කිව්වේ තරහින් කියලා.###Statement
+මට තේරෙනවා.###Statement
+මම ජුන් සූට කියන්නේ නෑ.###Statement
+බයවෙන්න එපා.###Request/Command/Order
+ඔයා මොනවද කරන්නේ?###Open Question
+ගිහින් එයාට කියමු.###Statement
+මම ගිහින් එයාට කියනවා මම ඔයාට කොච්චර ආදරේද කියලා.###Statement
+එතකොට එයා මාව විශ්වාස කරයිනේ.###Statement
+බලන්න.###Request/Command/Order
+ඔයාගේ ආසන පටි දාගන්න.###Request/Command/Order
+ඒක දුර ගමනක්.###Statement
+මේ ඔයාගෙත් ගමද?###Yes-No Question
+ඔයා මොනවද බලන්නේ?###Open Question
+ඔයා නිතර මෙහෙ ආවද එයාව මුනගැහෙන්න?###Yes-No Question
+මම කවදාවත් මෙහෙ ඇවිත් නෑ.###Back-channel/Acknowledge
+ලස්සනයි පිරිසිදුයි.###Statement
+මේ ඔයා මෙහෙ ආපු පළවෙනි වතාව නෙමේ නේ?###Yes-No Question
+ජුන් සූ ඇමෙරිකාවට යනකම් ජීවත් වුනේ මෙහේ.###Back-channel/Acknowledge
+එයා පුංචි පන්තිවල ඉඳිද්දී.###Statement
+එයා මට මෙහෙ ගැන හුඟක් දේවල් කියලා තියෙනවා.###Statement
+මට දැනේනනේ මම මෙහෙ ඉඳලා තියෙනවා වගේ.###Statement
+කොහෙද මුන් ගිහින් තියෙන්නේ?###Open Question
+පපුව?###Statement
+කෝ බලන්න.###Request/Command/Order
+අම්මේ එයාට එපා කියන්නකෝ.###Request/Command/Order
+යන්නම් අම්මේ.###Statement
+ඔයා තමයි හොඳම.###Statement
+යන්නම්.###Statement
+ජුන් සූ.###Conventional Opening
+උන් උඩත් නෑ.###Statement
+ටේ සූක්, ඔයා කොයි වෙලේද ආවේ?###Yes-No Question
+නංගී.###Conventional Opening
+අයියේ.###Conventional Opening
+යුන් ඉන් සූ.###Conventional Opening
+චොයි ඉන් සූ.###Conventional Opening
+මම දන්නවා ඒක මගේ වැරැද්ද.###Statement
+මම එයාට කිව්වා.###Statement
+ඔයා දැන් හිතන්නේ, මට ආපහු ඇඬෙන්න යනවා කියලයි.###Statement
+ඔයා දැන් හිතන්නේ, ඒ කිසිදෙයක් වෙනස් වෙලා නෑ කියලයි.###Statement
+ඔයා දැන් හිතන්නේ, එයා ආපහු අඬනවා කියලයි.###Statement
+ඔයා දැන් හිතන්නේ, එයා මාවත් අඬවනවා කියලයි.###Statement
+ඔයා දැන් හිතන්නේ, එයා දැන් පරණ තත්වෙටම ඇව්ල්ලා කියලයි.###Statement
+ඉන් සූ, මේ ඔයාමද?###Yes-No Question
+ඔව් අයියේ ඔයා ඥාති සහෝදරයාට හුඟාක් සමීපයි නේද?###Yes-No Question
+ඔව්.###Yes Answers
+ඔයාට කොහොමද එයාව හම්බවුනේ?###Open Question
+නිව් යෝක් වලදී අපි එකටමයි ඉගෙනගත්තේ.###Back-channel/Acknowledge
+මම මුලින්ම යාළුවුනේ ටේ සුක් එක්ක.###Statement
+ටේ සූක් මාර්ගයෙන් තමයි මම මෙයාව අඳුරගත්තේ.###Statement
+ඒ ගැන හිතන කොටත් හිනා යනවා.###Statement
+අපි මුලින්ම හම්බවුනු දවසේ එයා වචනයක්වත් කතාකළේ නෑ.###Statement
+මම හිතුවේ එයා මට කැමති නැතුව ඇති කියලයි.###Statement
+මෙන්න ඒත් එකපාරටම මෙයා මගෙන් අහනවා ලබන ආත්මේ මම කවුරුවෙලා ඉපදෙන්නද කැමති කියලා.###Statement
+ඉතිං ඔයා මොනවද කිව්වේ?###Open Question
+මම කිව්වා ගහක් වෙලා කියලා.###Back-channel/Acknowledge
+මට ආපහු ඉපදෙන්න ඕනේ ගහක් වෙලා.###Statement
+ගහක් වෙලා.###Back-channel/Acknowledge
+ඔව්.###Yes Answers
+මොකද එතකොට මගේ මුල් පොළවට කිඳාබැස්සම ආපහු කවදාවත් එතනින් උගුල්ලලා දාන්න බෑනේ.###Statement
+එහෙමයි අපේ හමුවීම සිද්දවුනේ.###Statement
+මොකද?###Open Question
+මම එයාට කිව්වා මම කැමතියි කියලා.###Statement
+මේ අවංකවමයි කියන්නේ.###Statement
+උඹ.###Statement
+මම ඉන් සූට ඇත්තටම ආදරෙයි.###Statement
+ඉතිං එයා මොනවද කිව්වේ?###Open Question
+එයා මෙලෝ දෙයක් කිව්වේ නෑ.###Back-channel/Acknowledge
+ඒත් බලමුකෝ.###Statement
+මේ ලෝකේ ඉන්න එයාව සතුටු කරන්න පුළුවන් එකම මිනිහා මම බව එයාට පෙන්නනවා.###Statement
+මම එයාව එළියට එක්කං ගියාට කමක් නැද්ද?###Yes-No Question
+මම එපා කිව්වොත් මොකද කරන්නේ?###Open Question
+මම එපා කිව්වොත් උඹ එයාව අමතක කරනවද?###Yes-No Question
+කීයටවත් නෑ.###Back-channel/Acknowledge
+මම උඹෙන් අවසර ඉල්ලනවා නෙමෙයි.###Statement
+ඒත් උඹ හැමදාම මගේ ළඟින් ඉන්න හොඳම යාළුවා.###Statement
+්අනික ඉන් සූගේ ඥාති සහෝදරයා නිසා.###Statement
+ඔයාද ඒවා හැදුවේ?###Yes-No Question
+මම නෙමේ.###Back-channel/Acknowledge
+යුමී.###Conventional Opening
+හොඳ නැද්ද?###Yes-No Question
+නියමයි.###Expressive
+අද රෑ මෙහෙ නැවතිලා හෙට උදේ පිටවෙමු.###Statement
+හොඳයි.###Back-channel/Acknowledge
+ඔයා මොකද කියන්නේ ඉන් සූ?###Open Question
+එතකොට ඔයාලා නෑදෑයෝ වෙන්නේ අම්මගේ පැත්තෙන්ද?###Yes-No Question
+තාත්තගේ පැත්තෙන්ද?###Yes-No Question
+ඒවා වැඩක් නෑනේ.###Back-channel/Acknowledge
+ඒගොල්ලන්ගේ නම් වල හැටියට නෑදෑයෝ වෙන්න ඇත්තේ තාත්තගේ පැත්තෙන් මොනා ගැනද ඔය දෙන්නා කතාකර කර හිටියේ?###Open Question
+මම එයාට කිව්වා අපි දෙන්නා මුනගැහිච්ච හැටි.###Back-channel/Acknowledge
+ආ ඒකද, මම කැමති ඊළඟ ආත්මේ ගහක් වෙලා ඉපදෙන්න එකද?###Yes-No Question
+ඉන් සු, කවුරු වෙලාද ඔයා ආපහු ඉපදෙන්න කැමති?###Open Question
+මේ අයියගේ නංගී වෙලා.###Back-channel/Acknowledge
+හරිම හැඟීම්බරයි.###Expressive
+ජුන් සූ උඹ ආඩම්බර වෙන්න ඕනේ.###Statement
+ඉන් සූ.###Statement
+එන්න මම කියලා දෙන්නම් මාලූ අල්ලන හැටි.###Statement
+ඒත් මම මේවා අස් කරන්න එපායැ.###Statement
+ඒක ඒගොල්ලෝ කරගනි.###Statement
+ඒකට කමක් නෑනේ?###Yes-No Question
+ඔයා මෙන්න මේ නූල මෙන්න මේක ඇතුලෙන් යවන්න ඕනේ.###Statement
+නෑ.###No Answer
+එහෙම නෙවෙයි කරන්න ඕනේ.###Statement
+අන්න හරි.###Back-channel/Acknowledge
+මම හිතන්නේ මේ අලූත්ම විදියක්.###Statement
+ඒගොල්ලෝ හොඳට ගැලපෙනවා නේද?###Yes-No Question
+ජුන් සූ ළඟ වැඩිපුර ටී ෂර්ට් එකක් තිබ්බ එක හොඳයි.###Statement
+ඇයි ඔයා තනියෙන්?###Open Question
+ජුන් සූ ගියා ඇවිදින්න.###Request/Command/Order
+ඔයා ඉන් සූව දැක්කද?###Yes-No Question
+නෑ.###No Answer
+ඔයා මෙතනට ඇවිත් හුඟාක් අඬලා තියෙනවා.###Statement
+මම?###Backchannel Question
+මම අනන්තවත් ඔයා මෙතන අඬනවා දැකලා තියෙනවා.###Statement
+ඇත්තද?###Yes-No Question
+ඔව්.###Yes Answers
+අපි නිතරම මේ හරිය පහුකරගෙන ගෙදර යනවා.###Statement
+හයියෙන් වහින වෙලාවට අපි හෙවණක් හොයාගෙන දුවන් එන්නේ මෙතනට.###Statement
+ඇත්ත තමයි.###Back-channel/Acknowledge
+ඔයාට ඒවා මතක නැද්ද?###Yes-No Question
+එහෙනම් ඔයාට මාව මතකද?###Yes-No Question
+එච්චරම මතක නෑ.###Back-channel/Acknowledge
+මතකය පැහැදිලි නෑ.###Statement
+මම මතක තියාගන්න උත්සාහ කළේ නෑ.###Statement
+ඒ මතක සටහන් එච්චරටම සුන්දරයි.###Statement
+ඒ මතකය සුන්දරයි.###Statement
+ඒත් ඊටපස්සේ මගේ ජීවිතේ සුන්දර වුනේ නෑ.###Statement
+ඉතිං මම හිතට කිව්වා බලෙන් හරි ඒ දේවල් අමතක කරවන්න කියලා.###Statement
+මම හිතන්නේ දැන්මට ඒ දේවල් මතක නෑ.###Statement
+ජුන් සූ මම.###Statement
+මම.###Statement
+මට ඒ දේවල් දරාගන්න බැරිවුනා.###Statement
+ඇත්තටම මමත් දුක් වින්ඳා.###Statement
+ඔයාගෙයි මගෙයි අතීතය මතක් වෙද්දී.###Statement
+ඒ කාලේ මතක් වෙන්නත් එක්ක මම ඔයාව ලූණු ගෙනියන්නම්.###Statement
+එපා.###Request/Command/Order
+කෝ ඉතිං.###Statement
+ඉක්මණට.###Request/Command/Order
+මගේ පස්ස හිරිවැටිලා.###Statement
+ඉක්මණට.###Request/Command/Order
+ඇයි මුන් පරක්කු?###Open Question
+ජුන් සූ නම් හොඳින්.###Statement
+ඒත් මට බය ඉන් සූ ගැනයි.###Statement
+මට තේරෙනවා.###Statement
+ඉන් සූ?###Conventional Opening
+යුමී.###Conventional Opening
+ටේ සූක්.###Conventional Opening
+යුන් ෂිං ඒ?###Conventional Opening
+මම ඔයා නැතුව පාළුවේ හිටියේ.###Statement
+ඇයි ඔයා කෝල් එකක්වත් නොදුන්නේ?###Open Question
+ඔයා තාමත් එහෙමයි.###Statement
+මම බර නැද්ද?###Yes-No Question
+නෑ.###No Answer
+මම රයි.###Statement
+දැන් මම තුන්වැනියාද?###Yes-No Question
+අම්මාව අත ඇරියම යුමී එක.###Back-channel/Acknowledge
+ඊටපස්සේ ෂිං ඒ, ඊටපස්සේ නේද මම?###Yes-No Question
+ඔයා තුන්වෙනියා නෙමේ.###Back-channel/Acknowledge
+තුන්වැනියාවත් නෙමේද?###Backchannel Question
+අයියෝ.###Statement
+මා ගැන මොකද කියන්නේ?###Open Question
+මම කොතනද දැන් ඉන්නේ?###Open Question
+හොඳටම දන්න දෙයක් දැන් ඔයා බොරුවට අහනවා නේද?###Yes-No Question
+හොඳටම දන්නවා?###Backchannel Question
+ඔයා හැමවෙලේම පළවෙනියා.###Statement
+මම දැන් බහින්නම්.###Statement
+ඔයාට මහන්සියි.###Statement
+ඥාති සහෝදරියක්.###Statement
+කවුද අනේ ඒ?###Backchannel Question
+සමාවෙන්න ටිකක් ප‍්‍රමාද වුනා.###Statement
+ජුන් සූ.###Conventional Opening
+අපි පරක්කු වුනා නම් සමාවෙන්න.###Apology
+අයියේ.###Conventional Opening
+ෂිං ඒ, ඔයා දැන් හරි ලස්සනයි.###Statement
+ඔයා ආපහු අඬනවද?###Yes-No Question
+ඔයා ජීවිතේ හුඟාක් අමාරුකම්වලට මූනදෙන්න ඇති නේද?###Yes-No Question
+අපෝ නෑ.###No Answer
+බොරු කියන්න එපා.###Request/Command/Order
+මට ඇහුනා ඔයා හොඳට ඉගෙනගත්තා කියලා.###Statement
+ජුන් සූ ඔයා ගැන හුඟක් වර්ණනා කළා.###Statement
+නෑ.###No Answer
+වෙන්න බෑ.###Statement
+ඔයත් ඉස්කෝලෙදී හොඳට වැඩ කළානේ.###Statement
+ඔයා ජ්‍යෙෂ්ඨ විද්‍යාලයට ගියේ නැද්ද?###Yes-No Question
+නෑ.###No Answer
+දැන් ඔයා මොකද කරන්නේ?###Open Question
+මම හෝටලේක වැඩ කරනවා.###Back-channel/Acknowledge
+ටේ සූක්ගේ හෝටලේද?###Yes-No Question
+ලබන සතියේ මම එහේ මැනේජර් කෙනෙක් විදියට වැඩ භාරගන්නවා.###Back-channel/Acknowledge
+ඔයා මොනවද කරන්නේ?###Open Question
+මම ඉන්නේ ගෘහ පාලන අංශයේ.###Statement
+එහෙමද?###Back-channel/Acknowledge
+ඔයා නිත්‍ය සේවකයෙක්ද?###Yes-No Question
+නෑ.###No Answer
+ඔයා අදද ඇමෙරිකාවේ ඉඳලා ආවේ?###Yes-No Question
+නෑ.###No Answer
+ඊයේ.###Back-channel/Acknowledge
+අම්මයි, තාත්තයි පස්සේ එනවා.###Statement
+කොහොමද ඒගොල්ලන්ට?###Yes-No Question
+මාව දැන් මතකද දන්නේ නෑ.###Statement
+ඔයාව ආපහු දකින්න ලැබීම සතුටක්.###Statement
+මට ඔයාව හුඟක් මතක්වුනා.###Statement
+අම්මයි තාත්තයි ඔයා ගැන අපි කතාකරන එකත් තහනම් කළා.###Statement
+අපි ඇමෙරිකාවට ගියේ හැමදේම අමතක කරන්න.###Statement
+හැමෝම ආයාසයෙන් ඒ දේවල් අමතක කරන්න උත්සාහ කළා.###Statement
+ඒත් ඒ වේදනාව හරිම කටුකයි.###Statement
+අපි කොහොමද ඒ විදියට ඔයාව අපේ ජිවිත වලින් බැහැර කළේ?###Yes-No Question
+අසරණ ඉන් සූ.###Statement
+මට එයා ගැන ලොකු දුකක් දැනෙනවා.###Statement
+එයා මොන මොන දේවල් වලට මූනදෙන්න ඇද්ද?###Yes-No Question
+එයාගේ අම්මවයි තාත්තවයි එයාට මොනතරම් මතක් වෙන්න ඇතිද?###Yes-No Question
+මට නම් බැරිවේවි.###Statement
+ඔයගොල්ලෝ කොහොමද එයාව ඒ විදියට අත ඇරලා ගියේ?###Yes-No Question
+කොහොමද උඹලා එච්චර නරුම වුනේ?###Open Question
+ජුන් සූ, උඹ මොනවද එයා වෙනුවෙන් කළේ?###Open Question
+උඹලා මොනවද ඒ කෙල්ලට කළේ?###Open Question
+ටේ සූක්.###Conventional Opening
+ඔයා හරි.###Statement
+මට එයා වෙනුවෙන් මුකුත්ම කරන්න බැරිවුනා.###Statement
+මුකුත්ම කරන්න බැරිවුනා.###Statement
+ඉන් සූ, අද මෙහෙ නිදාගමු.###Statement
+මම යනවා නින්දට.###Statement
+හෙට උදේට කතාකරමු.###Statement
+මම අද යන්න ඕනේ.###Statement
+ඔයාට දැන් යන්න දෙන්න බෑ.###Statement
+රාජකාරියට වාර්තා කරන්න තියෙනවා හෙට උදේට.###Statement
+අමතක වෙලාම ගියානේ.###Back-channel/Acknowledge
+අපි යමු.###Statement
+එතකොට ෂිං ඒ?###Backchannel Question
+ඒකට කමක් නෑ.###Statement
+ඔයාට පුළුවන්ද මාව ගෙදර එක්කන් යන්න?###Yes-No Question
+ඔව්.###Yes Answers
+අපි දැන් යමුද?###Yes-No Question
+යමු.###Statement
+මම ඔයාව ගෙදර ගෙනියන්නම්.###Statement
+ෂිං ඒ ඔයා එනකම් උඩ තට්ටුවේ බලං ඉන්නවා.###Statement
+මට ඔයා ගැන දුකක් දැනෙන්නේ නෑ.###Statement
+චුට්ටක්වත් නෑ.###Statement
+මගේ මූනේ අනුකම්පාවක් තියෙනවද?###Yes-No Question
+නෑ.###No Answer
+මට ඔයා පව් කියලා හිතෙන්නේ නෑ.###Statement
+ඒ මොකද.###Open Question
+මම මේ මොහාතේ ඉඳං ඔයාව රැකබලාගන්නවා.###Statement
+මොනවා කියලද ඔයා හිතුවේ?###Open Question
+සංසුන් වෙන්න.###Request/Command/Order
+මීට කලින් ඔයාට මේක කියපු නැති එක ගැන සමාවෙන්න.###Apology
+අම්මට මේ ගැන නොකිය ඉමු.###Statement
+අම්මට ඉන් සූ ගැන නොකිය ඉමු.###Statement
+ෂිං ඒ.###Conventional Opening
+අම්මගේ ලෙඩ සනීප වෙලා අවුරුදු කීයද ගතවුනේ?###Open Question
+එයා අසනීප වුනේ ඉන් සූ නැති සාංකාවට.###Statement
+ඒකද ඔයාගේ නිදහසට කාරණේ?###Yes-No Question
+සමාවෙන්න.###Apology
+ඒත් මම ඉන්සූව අම්මාට කොහොමහරි මුනගස්සන්න ඕනේ.###Statement
+එයා වෙනුවෙන් මට කරන්න පුළුවන් එකම දේත් ඒකයි.###Statement
+එදා වගේම අදත්, ඔයා හිතන්නේ මං ගැන නෙමෙයි.###Back-channel/Acknowledge
+දැන් ඉතිං ඉන් සූ හම්බවුනානේ.###Statement
+ඔයාට මගෙන් වැඩක් නෑ.###Statement
+යුන් ෂිං ඒ.###Statement
+අන්න හරි.###Back-channel/Acknowledge
+මම ෂිං ඒ.###Back-channel/Acknowledge
+ඔයාගේ නංගී.###Statement
+මම ජීවත්වුනේ හරිම පාළුවෙන්.###Statement
+ඉන් සූ නැති සාංකාවෙන් අම්මා ලෙඩවුනා.###Statement
+ඔයාටයි තාත්තටයි මාව තමන්ගෙමයි කියලා හිතන්න අවුරුදු ගානක් ගතවුනා.###Statement
+ඒකෙන් අපහසුතාවයකට පත්වුනේ මමයි.###Statement
+මට මොනවද වෙන්නේ?###Open Question
+ඉන් සූ ආපහු වතාවක් අපේ ජීවිත වලට ඇතුල්වුනොත්.###Statement
+ආපහු ඉන් සූව දකින්න කවදත් මගේ කැමැත්තක් තිබුනේ නෑ.###Statement
+ඒ ගැන කල්පනා කරමු.###Statement
+ඒගොල්ලෝ එන්න කලින් ඒ ගැන හොඳට කල්පනා කරමු.###Statement
+ජුන් සූ.###Conventional Opening
+ඔයා කොහේද?###Open Question
+මම ඉස්කොලේ.###Back-channel/Acknowledge
+යුමීව ගුවන් තොටුපලට ඇරලපු ගමන් මම කෙලින්ම ආවේ මෙහෙ.###Statement
+ඔයා වැඩට ගියේ නැද්ද?###Yes-No Question
+අද කීයටද ඔයාගේ වැඩ ඇරෙන්නේ?###Open Question
+අද ඉක්මණට වැඩ ඉවරකරලා එන්න ඕනේ හොඳේ.###Statement
+ඔයා එනකම් කෙනෙක් බලං ඉන්නවා.###Statement
+තමුසෙට මොනවද ඕනේ?###Open Question
+ඔයාගේ මුෂ්ටි පහර හරි සැරයි.###Statement
+දවස් ගාණක් යනකම් වේදනාව අඩුවුනේ නෑ.###Statement
+මොනවද ඕනේ?###Open Question
+ඉන් සූ.###Conventional Opening
+උඹ ඉන් සූව හම්බවෙන්න ගියාද?###Yes-No Question
+නෑ.###No Answer
+මම දන්නවනේ එයා හොඳින් ඉන්නවා කියලා.###Statement
+එයාට හොඳ භාරකාරයෙක් ඉන්නවානේ දැන්.###Statement
+ඒත් අම්මා දැන් ඉන්නේ ලෙඩින්.###Statement
+මම වැඩි දෙයක් ඉල්ලන්නේ නෑ.###Statement
+මම යනවා.###Statement
+ඉන්නවා.###Request/Command/Order
+මහාචාර්යතුමා, ඔයා කෙල්ලක් එක්ක නැවතිලා ඉන්නවා කියලා දැනගත්තම ඉස්කෝලෙන් මොනවා කියයිද?###Yes-No Question
+ඉන් සූගේ ලොක්කා මේක දැනගත්තම මොනවා වෙයිද?###Yes-No Question
+ස්තූතියි.###Thanking
+මම පුළු පුළුවන් වෙලාවට එන්නම් ඔයාව බලලා යන්න.###Statement
+අනික ඉතිං අපි කොහොමත් ජීවත්වෙන්නේ එකම වැයික්කියේ නේ.###Statement
+පාහරයා.###Statement
+උඹ නම් මහා තිරිසනෙක්.###Statement
+ඇයි උඹ මෙහෙම කරන්නේ?###Open Question
+ඇයි උඹ මට ලැජ්ජා කරන්නේ?###Open Question
+උඹ අයියගෙනුත් කොල්ලකෑවා නේද?###Yes-No Question
+මට ප‍්‍රශ්නයක් නෑ.###Back-channel/Acknowledge
+ඇයි මට මෙහෙම කරන්නේ?###Open Question
+ඉන් සූ, මට ඒක ගාණක් නෑ.###Statement
+ඔයාට තවමත් ඔයා ගාය තියෙනවද?###Yes-No Question
+ඔයා වැඩ පටන්ගත්තද?###Yes-No Question
+නැ.###No Answer
+ලබන සතියේ තමයි එන්නේ.###Back-channel/Acknowledge
+මම ආවේ නිකන් ඔලූව දාලා යන්න.###Statement
+මාව කෑමකට එක්කන් යන්නකෝ.###Request/Command/Order
+මොනවද ඔයා කියන්නේ?###Open Question
+තව දුරටත් මම ඔයා එක්ක එන්නේ නෑ කෑම ගන්න.###Statement
+ඇයි නැත්තේ?###Backchannel Question
+දැන් ඔයාට වෙන ගෑනියෙක් ඉන්නවද?###Yes-No Question
+තමුසේ කොහොමද ඒක දන්නේ?###Open Question
+කවුද ඒ?###Backchannel Question
+මාස කීයකටද ඔයා එයාව වෙන්කරගත්තේ?###Open Question
+මම විහිළු නෙමෙයි කරන්නේ.###Statement
+මම සභාපතිතුමාවත් මුනගැහිලයි ආවේ.###Statement
+මගේ තාත්තව?###Yes-No Question
+එයා මට කියනවා රස්සා කර කර ඉන්න ඕනේ නෑ, කසාද බඳින්නයි කියලා.###Statement
+ඒක අමතක කරලා දාන්න.###Request/Command/Order
+මම කිව්වනේ කිසිම ගෑනියෙක් එක්ක මම මීට පස්සේ කන්න එන්නේ නෑ.###Statement
+මේක නම් මාරයි.###Statement
+හොඳට කන්න.###Request/Command/Order
+මේ මම ඔයාට අරං දෙන අන්තිම කෑම ටික.###Statement
+ඇයි ඔයා ඔච්චර පරක්කු?###Open Question
+අද නේද පිරිසිදු කරන දවස?###Yes-No Question
+මට අමතක වුනා.###Back-channel/Acknowledge
+අපි පටන් ගමු.###Statement
+ඔයා දන්නවද පන්තියේ ළමයි මට කියපු දේ?###Open Question
+මමත් හරියට ඉගෙනගන්න ළමයෙක් වගේලූ.###Statement
+ඒගොල්ලෝ හිතන්නේ මම බොරු කියනවා කියලයි.###Statement
+මම එච්චර ලාබාල පාටද?###Yes-No Question
+ඔයා මොනවද හිතන්නේ?###Open Question
+මම ලාබාලයි වගේ තේරෙනවද?###Yes-No Question
+නෑ.###No Answer
+ඔයාට වයසයි කියලා පේනවා.###Back-channel/Acknowledge
+හරියට අපේ මුත්තා වගේ.###Statement
+මොකා?###Backchannel Question
+ඔයා ඒ දවස්වල නම් ටිකක් වසයි.###Statement
+මම ශක්තිමත්.###Statement
+ඔයා දන්නවද?###Yes-No Question
+සමාවෙන්න.###Apology
+ඔයාගේ හිත රිදෙයි කියලා දන්නවනම් මම කීයටවත් අරූට සල්ලි දෙන්නේ නෑ.###Statement
+ඒකට කමක් නෑ.###Back-channel/Acknowledge
+මාව ආපහු මුනගැහුනු එක ගැන ඔයා සතුටු වෙනවද?###Yes-No Question
+කාවද?###Backchannel Question
+ඔයා දන්නේ නැද්ද අර ජුන් සූව?###Yes-No Question
+ඉන් සූගේ කලින් අයියා.###Back-channel/Acknowledge
+එහෙනම් ඒගොල්ලෝ.###Statement
+ඒගොල්ලෝ ඇමෙරිකාවේ ඉඳං ආපහු ඇවිල්ලද?###Yes-No Question
+මොකක්ද ප‍්‍රශ්නේ?###Open Question
+ෂිං ඒ.###Conventional Opening
+මේක මම හිතපු තරම් ලේසි නෑ ඕයි.###Statement
+හෝටලේ මුල් ගේට්ටුව ළඟට යනකම් රේස් එකක් තියමු.###Statement
+ඔයාට විශ්වාසද?###Yes-No Question
+ඔට්ටු අල්ලන්න ඔයාට සල්ලි තියෙනවනේ.###Statement
+ඒ කියන්නේ එහෙනම් මේක සෙල්ලමක්.###Statement
+ඔයා දින්නොත් මගේ ගානේ උදේ කෑම.###Statement
+මම දින්නොත්, මට ඔයාගෙන් හාදුවක් ඕනේ.###Statement
+පටන්ගන්න.###Request/Command/Order
+සේරම වැඩ පුරුදු වෙන්න ඔයාට ටික කාලයක් යාවි.###Statement
+මම ඒකට ඔයාගෙත් සහයෝගය බලාපොරොත්තු වෙනවා.###Statement
+දැන් නම් ඒගොල්ලන්ට ඕනතරම් කාලේ ඉතුරුවෙලා තියෙනවා.###Statement
+ඒක අමතක කරලා දාන්න.###Request/Command/Order
+මම ආපහු කවදාවත් වෙන ගෑණු එක්ක කෑම කන්නෙත් නෑ.###Statement
+මගේ වගකීම් ගැන ඉගෙනගන්න හරි හමන් කාලයක් ලැබුනේ නෑ.###Statement
+ලොකු පෙරලියක් වෙයි කියලා හිතන් එපා.###Request/Command/Order
+මට ඔය හැමෝගෙම සහයෝගය අවශ්‍යයි කරුණාකරලා තමන්ගේ රාජකාරිය උපරිමයෙන් ඉෂ්ඨ කරන්න.###Request/Command/Order
+මේ ඇත්තටම ෂිං ඒද?###Yes-No Question
+ෂිං ඒ.###Statement
+කාලෙකින් දැක්කේ නෑනේ යී කැන්ග් හී.###Conventional Opening
+ඔව් දැන් කාලයක් වෙනවා.###Back-channel/Acknowledge
+ඔයාව දකින්න ලැබීම ලොකු සතුටක්.###Conventional Opening
+මම දැනගෙන හිටියා ඔයා එන්නේ අපේ අංශයට තමයි කියලා.###Statement
+මාව දැකීම සතුටක්?###Backchannel Question
+මම ටේ සූක් ගෙන් මේ තනතුර ඉල්ලූවා.###Statement
+මොකක්ද මේ මැනේජර් කෙනෙකව ඔයා නිසා අස් කළා කියලා කියන කතාව?###Yes-No Question
+ඔයාද ටේ සූක්ට එහෙම කරන්නයි කිව්වේ?###Yes-No Question
+මොනවද ඔයා කියන්නේ?###Open Question
+අපි මෙහෙම කියව කියව ඉන්න එක එච්චර හොඳ නෑ.###Back-channel/Acknowledge
+දැන් ඔයගොල්ලෝ වැඩ කරන්න යන්න.###Request/Command/Order
+පස්සේ හම්බවෙමු.###Statement
+ෂිජ ඒ.###Conventional Opening
+අම්මා.###Conventional Opening
+ඔයා ෂිං ඒ නේද?###Yes-No Question
+අම්මේ.###Statement
+හැමදේම හොඳ අතට පෙරලූනා.###Statement
+ඒගොල්ලෝ වෙච්ච පොරොන්දුව රැුක්කා.###Statement
+ඒගොල්ලෝ පොරොන්දු වුනා එයාව හොඳට බලාගන්නවා කියලා.###Statement
+එයා ලස්සන වෙලා නේද?###Yes-No Question
+නේද?###Yes-No Question
+ඔව්.###Yes Answers
+එයා හොඳට ඉගෙනගත්තලූද?###Yes-No Question
+ඔව්.###Yes Answers
+මම මොනවද කළේ?###Open Question
+මට බැරිවුනා මගේ පොරොන්දුව රකින්න.###Statement
+ඔයාට සැපදෙන්න මට බැරිවුනා.###Statement
+ඔය දෙන්නාව එදා මට හුවමාරු කරනොගන්නයි තිබුනේ.###Statement
+අපරාදේ මට සමාවෙන්න.###Apology
+ඔයා වෙනුවෙන් මට මුකුත්ම කරන්න බැරිවුනා.###Statement
+මට ඇත්තටම දුකයි.###Statement
+ඒ ඉන් සූද?###Yes-No Question
+මොකක්ද ඒ?###Open Question
+මම එයාව අඳින්න නිකන් එහෙන් මෙහෙන් උත්සාහ කළා.###Statement
+එහෙන් මෙහෙන්?###Backchannel Question
+උත්සාහ කළේ සහෝදර මට්ටමින් නෙවෙයිනේ?###Yes-No Question
+ඔයාගේ හිතේ තියෙන්නේ සහෝදර පේ‍්‍රමයක් නෙවෙයි නේද?###Yes-No Question
+ෂිං ඒ?###Conventional Opening
+අම්මට සනීප නැද්ද?###Yes-No Question
+එයා හුඟක් අසනීපෙන්ද හිටියේ?###Yes-No Question
+එයාට මාවයි, ජුන් සූයි අඳුරගන්න බැරුව කාලයක් ඔහේ හිටියා.###Statement
+එයා ජීවත්වුනේ ඔයා එක්ක හීනෙන් හරි ලංවුනා කියලා හිතාගෙන.###Statement
+ඒක මගේ වැරැද්ද.###Statement
+මම ඔයාට වැරදි පවරන්නේ නෑ.###Statement
+ඒත් ඔයා ජුන් සූ එක්ක ජීවත්වෙනවා නම්, අනිවාර්යෙන්ම අම්මාව මුනගැහේවි.###Statement
+මට බයයි එයා ආපහු ලෙඩ වේවි කියලා.###Statement
+අනික මම දන්නවා, ඔහොම ගියොත් ජුන් සූට යුමීව එපාවෙනවා.###Statement
+ඔයයි, ජුන් සූයි කියන්නේ අමුත්තෝ දෙන්නෙක්.###Statement
+ඒ බව යුමී දන්නේ නෑ.###Back-channel/Acknowledge
+මට සමාවෙන්න.###Apology
+ඔයාට මෙහෙම කරපු එක වැරදියි.###Statement
+ඒත් මේකෙන් අපි හැමෝම අපහසුතාවයකට පත්වෙනවා.###Statement
+අපි දැන් එකා වගේ ජීවත්් වෙනවා.###Statement
+ඉන් සූ, මට බයයි.###Statement
+මට බයයි මේ හැමදේම අර ඉස්සර වුනා වගේ නොපිට පෙරලෙයි කියලා ආයිමත්.###Statement
+මම එහෙම වෙන්න ඉඩදෙන්නේ නෑ.###Back-channel/Acknowledge
+මොනවද ඔයා කියන්නේ?###Open Question
+මම අයින් වුනොත් හැමදේම හොඳින් විසඳේවිද?###Yes-No Question
+මම අයින් වුනොත්.###Statement
+ඔයා මේවාට ආසයි නේද?###Yes-No Question
+මේකත් හරි රසයි.###Statement
+ඔයා මොනවද කල්පනා කරන්නේ?###Open Question
+කොයි වෙලේද ඔයා මේ දේවල් හැදුවේ?###Open Question
+ඔයා අද ඉක්මණට ආවද?###Yes-No Question
+මම අද ඔයා ආස හැමදේම හැදුවා.###Statement
+හොඳ කෙල්ලෙක් නේද මං?###Yes-No Question
+රස කෑම එකට ස්තූතියි.###Thanking
+ඔයා මීට කලින් මම කන හැටි දැකලම නැද්ද?###Yes-No Question
+පලවෙනි වතාව නෙවෙයි.###Back-channel/Acknowledge
+ඒත් ඒක වැඩිපුර දැකලා නෑනේ.###Statement
+ඔයාට එපා වෙන කම්, මම කන හැටි බලන් ඉන්නකෝ ඉස්සරහටත්.###Statement
+මම වතුර දෙන්නම්.###Statement
+මතකද මේක?###Yes-No Question
+ඔයා ඒක ආපහු ගන්න.###Request/Command/Order
+මේ වෙනතුරුමම ඒක මගේ ළඟ තියන් හිටියා.###Statement
+දැන් ඔයාගේ වාරේ.###Statement
+ඒක කඩන්න එහෙම එපා.###Request/Command/Order
+ඔයා ඒක කැඩුවොත් අපිට එකට ඉන්න බෑ.###Statement
+ඔයාට තව සුප් ඕනේද?###Yes-No Question
+ඉන් සූ.###Conventional Opening
+ඔයා කොහේද යන්නේ?###Open Question
+අයියේ.###Conventional Opening
+ආපහු යමු ඇතුළට.###Statement
+යුන් ඉන් සූ.###Statement
+මම යුන් ඉන් සූ නෙවෙයි.###Reject
+මම දැන් චොයි ඉන් සූ.###Back-channel/Acknowledge
+මම අර ඉස්සර හිටපු ඉන් සූ නෙවෙයි.###Statement
+මම හිතුවේ ඔයාව ආපහු මුනගැහුනොත් මට මොනතරම් සතුටක් දැනෙයිද කියලයි.###Statement
+ජීවිතේ එපා වෙච්ච දවස්වල, මම ඔයාගේ කවදා දකින්නද කිය කිය ලතවෙවී හිටියා.###Statement
+මම ජීවත් වුනේ හුඟක් අමාරුවෙන්.###Statement
+ඒත් මම හිටියේ සතුටින්.###Statement
+මා ගැන මටම ලොකු ආඩම්බරයක් දැනුනා.###Statement
+ඒත් ඔයා කාලෙකට පස්සේ මට ආපහු හම්බවෙලත්, සතුටකට ඉඩක් හිතේ නෑ.###Statement
+ඇයි මම මෙච්චරම මෝඩ?###Open Question
+ඇයි මම මෙච්චරම බොළඳ?###Yes-No Question
+අපි දෙන්නා මුනගැහුනේ අපරාදේ කියලා දැන් මට හිතෙනවා.###Statement
+ඇත්ත ඒක නෙවෙයි.###Back-channel/Acknowledge
+මේ වැඬේ කරන්න එපා.###Request/Command/Order
+යමු ඇතුළට.###Statement
+මම යනවා.###Statement
+මට යන්න දෙන්න.###Request/Command/Order
+අපි හම්බවුනේම නෑ කියලා හිත හදාගමු.###Statement
+නන්නාදුනන මිනිස්සු වගේ මෙහෙම ඉන්න එක අපි කාගෙත් සෞඛ්‍යයට හිතකරයි.###Statement
+ඔයාට යන්න දෙන්න බෑ.###Back-channel/Acknowledge
+බැ යන්න.###Request/Command/Order
+යන්න එපා.###Request/Command/Order
+යන්න එපා ඉන් සූ.###Request/Command/Order
+මම ඔයාට යන්න දෙන්නේ නෑ.###Statement
+ඔයා මගේ සහෝදරී නෙවෙයිනම් මොකද වෙන්නේ?###Open Question
+අපි එකට ඉමු.###Statement
+අපි එකට ඉමු ඉන් සූ.###Statement
+අනේ යන්න එපා.###Request/Command/Order
+මම ඔයාට යන්න දෙන්නේ නෑ.###Statement
+ඔයාට වෙරළට යන්න ඕනේද?###Yes-No Question
+ඔයා ඔක්කොම ගෙනල්ලා.###Statement
+ස්තූතියි.###Thanking
+ඔයා නිතර නිතර මෙහෙ එනවා.###Statement
+මම නම් කියන්නේ ඔයා එකපාරම එයාව කසාද බැන්දානම් ඉවරයි කියලයි.###Statement
+ජුන් සූට මොනවද කියන්න තියෙනවා කිව්වා.###Statement
+ඒකයි මම හදිසියේම ආවේ.###Statement
+සමහරවිට වෙඩිං එක ගැන මොනවාහරි කතාකරගන්න වෙන්න ඇති.###Back-channel/Acknowledge
+මට පෙනෙන්නේ ජුන් සූ මාව බඳින්න කැමති නැ වගෙයි.###Statement
+එයා කවදාවත් වෙඩින් ගැන කතාකරන කෙනෙක් නෙමෙයි.###Statement
+එහෙනම් යමු මාත් එක්ක කොහේහරි.###Statement
+මම ඉන් සූට ඒක කියන්නද?###Yes-No Question
+අයියෝ.###Back-channel/Acknowledge
+ඒක හරි පුදුමයි.###Statement
+මම දන්නේ නෑ ඔයා කොහොමද ගෑණු අතර මෙච්චර ජනපි‍්‍රය වුනේ කියලා.###Statement
+ඒ කොහොමද දන්නවද.###Yes-No Question
+මේ ළඟදි දවසක.###Statement
+ඉන්සූට ප‍්‍රශ්න ඇති කරපු මැනේජර් කෙනෙක්ව අයින් කළා.###Statement
+ඇත්තද?###Yes-No Question
+ඒකෙන් වෙන්නේ ඉන් සූව කොන් වෙන එක නේද.###Statement
+ඇයි?###Open Question
+එයත් එක්ක වැඩ කරන අය එයාට කැමති නෑ.###Statement
+ඇත්තද?###Yes-No Question
+කෝපි එක ලෑස්තියි.###Statement
+ඔයා ආපහු අඳින්නද යන්නේ?###Yes-No Question
+මම හිතුවේ ඉස්කොලෙන් පස්සේ ඒක නවත්තයි කියලා.###Statement
+ඒක රහසක්.###Statement
+මම දන්නවා.###Statement
+ඔයා කවුරුහරි විශේෂ කෙනෙක්ව අඳින්නයි යන්නේ.###Statement
+ඉන් සූව?###Yes-No Question
+ඔව්.###Yes Answers
+ඔයා කොහොමද දන්නේ?###Open Question
+පිරිමි කියන්නේ පුදුමාකාර ජාතියක්.###Back-channel/Acknowledge
+හැම චිත‍්‍ර ශිල්පියාම අඳින්න කැමති තමන් ආදරේ කරන කෙනාව.###Statement
+එහෙමද?###Yes-No Question
+මම මීට කලින් කවදාවත් ගෑණියෙක්ව ඇඳලා නෑ.###Statement
+ඔයා ගෑණු ගැන මීට කලින් ගැඹුරට හිතුවේ නෑනේ.###Back-channel/Acknowledge
+මට පේන විදියට ඔයා වැඩිපුරම ආදරේ කරන්නේ ඉන් සූට.###Statement
+ඇයි මගේ හිත නොසංසුන් වුනේ?###Open Question
+සමහරවිට ඒක වෙන කාට හරි අයිති නිසා වෙන්න ඇති.###Statement
+එතකොට මෙහෙම වෙනවද?###Yes-No Question
+ඇයි නැත්තේ?###Backchannel Question
+ජුන් සූ ඔයාව ඇඳලා තියෙනවද?###Yes-No Question
+ඇඳලා නෑ?###Backchannel Question
+එයා තවමත් මාව ඇඳලා නෑ.###Statement
+එයා කියනවා චිත්‍රේකට නගන්න බැරි තරම් මම ලස්සනයිලූ.###Statement
+ඒක පිස්සු කතාවක්නේ.###Statement
+ජුන් සූ කියන්නේ.###Back-channel/Acknowledge
+ඒකට කමක් නෑ.###Statement
+මම ඒ හැමදේම දන්නවා.###Statement
+තමන් ආදරේ කරන කෙනාට ගරු කරන මිනිස්සු හොයාගන්න ලේසි නෑ.###Statement
+ඔයා හොඳ කෙනෙක්.###Statement
+අවංකවම කියනවනම්, මම හොඳද කියලා වෙලාවකට මගෙන්ම ප‍්‍රශ්න කරනවා.###Back-channel/Acknowledge
+ඒත් සමහරවෙලාවට නින්දෙන් අවදි වුනාම සමහර දේවල් නිසා මම තිගැස්සෙනවා.###Statement
+ජුන් සූ.###Conventional Opening
+මට ඔයාට කියන්න යමක් තියෙනවා.###Statement
+මම මේ සති අන්තයේ සියොවුල් වලට එන්නම්.###Statement
+නෑ.###No Answer
+මම එන්නම්.###Statement
+ටේ සූක්ට දෙන්නත් මා ළඟ බඩු ටිකක් තියෙනවා.###Statement
+ඔයා ටේ සූක්ව හමුබවෙන්න ගියාද?###Yes-No Question
+මම එකපාරටම එන්න කිව්වාම ඔයාට පුදුම හිතුනද?###Yes-No Question
+මට ඔයාට කියන්න යමක් තියෙනවා.###Statement
+මටත් එහෙමයි.###Back-channel/Acknowledge
+ජුන් සූ, අපි බඳිමු.###Statement
+අපි බඳිමු.###Statement
+තව දුරටත් මට ඔයාගෙන් ඈත්වෙලා ඉන්න බෑ.###Statement
+අපි බඳිමු.###Statement
+යුමී, ඇත්තම කියනවනම් මමත් ඉන්නේ හිත් අමාරුවෙන්.###Back-channel/Acknowledge
+ඔයා සොක්චෝ වලට යන්න නේද හිතන් හිටියේ?###Yes-No Question
+ඉන් සූවත් ගෙනියන්න නේද හැදුවේ?###Yes-No Question
+ඉන් සූ ඔයාගේ ඥාති සහෝදරියක් කියලත් ඔයා මට බොරුකළා.###Statement
+ඉන් සූ කියන්නේ.###Back-channel/Acknowledge
+අපි කොහොමත් ඉක්මණට බඳිනවනේ.###Statement
+බලන්න මං දිහා.###Statement
+බලන්න මගේ දිහා.###Statement
+ඔයා මට ආදරේ නැද්ද?###Yes-No Question
+මට ආදරේ නැද්ද?###Yes-No Question
+මම හිතුවා ටිකින් ටික ඔයාට මම ආදරේ කරන්න ඉගෙනගනීවි කියලා.###Statement
+මට ඔයාට මේ හැම දේම කියන්න හිතුනෙත් ඔයා මට ආදරේ බව දන්න නිසයි.###Statement
+මම ඔයාට ඇත්තම කියන්නම්.###Statement
+බෑ.###Reject
+මම යනවා යන්න.###Statement
+මට ඔයා කියන දේ අහන්න ඕනේ නෑ.###Statement
+මට බෑ.###Reject
+මට බෑ ඔය දේවල් අහන්න.###Reject
+මම ඔයාව අත ඇරලා දාන්නේ නෑ.###Statement
+මම ගිහින් කතාකරන්නම්.###Statement
+ඔයා දැක්කද ෂිං ඒ එක්ක ආපු අලූත් මැනේජර්ව?###Yes-No Question
+නෑ.###No Answer
+ඒත් මට ඇහුනා එයා හරි කඩවසම් කියලා.###Statement
+මොනවද ඔයා කරන්නේ?###Open Question
+මම එයා ගැන හිත හිත ඉන්නවා.###Back-channel/Acknowledge
+එයා ගැන මුලූ දවසෙම වුනත් මට හිත හිත ඉන්න පුළුවන්.###Statement
+ඔය ඉතිං කිව්වේ.###Statement
+අඩුගානේ මම හීන මවනවා.###Statement
+ඔයා මොනවද කරන්නේ?###Open Question
+ඔයාට ජුන් සූ වගේ මනුස්සයෙක් මුනගැහෙන එකත් ලොකු වාසනාවක්.###Statement
+ඒත් ඒ ඔයාගේ ඇත්තම අයියා නෙවෙයි නේද?###Yes-No Question
+ඔයගොල්ලෝ ලේ ඥාතීන් නෙවෙයිනේ.###Statement
+නෑ.###No Answer
+ඒත් අපි එක පවුලේ අය වගේ.###Statement
+ඔයාට මොනවාහරි ඕනේද?###Yes-No Question
+ඔයාට මොනවාහරි ඕනේද සර්?###Yes-No Question
+ඔයාට ඬඬසර්ඬඬ කියන එක අමතක වුනා.###Statement
+ඔයා හිනාවුනා.###Statement
+මම ඔයාව හිනස්සන්නවා නේද?###Yes-No Question
+ඔයාට මුකුත් එපානම්, කෝ මට යන්න.###Statement
+මට සමාවෙන්න.###Apology
+ඔයා දැන් සමාවෙන්න කියන එකත් දන්නවනේ.###Back-channel/Acknowledge
+ඔයා වෙනස් වෙලා අයියේ.###Statement
+අයියේ?###Backchannel Question
+අයියේ.###Conventional Opening
+ඇයි ඔයා මට පණිවිඩයක් එව්වේ?###Open Question
+වාඩිවෙන්න.###Request/Command/Order
+ීවාඩිවෙන්න.###Request/Command/Order
+මැනේජර් කිම්ව මතකද?###Yes-No Question
+මැනේජර් කිම්?###Backchannel Question
+එයා ආපහු ගෘහ පාලන අංශයට අනුයුක්ත කරලා.###Statement
+මම මේ පාර දුන්නේ නිකම්ම අණ දුන්නා නෙවෙයි.###Statement
+මම එයාගෙන් සමාව ඉල්ලූවා.###Statement
+මම එයාට ඔලූවත් පාත් කළා.###Statement
+ඒ වගේ මිනිහෙක් නේද ඔයාට ඕනේ?###Yes-No Question
+මට දැන් ඔයා නැතුව ජීවත් වෙන්න බෑ.###Statement
+මට මෙහෙම බලං ඉන්න ඉඩ තියන්න එපා.###Request/Command/Order
+මගේ ජීවිතේට එකතුවෙන්න.###Request/Command/Order
+මා ළඟ ඉන්න.###Request/Command/Order
+මම ඔයාට වදයක්ද?###Yes-No Question
+ඔව්, ඔයා වධයක්.###Yes Answers
+ඔයාට බඩගිිනිද?###Yes-No Question
+මම ගිහින් මොනා හරි ගේන්නද කන්න?###Yes-No Question
+හොඳයි.###Back-channel/Acknowledge
+ජුන් සූ?###Conventional Opening
+ඔයාද කවුද කියලා දන්නේ නෑ?###Yes-No Question
+මම යුමීගේ අම්මා.###Back-channel/Acknowledge
+ඔයා වෙන්න ඇති ජුන් සූගේ ඥාති සොයුරිය?###Yes-No Question
+ඔව්.###Yes Answers
+යුමී ඔයා ගැන ගොඩක් දේවල් කිව්වා.###Statement
+ඔයා මෙහෙද ජීවත් වෙන්නේ?###Yes-No Question
+ඔව්.###Yes Answers
+ඇයි ජුන් සූ, යුමීගෙන් වෙන්වෙන්න හදන්නේ?###Open Question
+වෙන්වෙන්න?###Backchannel Question
+ඔයා මොනාවත් දන්ේ නැද්ද?###Yes-No Question
+ඔයාට මොකද වුනේ?###Open Question
+ඔයා දන්නවද දැන් යුමී ඉන්නේ කොයි වගේ තත්වයකද කියලා?###Yes-No Question
+ඔයා කොහොමද එයාට මෙහෙම කළේ?###Open Question
+එයා අමාරුවෙලා ඉස්පිරිතාලේ ඉඳිද්දිත් ඔයා කොහොමද එයාව බලන්න නෑවිත් හිටියේ?###Open Question
+එයාට හුඟක් අමාරුද?###Yes-No Question
+මට සමාවෙන්න.###Apology
+ඔයා කලින් මම දැනගෙන හිටිපු කෙනා නෙවෙයි නේද?###Yes-No Question
+කොහොමද මෙහෙම කරන්නේ?###Open Question
+වෙන ගෑණියෙක් ඉන්නවද?###Yes-No Question
+ඔයා ඇත්තටම යුමීගෙන් වෙන්වුනාද?###Yes-No Question
+ඇයි?###Backchannel Question
+මම වෙන කෙනෙක්ට ආදරේ කරනවා.###Back-channel/Acknowledge
+මගේ අම්මා මෙහෙ ආවා නේද?###Yes-No Question
+ඔව්.###Yes Answers
+මොනවද එයා කිව්වේ?###Open Question
+ඔයත් හිටියද?###Yes-No Question
+ඔයයි, ජුන් සූයි රණ්ඩු වුනාද?###Yes-No Question
+ඒක ලොකු රණ්ඩුවක් නෙවෙයි.###Back-channel/Acknowledge
+ඒත් මම හිතුවේ නෑ අම්මා එයි කියලා එයාව හම්බවෙන්න.###Statement
+ඉන් සූ.###Conventional Opening
+මට ඔයා උදව් කරන්න ඕනේ.###Statement
+ඔයාට පුළුවන් මට උදව් කරන්න.###Statement
+මට උදව් කරන්න පුළුවන් එකම කෙනාත් ඔයයි.###Statement
+ජුන් සූ ඔයා වෙනුවෙන් ඕනම දෙයක් කරයි.###Statement
+එයාට ඔයා හරි වටිනවා.###Statement
+ඒ නිසා මට උදව් කරන්න.###Request/Command/Order
+මම පුංචි කාලේ ඉඳංම ලෙඩෙක්.###Statement
+මට යාළුවෝ එච්චර හිටියෙත් නෑ.###Statement
+මම දන්නවා මට ජුන් සූ වෙනුවෙන් මහ දෙයක් කරන්න බෑ කියලා.###Statement
+ඒ වගේම මටත් කීප වතාවක්ම හිතිලා තියෙනවා එයාගෙන් වෙන්වෙන්න.###Statement
+ඒත් දැන් මම දන්නවා.###Statement
+මට ජුන් සූ නැතුව ඉන්න බෑ.###Statement
+මම දන්නවා ජුන් සූ මට දක්වන්නේ සාමාන්‍ය ආදරයක් බව.###Statement
+ඒ බව දැන දැනත් මට ඕන එයා වෙනුවෙන්ම ජීවත් වෙන්නයි.###Statement
+මට සමාවෙන්න.###Apology
+එහෙම කියන්න එපා.###Request/Command/Order
+එපා.###Request/Command/Order
+ඔයා ජුන් සූ එක්ක දිගටම නැවතුනොත්, අම්මාව ඔයාට මුනගැහෙන එක වලක්වන්න බෑ.###Statement
+මට බයයි එයා ආපහු ලෙඩ වෙයි කියලා.###Statement
+මට දැන් ඔයා නැති ජීවිතයක් ගැන හිතන්න බෑ.###Statement
+මට තවත් බලං ඉන්න ඉඩතියන්න එපා.###Request/Command/Order
+මගේ ජීවිතේට එන්න.###Request/Command/Order
+මා එක්ක ඉන්න.###Request/Command/Order
+මම ජුන් සූගෙන් කීපවතාවක්ම වෙන්වෙන්නත් ගියා.###Statement
+ඒත් දැන් මම දන්නවා.###Statement
+මට එයා නැතුව ජීවත්වෙන්න බෑ.###Statement
+මොකද වුනේ?###Open Question
+මම ලැජ්ජාව අඳුරන්නේ නෑ.###Statement
+ඒ නිසා අනිත් අයට මොන හෙණ ගෙඩිය පාත්වුනත්, මට ඕන දේ මම කොහොමහරි ගන්න පුරුදු වුනා.###Statement
+්මම අකමැති දේවල් විනාශ කරන්නත් මම පුරුදු වුනා.###Statement
+ඇයි ඔයා මට අවස්ථාවක් දීලා බලන්නේ නැත්තේ?###Open Question
+මාව විශ්වාස කරන්න ඔයාට බැරිවෙන එකක් නෑ.###Statement
+මම තවම දන්නේ නෑ එයා හොඳ කෙනෙක්ද, නැද්ද කියලා.###Statement
+ඒත් එයා කියනවා මට ඇත්තටම ආදරෙයිලූ.###Statement
+මට කැමති කෙනෙක්ව මුනගැහුනේ සෑහෙන කාලෙතට පස්සෙයි.###Statement
+ඔයා ඇරෙන්න වෙන කවුරුත් හිටියේ නෑ.###Statement
+ඔයයි, යුමියි එකට ඉන්නකොට හරිම ලස්සනයි.###Statement
+මට ඕනේ ඔයා තරම්ම සතුටින් ඉන්නයි.###Statement
+ඔයාට මං ගැන සතුටුයි නේද?###Yes-No Question
+කරුණාකරලා හැන් අධ්‍යඬකුමාට උදව් කරන්න.###Request/Command/Order
+එයා තවම ලාබාලයි.###Statement
+ව්‍යාපාර කළමනාකරණය ගැන මෙලෝ හසරක් දන්නේ නෑ.###Statement
+ඒ මොනවා වුනත් මොකද?###Open Question
+ඇයි මේ කෑම මෙච්චරම නීරස?###Open Question
+ඔයාට කෑම ගැන ප‍්‍රශ්නයක් නැද්ද?###Yes-No Question
+එයා තමයි ගෙදර දඟකාරයා.###Statement
+අපි අපේ සාඛච්චාව කරගෙන යමු.###Statement
+හෝටලයේ කාමර කලින් වෙන්කරවා ගැනීම්වල අනුපාතය එන්න එන්නම අඩුවෙනවා.###Statement
+ඒ ගැන.###Statement
+ඇයි ඔයා අතුරුපසටත් අකමැතිද?###Yes-No Question
+කාන්තා පාර්ශවය දැන් දැන් ගොල්ෆ් ගහන්න මෙහෙ එන ප‍්‍රවනතාවයක් තියෙනවා.###Statement
+ඒ අයටත් ගැලපෙන විදියට අපි අලෙවිකරණ සැලැස්මක් නිර්මාණය කරන්න ඕනේ.###Statement
+අඩුගානේ යම්කිසි කාල පරාසයක් අනුව ඒගොල්ලන්ටත් මූලිකත්වය දෙන්න ඕනේ.###Statement
+ඒගොල්ලන්ගෙන් වැඩි හරියක් විනෝදයට වගේ ගොල්ෆ් ගහන්න එන අය.###Statement
+පිරිමි වගේ නෙවෙයි.###Statement
+ඒගොල්ලන්ට විශේෂිත වූ සැලැස්මක් අවශ්‍යයි.###Statement
+අපේ දේපල පරිශ‍්‍රයේ තිබුනු හුගක් අඩුපාඩු මම හඳුනාගත්තා.###Statement
+ඒ අතරින් ප‍්‍රධානතම අඩුපාඩු මේකේ ලියලා තියෙනවා.###Statement
+අපේ කෑම ගැනත් හුඟාක් නරක චෝදනා එල්ලවෙනවා.###Statement
+ඒක මෙහෙ එන අමුත්තන්ගේ අඩුවීමට සෘජුවම බලපාලා තියෙනවා.###Statement
+කරුණාකරලා පළවෙනි පිටුව පෙරළන්න.###Request/Command/Order
+මොකද?###Open Question
+ඔයා අතනදි කරපු දේවල් නම් මාරයි.###Back-channel/Acknowledge
+මොකක්ද මේ පෙරළිය?###Open Question
+මම හොඳවේගෙන එනවා.###Statement
+මම මගේ නෝනටයි, බබාලටයි හොඳ හයියක් වෙන්න ඕනේ.###Statement
+ඔයා එන්නේ නැද්ද?###Yes-No Question
+හරි.###Back-channel/Acknowledge
+පස්සේ හම්බවෙමු.###Conventional Closing
+මොකක්ද ඔයා අර කිව්වේ?###Open Question
+ඒ ඉන් සූ ගැනද?###Yes-No Question
+මම යනවා.###Statement
+හරි.###Back-channel/Acknowledge
+මම අද එනවාමයි.###Statement
+ඉන් සූ?###Statement
+නැතුව නැතුව.###Statement
+පස්සේ හම්බවෙමු.###Conventional Closing
+හිනාවෙන්න එපා.###Request/Command/Order
+ටිකක් ඉවසලා බලමුකෝ.###Statement
+බෝලේ ටිකක් ගෙනත් දෙනවද?###Yes-No Question
+මේක හරි ගණන් ඇති නේද?###Yes-No Question
+මගේ අම්මා මට කියලා දීලා තියෙනවා තැග්ගක වටිනාකම සල්ලි වලින් මනින්න එපා කියලා.###Statement
+කෝ බලන්න.###Request/Command/Order
+මම ඒක දාන්නම්.###Statement
+මම ඔයාට හොඳට සලකන්නම්.###Statement
+මම හොඳ කෙනෙක් වෙනවා.###Statement
+මම උපරිමයෙන් උත්සාහ කරනවා.###Statement
+මම ඔයා හිතන විදියෙම කෙනෙක් වෙන්නම්.###Statement
+මම අද රැස්වීමකටත් සහභාගි වුනා.###Statement
+ඒක හොඳට කෙරීගෙන ගියා.###Statement
+මට සමාවෙන්න.###Apology
