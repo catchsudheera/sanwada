@@ -148,7 +148,8 @@ public class FeatureSet01 {
             initTrainingSet(trainingFile);
             initTestingSet(testingFile);
 
-            Classifier cModel =  new J48();
+            J48 cModel = new J48();
+            cModel.setUnpruned(true);
             cModel.buildClassifier(TrainingSet);
 
             Evaluation eTest = new Evaluation(TrainingSet);
