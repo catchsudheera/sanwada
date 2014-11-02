@@ -2,3 +2,4 @@ FullSet of Features > https://docs.google.com/document/d/1DNGymtz5MB6bmNZewz1MYW
 
 FeatureSets.FeatureSet01 -> number of words in the utterance, last word of the utterance.
 FeatureSets.FeatureSet02 -> number of words in the utterance, last word of the utterance, punctuation marks
+FeatureSets.FeatureSet03 -> number of words in the utterance, last word of the utterance, punctuation marks, bag-of-words
