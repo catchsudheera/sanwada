@@ -18,6 +18,7 @@ import java.util.*;
  */
 public class FeatureSet03 {
     private ArrayList<String> bow;
+    private ArrayList<String> testingUtterances=new ArrayList<String>();
 
     private HashMap<String,Integer> Statement;
     private HashMap<String,Integer> RequestCommandOrder;
@@ -139,6 +140,8 @@ public class FeatureSet03 {
 
             String[] split = line.split("###");
 
+            testingUtterances.add(split[0]+" : "+split[1]);
+
             String var = split[0].replace("?","");
             var=var.replace("!","");
             var=var.replace(".","");
@@ -184,9 +187,11 @@ public class FeatureSet03 {
 
 //            for (int i = 0; i < TestingSet.numInstances(); i++) {
 //                double pred = cModel.classifyInstance(TestingSet.instance(i));
-//                System.out.print("ID: " + TestingSet.instance(i).value(0));
-//                System.out.print(", actual: " + TestingSet.classAttribute().value((int) TestingSet.instance(i).classValue()));
-//                System.out.println(", predicted: " + TestingSet.classAttribute().value((int) pred));
+//                if (!testingUtterances.get(i).contains(TestingSet.classAttribute().value((int) pred))){
+//                    System.out.print(testingUtterances.get(i));
+//                    //System.out.print(", actual: " + TestingSet.classAttribute().value((int) TestingSet.instance(i).classValue()));
+//                    System.out.println(", predicted: " + TestingSet.classAttribute().value((int) pred));
+//                }
 //            }
 
 
