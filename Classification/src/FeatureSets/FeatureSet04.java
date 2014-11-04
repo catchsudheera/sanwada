@@ -118,9 +118,12 @@ public class FeatureSet04 {
             Instance temp = new DenseInstance(5);
 
             temp.setValue(featureVectorAttributes.get(0),words.length);
-            temp.setValue(featureVectorAttributes.get(1),getHashValue(words[words.length-1]));
+           temp.setValue(featureVectorAttributes.get(1),getHashValue(words[words.length-1]));
             temp.setValue(featureVectorAttributes.get(2),getPunctuationMark(split[0]));
-            temp.setValue(featureVectorAttributes.get(3),getBoWValue(words));
+            int BoWvalue=getBoWValue(words);
+            if(BoWvalue!=0){
+                temp.setValue(featureVectorAttributes.get(3),BoWvalue);
+            }
 
             //class value
             temp.setValue(featureVectorAttributes.get(featureVectorAttributes.size() - 1),split[1]);
@@ -153,8 +156,11 @@ public class FeatureSet04 {
             temp.setValue(featureVectorAttributes.get(0),words.length);
             temp.setValue(featureVectorAttributes.get(1),getHashValue(words[words.length-1]));
             temp.setValue(featureVectorAttributes.get(2),getPunctuationMark(split[0]));
-            temp.setValue(featureVectorAttributes.get(3),getBoWValue(words));
 
+            int BoWvalue=getBoWValue(words);
+            if(BoWvalue!=0){
+            temp.setValue(featureVectorAttributes.get(3),BoWvalue);
+            }
             //class value
             temp.setValue(featureVectorAttributes.get(featureVectorAttributes.size() - 1), split[1]);
             temp.setDataset(TestingSet);
@@ -856,7 +862,7 @@ public class FeatureSet04 {
         if(bow.contains(word)){
             tag_id=bow.indexOf(word);
             if(bow.indexOf(word)!=bow.lastIndexOf(word)){
-                tag_id=-1;
+                tag_id=0;
             }
             tag_id=(int)Math.floor(tag_id/2.0)+1;
         }else{
