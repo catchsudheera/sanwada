@@ -14,7 +14,17 @@ public class FeatureTest {
         FeatureSet02 s2=  new FeatureSet02();
         s2.classify(trainingDataFileLocation,testingDataFileLocation);
 
+        FeatureSetD01 s3=  new FeatureSetD01();
+        s3.classify(trainingDataFileLocation,testingDataFileLocation);
 
+        FeatureSetD02 s4=  new FeatureSetD02();
+        s4.classify(trainingDataFileLocation,testingDataFileLocation);
+
+        FeatureSetD03 s5=  new FeatureSetD03();
+        s5.classify(trainingDataFileLocation,testingDataFileLocation);
+
+        FeatureSetD04 s6=  new FeatureSetD04();
+        s6.classify(trainingDataFileLocation,testingDataFileLocation);
 
 
     }
