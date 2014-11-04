@@ -1,8 +1,19 @@
 package FeatureSets;
 
 import weka.attributeSelection.InfoGainAttributeEval;
+import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
+import weka.classifiers.bayes.NaiveBayes;
+import weka.classifiers.functions.Logistic;
+import weka.classifiers.functions.SMO;
+import weka.classifiers.functions.SimpleLogistic;
+import weka.classifiers.rules.DecisionTable;
+import weka.classifiers.rules.PART;
+import weka.classifiers.trees.DecisionStump;
+import weka.classifiers.trees.HoeffdingTree;
 import weka.classifiers.trees.J48;
+import weka.classifiers.trees.LMT;
+import weka.classifiers.trees.lmt.LogisticBase;
 import weka.core.Attribute;
 import weka.core.DenseInstance;
 import weka.core.Instance;
@@ -363,9 +374,9 @@ public class FeatureSetAll {
 //            System.out.println("previousUtterance : "+infoGainAttributeEval.evaluateAttribute(6));
 //            System.out.println("bow : "+infoGainAttributeEval.evaluateAttribute(7));
 
-            System.out.println("recall : "+eTest.fMeasure(0));
-            System.out.println("precision : "+eTest.precision(0));
-            System.out.println("F-measure : "+eTest.recall(0));
+            System.out.println("recall : "+eTest.weightedRecall());
+            System.out.println("precision : "+eTest.weightedPrecision());
+            System.out.println("F-measure : "+eTest.weightedFMeasure());
             System.out.println("=====================================================================");
 
 
