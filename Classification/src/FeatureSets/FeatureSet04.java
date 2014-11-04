@@ -1,7 +1,12 @@
 package FeatureSets;
 
+import weka.attributeSelection.InfoGainAttributeEval;
+import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
+import weka.classifiers.trees.HoeffdingTree;
 import weka.classifiers.trees.J48;
+import weka.classifiers.trees.RandomForest;
+import weka.classifiers.trees.m5.M5Base;
 import weka.core.Attribute;
 import weka.core.DenseInstance;
 import weka.core.Instance;
@@ -212,9 +217,34 @@ public class FeatureSet04 {
             String strSummary = eTest.toSummaryString();
             System.out.println(strSummary);
 
-            System.out.println("F-measure : "+eTest.fMeasure(0));
+            System.out.println("F-measure : "+eTest.weightedFMeasure());
+            System.out.println("precision : "+eTest.weightedPrecision());
+            System.out.println("recall : "+eTest.weightedRecall());
             System.out.println("=====================================================================");
 
+//            InfoGainAttributeEval infoGainAttributeEval = new InfoGainAttributeEval();
+//            infoGainAttributeEval.buildEvaluator(TrainingSet);
+//            double v = infoGainAttributeEval.evaluateAttribute(0);
+//            System.out.print(featureVectorAttributes.get(0).name()+"\t\t");
+//            System.out.println(v);
+//
+//            infoGainAttributeEval = new InfoGainAttributeEval();
+//            infoGainAttributeEval.buildEvaluator(TrainingSet);
+//             v = infoGainAttributeEval.evaluateAttribute(1);
+//            System.out.print(featureVectorAttributes.get(1).name()+"\t\t");
+//            System.out.println(v);
+//
+//            infoGainAttributeEval = new InfoGainAttributeEval();
+//            infoGainAttributeEval.buildEvaluator(TrainingSet);
+//             v = infoGainAttributeEval.evaluateAttribute(2);
+//            System.out.print(featureVectorAttributes.get(2).name()+"\t\t");
+//            System.out.println(v);
+//
+//            infoGainAttributeEval = new InfoGainAttributeEval();
+//            infoGainAttributeEval.buildEvaluator(TrainingSet);
+//             v = infoGainAttributeEval.evaluateAttribute(3);
+//            System.out.print(featureVectorAttributes.get(3).name()+"\t\t");
+//            System.out.println(v);
 
         } catch (Exception e) {
             e.printStackTrace();

@@ -162,7 +162,9 @@ public class FeatureSet01 {
             String strSummary = eTest.toSummaryString();
             System.out.println(strSummary);
 
-            System.out.println("F-measure : "+eTest.fMeasure(0));
+            System.out.println("F-measure : "+eTest.weightedFMeasure());
+            System.out.println("precision : "+eTest.weightedPrecision());
+            System.out.println("recall : "+eTest.weightedRecall());
             System.out.println("=====================================================================");
 
 
