@@ -4,4 +4,5 @@ FeatureSets.FeatureSet01 -> number of words in the utterance, last word of the u
 FeatureSets.FeatureSet02 -> number of words in the utterance, last word of the utterance, punctuation marks
 FeatureSets.FeatureSet03 -> number of words in the utterance, last word of the utterance, punctuation marks, bag-of-words
 FeatureSets.FeatureSet04 -> number of words in the utterance, last word of the utterance, punctuation marks, bag-of-words of last word of an utterance
+FeatureSets.FeatureSet05 -> last word of the utterance, previous dialogue act
 
