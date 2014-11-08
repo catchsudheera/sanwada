@@ -11,10 +11,9 @@ import weka.classifiers.rules.DecisionTable;
 import weka.classifiers.rules.PART;
 import weka.classifiers.trees.*;
 import weka.classifiers.trees.lmt.LogisticBase;
-import weka.core.Attribute;
-import weka.core.DenseInstance;
-import weka.core.Instance;
-import weka.core.Instances;
+import weka.core.*;
+import weka.filters.Filter;
+import weka.filters.unsupervised.attribute.StringToWordVector;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -47,7 +46,7 @@ public class FeatureSetAll {
     private HashMap<String,Integer> ConventionalOpening;
     private HashMap<String,Integer> BackchannelQuestion;
 
-    Attribute segmentLength,lastWord,punctuationMark,lastletter,cuephrases, verb, previousDialogueAct, bowCount;
+    Attribute segmentLength,lastWord,punctuationMark,lastletter,cuephrases, verb, previousDialogueAct, bowCount,lineText;
     Attribute ClassAttribute;
     ArrayList<String> featureVectorClassValues;
     ArrayList<Attribute> featureVectorAttributes;
@@ -74,6 +73,7 @@ public class FeatureSetAll {
         verb = new Attribute("verb");
         previousDialogueAct = new Attribute("previousDialogueAct");
         bowCount = new Attribute("bowCount");
+        lineText = new Attribute("lineText", (FastVector)null);
 
         //predefined verbs
         verbs= Arrays.asList(verbslist.split(", "));
@@ -108,8 +108,8 @@ public class FeatureSetAll {
         featureVectorAttributes.add(lastletter);
         featureVectorAttributes.add(cuephrases);
         featureVectorAttributes.add(verb);
-//        featureVectorAttributes.add(previousDialogueAct);
-//        featureVectorAttributes.add(bowCount);
+        featureVectorAttributes.add(lineText);
+
         //class
         featureVectorAttributes.add(ClassAttribute);
 
@@ -176,7 +176,7 @@ public class FeatureSetAll {
                 cueval+=512;
             }
 
-            Instance temp = new DenseInstance(7);
+            Instance temp = new DenseInstance(8);
 
             temp.setValue(featureVectorAttributes.get(0),words.length);
             temp.setValue(featureVectorAttributes.get(1),getHashValue(words[words.length-1]));
@@ -203,20 +203,7 @@ public class FeatureSetAll {
                 temp.setValue(featureVectorAttributes.get(5),0);
             }
 
-//            //update previous dialogue act value
-//            if(split[1].equalsIgnoreCase("Open Question")){
-//                previosDialogueAct = 1;
-//            }
-//            else if(split[1].equalsIgnoreCase("Yes-No Question")){
-//                previosDialogueAct = 2;
-//            }
-//            else{
-//                previosDialogueAct = 0;
-//            }
-//            if(previosDialogueAct!=0)
-//                setPreviosDialogueAct(previosDialogueAct);
-//            temp.setValue(featureVectorAttributes.get(6),previosDialogueAct);
-//            temp.setValue(featureVectorAttributes.get(7),getBoWValue(words));
+            temp.setValue(featureVectorAttributes.get(6),var);
 
             //class value
             temp.setValue(featureVectorAttributes.get(featureVectorAttributes.size() - 1),split[1]);
@@ -271,7 +258,7 @@ public class FeatureSetAll {
             if(wordlist.contains("එනිසා") || wordlist.contains("එබැවින්")){
                 cueval+=512;
             }
-            Instance temp = new DenseInstance(7);
+            Instance temp = new DenseInstance(8);
 
             temp.setValue(featureVectorAttributes.get(0),words.length);
             temp.setValue(featureVectorAttributes.get(1),getHashValue(words[words.length-1]));
@@ -298,20 +285,7 @@ public class FeatureSetAll {
                 temp.setValue(featureVectorAttributes.get(5),0);
             }
 
-//            //update previous dialogue act value
-//            if(split[1].equalsIgnoreCase("Open Question")){
-//                previosDialogueAct = 1;
-//            }
-//            else if(split[1].equalsIgnoreCase("Yes-No Question")){
-//                previosDialogueAct = 2;
-//            }
-//            else{
-//                previosDialogueAct = 0;
-//            }
-//            if(previosDialogueAct!=0)
-//                setPreviosDialogueAct(previosDialogueAct);
-//            temp.setValue(featureVectorAttributes.get(6),previosDialogueAct);
-//            temp.setValue(featureVectorAttributes.get(7),getBoWValue(words));
+            temp.setValue(featureVectorAttributes.get(6),var);
 
             //class value
             temp.setValue(featureVectorAttributes.get(featureVectorAttributes.size() - 1), split[1]);
@@ -336,19 +310,24 @@ public class FeatureSetAll {
             initiateBagOfWords(testingFile);
             initTestingSet(testingFile);
 
+            StringToWordVector filter = new StringToWordVector();
+            int[] indices= new int[1];
+            indices[0]=6;
+            filter.setAttributeIndicesArray(indices);
+            filter.setInputFormat(TrainingSet);
+            filter.setWordsToKeep(6);
+            filter.setDoNotOperateOnPerClassBasis(false);
+            filter.setTFTransform(true);
+            filter.setOutputWordCounts(true);
+
+            TrainingSet = Filter.useFilter(TrainingSet, filter);
+            TestingSet = Filter.useFilter(TestingSet, filter);
+
+
 
             Classifier cModel = (Classifier)new J48();
-            //cModel.setUnpruned(true);
             cModel.buildClassifier(TrainingSet);
 
-//            for (int i = 0; i < TestingSet.numInstances(); i++) {
-//                double pred = cModel.classifyInstance(TestingSet.instance(i));
-//                if (!testingUtterances.get(i).contains(TestingSet.classAttribute().value((int) pred))){
-//                    System.out.print(testingUtterances.get(i));
-//                    //System.out.print(", actual: " + TestingSet.classAttribute().value((int) TestingSet.instance(i).classValue()));
-//                    System.out.println(", predicted: " + TestingSet.classAttribute().value((int) pred));
-//                }
-//            }
 
             Evaluation eTest = new Evaluation(TrainingSet);
             eTest.evaluateModel(cModel, TestingSet);
