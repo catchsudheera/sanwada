@@ -20,6 +20,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.*;
 
 /**
@@ -362,14 +363,11 @@ public class FeatureSetAll {
             InfoGainAttributeEval infoGainAttributeEval = new InfoGainAttributeEval();
             infoGainAttributeEval.buildEvaluator(TrainingSet);
 
-            System.out.println("segmentLength : "+infoGainAttributeEval.evaluateAttribute(0));
-            System.out.println("lastWord : "+infoGainAttributeEval.evaluateAttribute(1));
-            System.out.println("punctuationMark : "+infoGainAttributeEval.evaluateAttribute(2));
-            System.out.println("lastletter : "+infoGainAttributeEval.evaluateAttribute(3));
-            System.out.println("cuephrases : "+infoGainAttributeEval.evaluateAttribute(4));
-            System.out.println("verb : "+infoGainAttributeEval.evaluateAttribute(5));
-//            System.out.println("previousUtterance : "+infoGainAttributeEval.evaluateAttribute(6));
-//            System.out.println("bow : "+infoGainAttributeEval.evaluateAttribute(7));
+            for (int i = 0; i <featureVectorAttributes.size()-1; i++) {
+                double v = infoGainAttributeEval.evaluateAttribute(i);
+                System.out.print(i+" "+featureVectorAttributes.get(i).name()+"\t\t");
+                System.out.println(v);
+            }
 
             System.out.println("=====================================================================");
 
@@ -384,12 +382,57 @@ public class FeatureSetAll {
             System.out.println("F-measure : "+Math.round(eTest.weightedFMeasure() * 100.0) / 100.0);
             System.out.println("=====================================================================");
 
+            printErrors(cModel);
+
 
         } catch (Exception e) {
             e.printStackTrace();
         }
 
     }
+
+    void printErrors(Classifier cModel) throws Exception {
+
+        HashMap<String,Integer> errorMap = new HashMap<String, Integer>();
+        HashMap<Double,String> errorMap2 = new HashMap<Double,String>();
+        int total_errors=0;
+        for (int i = 0; i < TestingSet.numInstances(); i++) {
+            double pred = cModel.classifyInstance(TestingSet.instance(i));
+            if (TestingSet.get(i).classValue()!=pred){
+                total_errors++;
+                String key="actual: " + featureVectorClassValues.get((int)TestingSet.get(i).classValue())+", predicted: " + TestingSet.classAttribute().value((int) pred);
+                if(errorMap.containsKey(key)){
+                    Integer integer = errorMap.get(key);
+                    integer++;
+                    errorMap.put(key,integer);
+                }else{
+                    errorMap.put(key,1);
+                }
+            }
+        }
+
+        ArrayList<Double> list= new ArrayList<Double>();
+        for (String s : errorMap.keySet()) {
+            double d = errorMap.get(s)/1.0;
+
+            while(errorMap2.containsKey(d)){
+                d+=0.01;
+            }
+            DecimalFormat df = new DecimalFormat("#.##");
+            df.format(d);
+            list.add(d);
+            errorMap2.put(d, s);
+        }
+
+        Collections.sort(list);
+        Collections.reverse(list);
+
+        for (Object o : list) {
+            DecimalFormat df = new DecimalFormat("#.#");
+            System.out.println(df.format(Math.floor((Double) o)*100/total_errors)+"%"+"\t\t"+errorMap2.get((Double)o));
+        }
+    }
+
 
     private int getHashValue(String word){
 
