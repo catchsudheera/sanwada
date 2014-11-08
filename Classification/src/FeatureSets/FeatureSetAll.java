@@ -9,10 +9,7 @@ import weka.classifiers.functions.SMO;
 import weka.classifiers.functions.SimpleLogistic;
 import weka.classifiers.rules.DecisionTable;
 import weka.classifiers.rules.PART;
-import weka.classifiers.trees.DecisionStump;
-import weka.classifiers.trees.HoeffdingTree;
-import weka.classifiers.trees.J48;
-import weka.classifiers.trees.LMT;
+import weka.classifiers.trees.*;
 import weka.classifiers.trees.lmt.LogisticBase;
 import weka.core.Attribute;
 import weka.core.DenseInstance;
@@ -339,8 +336,8 @@ public class FeatureSetAll {
             initTestingSet(testingFile);
 
 
-            J48 cModel = new J48();
-            cModel.setUnpruned(true);
+            Classifier cModel = (Classifier)new J48();
+            //cModel.setUnpruned(true);
             cModel.buildClassifier(TrainingSet);
 
 //            for (int i = 0; i < TestingSet.numInstances(); i++) {
@@ -374,9 +371,17 @@ public class FeatureSetAll {
 //            System.out.println("previousUtterance : "+infoGainAttributeEval.evaluateAttribute(6));
 //            System.out.println("bow : "+infoGainAttributeEval.evaluateAttribute(7));
 
+            System.out.println("=====================================================================");
+
             System.out.println("recall : "+eTest.weightedRecall());
             System.out.println("precision : "+eTest.weightedPrecision());
             System.out.println("F-measure : "+eTest.weightedFMeasure());
+
+            System.out.println("================= Rounded Values =========================");
+
+            System.out.println("recall : "+Math.round(eTest.weightedRecall() * 100.0) / 100.0);
+            System.out.println("precision : "+Math.round(eTest.weightedPrecision() * 100.0) / 100.0);
+            System.out.println("F-measure : "+Math.round(eTest.weightedFMeasure() * 100.0) / 100.0);
             System.out.println("=====================================================================");
 
 
