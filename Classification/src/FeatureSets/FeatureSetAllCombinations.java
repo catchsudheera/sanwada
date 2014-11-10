@@ -32,10 +32,12 @@ public class FeatureSetAllCombinations {
     int hashval=0;
     int cueval=0;
     Set<String> attributeNameSet = new HashSet<String>();
-
+    ArrayList<Double> accuracyList = new ArrayList<Double>();
+    Map<Double,String> accuracyAttributeMap = new HashMap<Double, String>();
 
     String verbslist="හොයන්න, හැරෙනවා, ඉන්නකෝ, යොදාගන්න, නඟිනවා, නමපන්, ජීවත්වෙන්න, එනවා, උගන්නන්න, ඉඩතියන්න, අදින්න, දියල්ලා, ගන්න, දකින්න, දෙන්න, බැහැපං, හිතන්න, ඇවිදින්න, හිටහන්, කරන්න පටංගත්තොත්, නැවතියන්, නැඟිටින්න, ඉන්න, දීපන්, එන්න, නැගිටිනවා, කියපං, වරෙල්ලා, පලයං, දාන්න, දුවපන්, පැදපන්, සංතෝෂවෙයල්ලා, කතාබහකරන්න, ඇඳගන්න, ගොඩඑන්න, දුවපල්ලා, අල්ලන්න, පෙරළන්න, ඇරපන්, බලාගන්න, එවන්න, නවත්වනවා, දීපල්ලා, ගේන්න, බලමු, නගින්න, බහින්න, අස්කරගන්න, කරනවා, දෙනවා, නවත්තන්න, දුක්වෙන්න, යන්නකෝ, මරන්න, යමල්ලා, යවන්න, ඔබන්න, හිටගන්නවා, කියන්නකෝ, තේරුම්ගන්න, කාපන්, වහගන්නවා, අරගන්න, වෙනවා, යමන්, එන්න ඇතුලට, කරන්න, වරෙන්,, තියන්න, නිදාගන්න, ඉන්නවා, ගේ්න්න, ගැටගහන්න, කතාකරන්න, කියපන්, කරගන්න,ලිහන්න, මනින්න, වෙන්න, රවට්ටන්න, අඬන්න, හිටපං, දාපන්, අහන්න, හිනාවෙන්න, අරිනවා, වාඩිවෙන්න, උස්සන්න, දුවන්න, හරිගස්සන්න, ගහගන්න, වෙනවා,වදවෙන්න, අරින්න, නගිනවා, නැගිට්ටවන්න, පලයල්ලා, ගෙනියන්න, වෙයල්ලා, නිදාගනින්, වාඩිවෙන්න,වෙන්න, වක්කරපන්, බේරගන්න, වරෙන්, දියන්, වදවෙන්න, බයවෙන්න, පලයන්, පුහුණුවෙන්න, ඉවසන්න, ගහන්න, ඉදපන්, හිටපන්, නැඟිටපල්ලා, දාන්න, හිටපංකෝ, බලන්න, කන්න, ගනින්, ඉඩදෙන්න, පෙන්වන්න, කරහන්, අහන්නකෝ, මැරියන්, තියාගන්න, පටන්ගන්න, දාගන්න, උඩින් තියන්න, කියන්න, යන්න, නවතින්න, නඟින්න, එකතුවෙන්න, කරපන්, එන්නකෝ, යනවා, අතදාන්න, කරගන්න, අල්ලගන්න, වෙයන්, හිතන්න, විවේකගනින්, වරෙව්, නැඟිටපන්, කඩන්න";
     List<String> verbs;
+    private int gl_count=1;
 
     public FeatureSetAllCombinations(){
 
@@ -328,6 +330,17 @@ public class FeatureSetAllCombinations {
             e.printStackTrace();
         }
 
+        System.out.println("Results : ");
+
+
+        Collections.sort(accuracyList);
+        for(Double d : accuracyList){
+            String temp=accuracyAttributeMap.get(d);
+            for(String s:temp.split("@@@")){
+                System.out.println(d+"%"+"\t"+s);
+            }
+        }
+
 
     }
 
@@ -395,25 +408,36 @@ public class FeatureSetAllCombinations {
 
             //print out the results
             System.out.println("========================================================================================");
-            System.out.print("Results for ");
-            System.out.print("[");
+            //System.out.print("Results for ");
 
             Enumeration<Attribute> attributeEnumeration = TrainingSet.enumerateAttributes();
+            String ngram_str="";
+            String bow_str="";
+            String attLine="[";
 
             while(attributeEnumeration.hasMoreElements()){
                 String attname=attributeEnumeration.nextElement().name();
                 if(attname.equalsIgnoreCase("theClass")){
                     continue;
                 }
-                if(attname.contains("Attr")){
-                    break;
+                if(attname.contains("nGramAttr")){
+                    ngram_str="ngrams, ";
+                    continue;
                 }
-                System.out.print(attname);
-                System.out.print(", ");
 
+                if(attname.contains("bagOfWordsAttr")){
+                    bow_str="bagOfWords, ";
+                    continue;
+                }
+                attLine+=attname;
+                attLine+=", ";
             }
-            System.out.print("]");
-            System.out.println();
+            attLine+=ngram_str;
+            attLine+=bow_str;
+            attLine = attLine.substring(0, attLine.length() - 2);
+            attLine+="]";
+            System.out.print(gl_count++ + " Testing for :");
+            System.out.println(attLine+"......");
 
             if(fullDetails){
 
@@ -444,8 +468,18 @@ public class FeatureSetAllCombinations {
                 System.out.println("F-measure : "+df.format(eTest.weightedFMeasure()));
             }else{
                 DecimalFormat df = new DecimalFormat("#.###");
-                System.out.print(df.format(eTest.pctCorrect()));
-                System.out.println("%");
+                double prece = eTest.pctCorrect();
+                //System.out.print(df.format(prece));
+                //System.out.println("%");
+                accuracyList.add(prece);
+                if(accuracyAttributeMap.containsKey(prece)){
+                    String temp=accuracyAttributeMap.get(prece);
+                    temp+="@@@"+attLine;
+                    accuracyAttributeMap.put(prece,temp);
+                }else{
+                    accuracyAttributeMap.put(prece,attLine);
+                }
+
             }
 
             System.out.println("========================================================================================");
