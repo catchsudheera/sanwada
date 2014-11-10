@@ -330,14 +330,18 @@ public class FeatureSetAllCombinations {
             e.printStackTrace();
         }
 
+        System.out.println();
+        System.out.println();
         System.out.println("Results : ");
 
 
         Collections.sort(accuracyList);
+        Collections.reverse(accuracyList);
+        DecimalFormat df = new DecimalFormat("#.###");
         for(Double d : accuracyList){
             String temp=accuracyAttributeMap.get(d);
             for(String s:temp.split("@@@")){
-                System.out.println(d+"%"+"\t"+s);
+                System.out.println(df.format(d)+"%"+"\t"+s);
             }
         }
 
