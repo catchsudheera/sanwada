@@ -3,7 +3,10 @@ package FeatureSets;
 import weka.attributeSelection.InfoGainAttributeEval;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
+import weka.classifiers.rules.PART;
 import weka.classifiers.trees.J48;
+import weka.classifiers.trees.REPTree;
+import weka.classifiers.trees.RandomForest;
 import weka.core.*;
 import weka.core.tokenizers.NGramTokenizer;
 import weka.filters.Filter;
@@ -338,7 +341,12 @@ public class FeatureSetAllCombinations {
         Collections.sort(accuracyList);
         Collections.reverse(accuracyList);
         DecimalFormat df = new DecimalFormat("#.###");
+        Double d_old=-0.01;
         for(Double d : accuracyList){
+            if(d==d_old){
+                continue;
+            }
+            d_old=d;
             String temp=accuracyAttributeMap.get(d);
             for(String s:temp.split("@@@")){
                 System.out.println(df.format(d)+"%"+"\t"+s);
