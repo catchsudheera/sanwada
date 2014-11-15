@@ -13,10 +13,7 @@ import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.Remove;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.text.DecimalFormat;
 import java.util.*;
 
@@ -35,8 +32,11 @@ public class FeatureSetAllCombinations {
     int hashval=0;
     int cueval=0;
     Set<String> attributeNameSet = new HashSet<String>();
-    ArrayList<Double> accuracyList = new ArrayList<Double>();
-    Map<Double,String> accuracyAttributeMap = new HashMap<Double, String>();
+    ArrayList<Double> accuracyList;
+    Map<Double,String> accuracyAttributeMap;
+    Map<String,String> attributeFmeasureMAp;
+    Map<String,String> attributeRecallMAp;
+    Map<String,String> attributePrecisionMAp;
 
     String verbslist="හොයන්න, හැරෙනවා, ඉන්නකෝ, යොදාගන්න, නඟිනවා, නමපන්, ජීවත්වෙන්න, එනවා, උගන්නන්න, ඉඩතියන්න, අදින්න, දියල්ලා, ගන්න, දකින්න, දෙන්න, බැහැපං, හිතන්න, ඇවිදින්න, හිටහන්, කරන්න පටංගත්තොත්, නැවතියන්, නැඟිටින්න, ඉන්න, දීපන්, එන්න, නැගිටිනවා, කියපං, වරෙල්ලා, පලයං, දාන්න, දුවපන්, පැදපන්, සංතෝෂවෙයල්ලා, කතාබහකරන්න, ඇඳගන්න, ගොඩඑන්න, දුවපල්ලා, අල්ලන්න, පෙරළන්න, ඇරපන්, බලාගන්න, එවන්න, නවත්වනවා, දීපල්ලා, ගේන්න, බලමු, නගින්න, බහින්න, අස්කරගන්න, කරනවා, දෙනවා, නවත්තන්න, දුක්වෙන්න, යන්නකෝ, මරන්න, යමල්ලා, යවන්න, ඔබන්න, හිටගන්නවා, කියන්නකෝ, තේරුම්ගන්න, කාපන්, වහගන්නවා, අරගන්න, වෙනවා, යමන්, එන්න ඇතුලට, කරන්න, වරෙන්,, තියන්න, නිදාගන්න, ඉන්නවා, ගේ්න්න, ගැටගහන්න, කතාකරන්න, කියපන්, කරගන්න,ලිහන්න, මනින්න, වෙන්න, රවට්ටන්න, අඬන්න, හිටපං, දාපන්, අහන්න, හිනාවෙන්න, අරිනවා, වාඩිවෙන්න, උස්සන්න, දුවන්න, හරිගස්සන්න, ගහගන්න, වෙනවා,වදවෙන්න, අරින්න, නගිනවා, නැගිට්ටවන්න, පලයල්ලා, ගෙනියන්න, වෙයල්ලා, නිදාගනින්, වාඩිවෙන්න,වෙන්න, වක්කරපන්, බේරගන්න, වරෙන්, දියන්, වදවෙන්න, බයවෙන්න, පලයන්, පුහුණුවෙන්න, ඉවසන්න, ගහන්න, ඉදපන්, හිටපන්, නැඟිටපල්ලා, දාන්න, හිටපංකෝ, බලන්න, කන්න, ගනින්, ඉඩදෙන්න, පෙන්වන්න, කරහන්, අහන්නකෝ, මැරියන්, තියාගන්න, පටන්ගන්න, දාගන්න, උඩින් තියන්න, කියන්න, යන්න, නවතින්න, නඟින්න, එකතුවෙන්න, කරපන්, එන්නකෝ, යනවා, අතදාන්න, කරගන්න, අල්ලගන්න, වෙයන්, හිතන්න, විවේකගනින්, වරෙව්, නැඟිටපන්, කඩන්න";
     List<String> verbs;
@@ -290,7 +290,23 @@ public class FeatureSetAllCombinations {
 
     }
 
-    public void classify(String trainingFile,String testingFile,Boolean fullDetails,Boolean ErrorPrint) {
+    public void classify(String trainingFile,String testingFile,Boolean fullDetails,Boolean ErrorPrint,Classifier clas,PrintWriter writer) {
+
+
+        accuracyList = new ArrayList<Double>();
+        accuracyAttributeMap= new HashMap<Double, String>();
+        attributeFmeasureMAp = new HashMap<String, String>();
+        attributeRecallMAp = new HashMap<String, String>();
+        attributePrecisionMAp = new HashMap<String, String>();
+
+
+        System.out.println("############################################################################################");
+        System.out.println("################# Classifier : "+clas.getClass().getName()+"  ################################");
+        System.out.println("############################################################################################");
+
+        writer.println("############################################################################################");
+        writer.println("################# Classifier : "+clas.getClass().getName()+"  ################################");
+        writer.println("############################################################################################");
 
         try {
             initTrainingSet(trainingFile);
@@ -324,7 +340,7 @@ public class FeatureSetAllCombinations {
                 TrainingSet = Filter.useFilter(TrainingSet, rm);
                 TestingSet = Filter.useFilter(TestingSet, rm);
 
-                classifyComb(fullDetails,ErrorPrint);
+                classifyComb(fullDetails,ErrorPrint,clas);
             }
 
         } catch (IOException e) {
@@ -337,27 +353,35 @@ public class FeatureSetAllCombinations {
         System.out.println();
         System.out.println("Results : ");
 
+        writer.println();
+
 
         Collections.sort(accuracyList);
         Collections.reverse(accuracyList);
-        DecimalFormat df = new DecimalFormat("#.###");
+        DecimalFormat df = new DecimalFormat("#.##");
         Double d_old=-0.01;
+        ArrayList<Double> printList = new ArrayList<Double>();
         for(Double d : accuracyList){
-            if(d==d_old){
+            if(printList.contains(d)){
                 continue;
             }
-            d_old=d;
+            printList.add(d);
             String temp=accuracyAttributeMap.get(d);
             for(String s:temp.split("@@@")){
                 System.out.println(df.format(d)+"%"+"\t"+s);
+                writer.println(df.format(d) + "%" + "\t"+"F->"+attributeFmeasureMAp.get(s)+"\t"+"R->"+attributeRecallMAp.get(s)+"\t"+"P->"+attributePrecisionMAp.get(s) +"\t"+ s);
             }
         }
+
+        writer.flush();
+        writer.println();
+        writer.println();
 
 
     }
 
 
-    public void classifyComb(Boolean fullDetails,Boolean ErrorPrint) {
+    public void classifyComb(Boolean fullDetails,Boolean ErrorPrint,Classifier clas) {
 
         try {
 
@@ -410,7 +434,7 @@ public class FeatureSetAllCombinations {
 
 
 
-            Classifier cModel = new J48();
+            Classifier cModel = clas;
             cModel.buildClassifier(TrainingSet);
 
 
@@ -491,6 +515,10 @@ public class FeatureSetAllCombinations {
                 }else{
                     accuracyAttributeMap.put(prece,attLine);
                 }
+
+                attributeFmeasureMAp.put(attLine,df.format(eTest.weightedFMeasure()));
+                attributeRecallMAp.put(attLine,df.format(eTest.weightedRecall()));
+                attributePrecisionMAp.put(attLine,df.format(eTest.weightedPrecision()));
 
             }
 
