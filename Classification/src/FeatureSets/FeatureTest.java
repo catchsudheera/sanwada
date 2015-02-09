@@ -17,7 +17,7 @@ import java.io.PrintWriter;
 public class FeatureTest {
     final static String trainingDataFileLocation=System.getProperty("user.dir")+"/Classification/src/datafiles/train.txt";
     final static String testingDataFileLocation=System.getProperty("user.dir")+"/Classification/src/datafiles/test.txt";
-    final static String outputFileLocation=System.getProperty("user.dir")+"/Classification/src/datafiles/output.txt";
+    final static String outputFileLocation=System.getProperty("user.dir")+"/Classification/src/datafiles/singleUtterance.txt";
 
     public static void main(String[] args) throws IOException {
 //        FeatureSet01 s1=  new FeatureSet01();
@@ -47,26 +47,19 @@ public class FeatureTest {
 //        FeatureSetD04 ds6=  new FeatureSetD04();
 //        ds6.classify(trainingDataFileLocation,testingDataFileLocation);
 
-        Classifier[] classifiers = new Classifier[11];
+        Classifier[] classifiers = new Classifier[1];
 
-        classifiers[0]= new J48();
-        classifiers[1]= new RandomForest();
-        classifiers[2]= new PART();
-        classifiers[3]= new LMT();
-        classifiers[4]= new DecisionTable();
-        classifiers[5]= new SimpleLogistic();
-        classifiers[6]= new SMO();
-        classifiers[7]= new DecisionStump();
-        classifiers[8]= new NaiveBayes();
-        classifiers[9]= new HoeffdingTree();
-        classifiers[10]= new REPTree();
+//        classifiers[0]= new RandomForest();
+
 
 
         PrintWriter writer = new PrintWriter(outputFileLocation);
 
         for(Classifier c : classifiers){
-            FeatureSetAllCombinations all = new FeatureSetAllCombinations();
-            all.classify(trainingDataFileLocation, testingDataFileLocation,false,false,c,writer);
+            FeatureSetAll all1=new FeatureSetAll();
+            all1.classify(trainingDataFileLocation,testingDataFileLocation);
+//            FeatureSetAllCombinations all = new FeatureSetAllCombinations();
+//            all.classify(trainingDataFileLocation, testingDataFileLocation,false,false,c,writer);
         }
 
 

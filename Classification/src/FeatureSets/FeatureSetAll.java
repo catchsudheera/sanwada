@@ -304,10 +304,10 @@ public class FeatureSetAll {
 
         try {
 
-            initiateBagOfWords(trainingFile);
+           // initiateBagOfWords(trainingFile);
             initTrainingSet(trainingFile);
 
-            initiateBagOfWords(testingFile);
+           // initiateBagOfWords(testingFile);
             initTestingSet(testingFile);
 
             StringToWordVector filter = new StringToWordVector();
@@ -325,9 +325,11 @@ public class FeatureSetAll {
 
 
 
-            Classifier cModel = (Classifier)new J48();
+            Classifier cModel = new J48();
             cModel.buildClassifier(TrainingSet);
 
+            weka.core.SerializationHelper.write("/home/dammina/sanwada/Classification/src/datafiles/cls.model",cModel);
+            weka.core.SerializationHelper.write("/home/dammina/sanwada/Classification/src/datafiles/testingSet.model",TestingSet);
 
             Evaluation eTest = new Evaluation(TrainingSet);
             eTest.evaluateModel(cModel, TestingSet);

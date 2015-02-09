@@ -47,13 +47,13 @@ public class FeatureSetAllCombinations {
         table=new Hashtable<String,Integer>();
 
         // Declare numeric attributes
-        segmentLength = new Attribute("segmentLength");
+//        segmentLength = new Attribute("segmentLength");
         lastWord = new Attribute("lastWord");
         punctuationMark = new Attribute("punctuation");
         lastletter = new Attribute("lastletter");
         cuephrases = new Attribute("cuephrases");
-        verb = new Attribute("verb");
-        previousDialogueAct = new Attribute("previousDialogueAct");
+//        verb = new Attribute("verb");
+//        previousDialogueAct = new Attribute("previousDialogueAct");
         bagOfWords = new Attribute("bagOfWords", (FastVector)null);
         nGram = new Attribute("nGram", (FastVector)null);
 
@@ -84,12 +84,12 @@ public class FeatureSetAllCombinations {
 
         // Declare the feature vector
         featureVectorAttributes = new ArrayList<Attribute>();
-        featureVectorAttributes.add(segmentLength);
+//        featureVectorAttributes.add(segmentLength);
         featureVectorAttributes.add(lastWord);
         featureVectorAttributes.add(punctuationMark);
         featureVectorAttributes.add(lastletter);
         featureVectorAttributes.add(cuephrases);
-        featureVectorAttributes.add(verb);
+//        featureVectorAttributes.add(verb);
         featureVectorAttributes.add(bagOfWords);
         featureVectorAttributes.add(nGram);
 
@@ -168,33 +168,33 @@ public class FeatureSetAllCombinations {
 
             Instance temp = new DenseInstance(9);
 
-            temp.setValue(featureVectorAttributes.get(0),words.length);
-            temp.setValue(featureVectorAttributes.get(1),getHashValue(words[words.length-1]));
-            temp.setValue(featureVectorAttributes.get(2),getPunctuationMark(split[0]));
+//            temp.setValue(featureVectorAttributes.get(0),words.length);
+            temp.setValue(featureVectorAttributes.get(0),getHashValue(words[words.length-1]));
+            temp.setValue(featureVectorAttributes.get(1),getPunctuationMark(split[0]));
             if(lastletter=='ද'){
-                temp.setValue(featureVectorAttributes.get(3),1);
+                temp.setValue(featureVectorAttributes.get(2),1);
             }
             else{
-                temp.setValue(featureVectorAttributes.get(3),0);
+                temp.setValue(featureVectorAttributes.get(2),0);
             }
-            temp.setValue(featureVectorAttributes.get(4),cueval);
+            temp.setValue(featureVectorAttributes.get(3),cueval);
             cueval=0;
 
             //verbs
-            boolean local_flag=false;
-            for(int i=words.length-1;i>=0;i--){
-                if(verbs.contains(words[i])){
-                    temp.setValue(featureVectorAttributes.get(5),1);
-                    local_flag=true;
-                    break;
-                }
-            }
-            if(!local_flag){
-                temp.setValue(featureVectorAttributes.get(5),0);
-            }
+//            boolean local_flag=false;
+//            for(int i=words.length-1;i>=0;i--){
+//                if(verbs.contains(words[i])){
+//                    temp.setValue(featureVectorAttributes.get(5),1);
+//                    local_flag=true;
+//                    break;
+//                }
+//            }
+//            if(!local_flag){
+//                temp.setValue(featureVectorAttributes.get(5),0);
+//            }
 
-            temp.setValue(featureVectorAttributes.get(6),var);
-            temp.setValue(featureVectorAttributes.get(7),var);
+            temp.setValue(featureVectorAttributes.get(4),var);
+            temp.setValue(featureVectorAttributes.get(5),var);
 
             //class value
             temp.setValue(featureVectorAttributes.get(featureVectorAttributes.size() - 1),split[1]);
@@ -251,33 +251,33 @@ public class FeatureSetAllCombinations {
             }
             Instance temp = new DenseInstance(9);
 
-            temp.setValue(featureVectorAttributes.get(0),words.length);
-            temp.setValue(featureVectorAttributes.get(1),getHashValue(words[words.length-1]));
-            temp.setValue(featureVectorAttributes.get(2),getPunctuationMark(split[0]));
+//            temp.setValue(featureVectorAttributes.get(0),words.length);
+            temp.setValue(featureVectorAttributes.get(0),getHashValue(words[words.length-1]));
+            temp.setValue(featureVectorAttributes.get(1),getPunctuationMark(split[0]));
             if(lastletter=='ද'){
-                temp.setValue(featureVectorAttributes.get(3),1);
+                temp.setValue(featureVectorAttributes.get(2),1);
             }
             else{
-                temp.setValue(featureVectorAttributes.get(3),0);
+                temp.setValue(featureVectorAttributes.get(2),0);
             }
-            temp.setValue(featureVectorAttributes.get(4),cueval);
+            temp.setValue(featureVectorAttributes.get(3),cueval);
             cueval=0;
 
             //verbs
-            boolean local_flag=false;
-            for(int i=words.length-1;i>=0;i--){
-                if(verbs.contains(words[i])){
-                    temp.setValue(featureVectorAttributes.get(5),1);
-                    local_flag=true;
-                    break;
-                }
-            }
-            if(!local_flag){
-                temp.setValue(featureVectorAttributes.get(5),0);
-            }
+//            boolean local_flag=false;
+//            for(int i=words.length-1;i>=0;i--){
+//                if(verbs.contains(words[i])){
+//                    temp.setValue(featureVectorAttributes.get(5),1);
+//                    local_flag=true;
+//                    break;
+//                }
+//            }
+//            if(!local_flag){
+//                temp.setValue(featureVectorAttributes.get(5),0);
+//            }
 
-            temp.setValue(featureVectorAttributes.get(6),var);
-            temp.setValue(featureVectorAttributes.get(7),var);
+            temp.setValue(featureVectorAttributes.get(4),var);
+            temp.setValue(featureVectorAttributes.get(5),var);
 
             //class value
             temp.setValue(featureVectorAttributes.get(featureVectorAttributes.size() - 1), split[1]);
