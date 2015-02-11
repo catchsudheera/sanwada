@@ -47,19 +47,21 @@ public class FeatureTest {
 //        FeatureSetD04 ds6=  new FeatureSetD04();
 //        ds6.classify(trainingDataFileLocation,testingDataFileLocation);
 
-        Classifier[] classifiers = new Classifier[1];
+        Classifier[] classifiers = new Classifier[3];
 
-//        classifiers[0]= new RandomForest();
+        classifiers[0] = new RandomForest();
+        classifiers[1] = new SimpleLogistic();
+        classifiers[2] = new J48();
 
 
 
         PrintWriter writer = new PrintWriter(outputFileLocation);
 
         for(Classifier c : classifiers){
-            FeatureSetAll all1=new FeatureSetAll();
-            all1.classify(trainingDataFileLocation,testingDataFileLocation);
-//            FeatureSetAllCombinations all = new FeatureSetAllCombinations();
-//            all.classify(trainingDataFileLocation, testingDataFileLocation,false,false,c,writer);
+//            FeatureSetAll all1=new FeatureSetAll();
+//            all1.classify(trainingDataFileLocation,testingDataFileLocation);
+            FeatureSetAllCombinations all = new FeatureSetAllCombinations();
+            all.classify(trainingDataFileLocation, testingDataFileLocation,false,false,c,writer);
         }
 
 
