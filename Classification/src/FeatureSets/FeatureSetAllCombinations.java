@@ -81,12 +81,10 @@ public class FeatureSetAllCombinations {
 
         // Declare the feature vector
         featureVectorAttributes = new ArrayList<Attribute>();
-        //featureVectorAttributes.add(segmentLength);
         featureVectorAttributes.add(lastWord);
         featureVectorAttributes.add(punctuationMark);
         featureVectorAttributes.add(lastletter);
         featureVectorAttributes.add(cuephrases);
-        //featureVectorAttributes.add(verb);
         featureVectorAttributes.add(bagOfWords);
         featureVectorAttributes.add(nGram);
 
@@ -207,6 +205,7 @@ public class FeatureSetAllCombinations {
     public void classify(String trainingFile,String testingFile,Boolean fullDetails,Boolean ErrorPrint,Classifier clas,PrintWriter writer) {
 
 
+        //Instantiate All accuracy storing lists
         accuracyList = new ArrayList<Double>();
         accuracyAttributeMap= new HashMap<Double, String>();
         attributeFmeasureMAp = new HashMap<String, String>();
@@ -225,9 +224,11 @@ public class FeatureSetAllCombinations {
         try {
             initTrainingSet(trainingFile);
             initTestingSet(testingFile);
+            //save original Training Set and Testing Set
             Instances oldTrain=TrainingSet,oldTest=TestingSet;
 
 
+            //get all attributes(features) to a powerset in order to get all combinations
             Set<Set<String>> sets = powerSet(attributeNameSet);
             for (Set<String> workingSet : sets) {
                 if(workingSet.size()==0){
@@ -237,6 +238,7 @@ public class FeatureSetAllCombinations {
                 TrainingSet=oldTrain;
                 TestingSet=oldTest;
 
+                //selecting which features should be deleted from original Training and testing sets
                 int[] rmIndices = new int[attributeNameSet.size()-workingSet.size()];
                 int c=0;
                 for(String attribute : attributeNameSet ){
@@ -246,6 +248,7 @@ public class FeatureSetAllCombinations {
                     }
                 }
 
+                //create a new remover to remove attributes
                 Remove rm = new Remove();
 
                 rm.setAttributeIndicesArray(rmIndices);
@@ -254,6 +257,7 @@ public class FeatureSetAllCombinations {
                 TrainingSet = Filter.useFilter(TrainingSet, rm);
                 TestingSet = Filter.useFilter(TestingSet, rm);
 
+                //Calling classifying combinations method to store the results in accuracy lists
                 classifyComb(fullDetails,ErrorPrint,clas);
             }
 
@@ -270,10 +274,10 @@ public class FeatureSetAllCombinations {
         writer.println();
 
 
+        //Sorting the accuracyLists
         Collections.sort(accuracyList);
         Collections.reverse(accuracyList);
         DecimalFormat df = new DecimalFormat("#.##");
-        Double d_old=-0.01;
         ArrayList<Double> printList = new ArrayList<Double>();
         for(Double d : accuracyList){
             if(printList.contains(d)){
@@ -308,6 +312,7 @@ public class FeatureSetAllCombinations {
 
                 // Set the tokenizer
                 NGramTokenizer tokenizer = new NGramTokenizer();
+                //Set Ngram tokenizer to Tri-gram tokenizer
                 tokenizer.setNGramMinSize(3);
                 tokenizer.setNGramMaxSize(3);
                 tokenizer.setDelimiters("\\s+");
@@ -419,8 +424,6 @@ public class FeatureSetAllCombinations {
             }else{
                 DecimalFormat df = new DecimalFormat("#.###");
                 double prece = eTest.pctCorrect();
-                //System.out.print(df.format(prece));
-                //System.out.println("%");
                 accuracyList.add(prece);
                 if(accuracyAttributeMap.containsKey(prece)){
                     String temp=accuracyAttributeMap.get(prece);
