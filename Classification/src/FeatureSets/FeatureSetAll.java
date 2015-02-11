@@ -145,36 +145,7 @@ public class FeatureSetAll {
             //cue phrases feature value declaration
             List wordlist = Arrays.asList(words);
 
-            if(wordlist.contains("ඇත්තෙන්ම")){
-                cueval+=1;
-            }
-            if(wordlist.contains("සහ") || wordlist.contains("හා")){
-                cueval+=2;
-            }
-            if(wordlist.contains("නිසා") || wordlist.contains("හින්ද")){
-                cueval+=4;
-            }
-            if(wordlist.contains("එසේම")){
-                cueval+=8;
-            }
-            if(wordlist.contains("එභෙත්") || wordlist.contains("නමුත්")){
-                cueval+=16;
-            }
-            if(wordlist.contains("වගේ") || wordlist.contains("වැනි") || wordlist.contains("වාගේ")){
-                cueval+=32;
-            }
-            if(wordlist.contains("ඉතින්") || wordlist.contains("එවිට")){
-                cueval+=64;
-            }
-            if(wordlist.contains("හෝ")){
-                cueval+=128;
-            }
-            if(wordlist.contains("හරි")){
-                cueval+=256;
-            }
-            if(wordlist.contains("එනිසා") || wordlist.contains("එබැවින්")){
-                cueval+=512;
-            }
+            cueval = cue_phrase(wordlist);
 
             Instance temp = new DenseInstance(8);
 
@@ -228,36 +199,8 @@ public class FeatureSetAll {
             char lastletter = words[words.length-1].charAt(words[words.length-1].length()-1);
             List wordlist = Arrays.asList(words);
 
-            if(wordlist.contains("ඇත්තෙන්ම")){
-                cueval+=1;
-            }
-            if(wordlist.contains("සහ") || wordlist.contains("හා")){
-                cueval+=2;
-            }
-            if(wordlist.contains("නිසා") || wordlist.contains("හින්ද")){
-                cueval+=4;
-            }
-            if(wordlist.contains("එසේම")){
-                cueval+=8;
-            }
-            if(wordlist.contains("එභෙත්") || wordlist.contains("නමුත්")){
-                cueval+=16;
-            }
-            if(wordlist.contains("වගේ") || wordlist.contains("වැනි") || wordlist.contains("වාගේ")){
-                cueval+=32;
-            }
-            if(wordlist.contains("ඉතින්") || wordlist.contains("එවිට")){
-                cueval+=64;
-            }
-            if(wordlist.contains("හෝ")){
-                cueval+=128;
-            }
-            if(wordlist.contains("හරි")){
-                cueval+=256;
-            }
-            if(wordlist.contains("එනිසා") || wordlist.contains("එබැවින්")){
-                cueval+=512;
-            }
+            cueval = cue_phrase(wordlist);
+
             Instance temp = new DenseInstance(8);
 
             temp.setValue(featureVectorAttributes.get(0),words.length);
@@ -325,11 +268,11 @@ public class FeatureSetAll {
 
 
 
-            Classifier cModel = new J48();
+            Classifier cModel = new SimpleLogistic();
             cModel.buildClassifier(TrainingSet);
 
-            weka.core.SerializationHelper.write("/home/dammina/sanwada/Classification/src/datafiles/cls.model",cModel);
-            weka.core.SerializationHelper.write("/home/dammina/sanwada/Classification/src/datafiles/testingSet.model",TestingSet);
+            weka.core.SerializationHelper.write(System.getProperty("user.dir")+"/Classification/src/datafiles/cls.model",cModel);
+            weka.core.SerializationHelper.write(System.getProperty("user.dir")+"/Classification/src/datafiles/testingSet.model",TestingSet);
 
             Evaluation eTest = new Evaluation(TrainingSet);
             eTest.evaluateModel(cModel, TestingSet);
@@ -520,7 +463,7 @@ public class FeatureSetAll {
 
                 }
             }else if(split[1].equalsIgnoreCase("Abandoned/Uninterpretable/Other")){
-                for (int i = 0; i < words.length ; i++) {
+                for (int i = 0; i < words.length ; i++){
                     if(AbandonedUninterpretableOther.containsKey(words[i])){
                         int count = AbandonedUninterpretableOther.get(words[i]);
                         count++;
@@ -1066,8 +1009,51 @@ public class FeatureSetAll {
 
         return tag_id;
 
-
-
-
     }
+
+    public int cue_phrase(List wordlist){
+
+        if(wordlist.contains("ඇත්තෙන්ම")){
+            cueval+=1;
+        }
+
+        if(wordlist.contains("සහ") || wordlist.contains("හා")){
+            cueval+=2;
+        }
+
+        if(wordlist.contains("නිසා") || wordlist.contains("හින්ද")){
+            cueval+=4;
+        }
+
+        if(wordlist.contains("එසේම")){
+            cueval+=8;
+        }
+
+        if(wordlist.contains("එභෙත්") || wordlist.contains("නමුත්")){
+            cueval+=16;
+        }
+
+        if(wordlist.contains("වගේ") || wordlist.contains("වැනි") || wordlist.contains("වාගේ")){
+            cueval+=32;
+        }
+
+        if(wordlist.contains("ඉතින්") || wordlist.contains("එවිට")){
+            cueval+=64;
+        }
+
+        if(wordlist.contains("හෝ")){
+            cueval+=128;
+        }
+
+        if(wordlist.contains("හරි")){
+            cueval+=256;
+        }
+
+        if(wordlist.contains("එනිසා") || wordlist.contains("එබැවින්")){
+            cueval+=512;
+        }
+
+        return 0;
+    }
+
 }
