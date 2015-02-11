@@ -1,5 +1,6 @@
 package FeatureSets;
 
+import com.sun.xml.internal.ws.api.FeatureListValidatorAnnotation;
 import weka.attributeSelection.InfoGainAttributeEval;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
@@ -46,19 +47,20 @@ public class FeatureSetAll {
     private HashMap<String,Integer> ConventionalOpening;
     private HashMap<String,Integer> BackchannelQuestion;
 
-    Attribute segmentLength,lastWord,punctuationMark,lastletter,cuephrases, verb, previousDialogueAct, bowCount,lineText;
-    Attribute ClassAttribute;
-    ArrayList<String> featureVectorClassValues;
-    ArrayList<Attribute> featureVectorAttributes;
-    Instances TrainingSet;
-    Instances TestingSet;
-    Hashtable table;
-    int hashval=0;
-    int cueval=0;
-    int previosDialogueAct= 0;
+    private Attribute segmentLength,lastWord,punctuationMark,lastletter,cuephrases, verb, previousDialogueAct, bowCount,lineText;
+    private Attribute ClassAttribute;
+    private ArrayList<String> featureVectorClassValues;
+    private ArrayList<Attribute> featureVectorAttributes;
+    private Instances TrainingSet;
+    private Instances TestingSet;
+    private Hashtable table;
 
-    String verbslist=getVerbList();
-    List<String> verbs;
+    private int hashval=0;
+    private int cueval=0;
+    private int previosDialogueAct= 0;
+
+    private String verbslist=getVerbList();
+    private List<String> verbs;
 
     public FeatureSetAll(){
 
@@ -1077,6 +1079,62 @@ public class FeatureSetAll {
     public String getVerbList(){
         String verblist="හොයන්න, හැරෙනවා, ඉන්නකෝ, යොදාගන්න, නඟිනවා, නමපන්, ජීවත්වෙන්න, එනවා, උගන්නන්න, ඉඩතියන්න, අදින්න, දියල්ලා, ගන්න, දකින්න, දෙන්න, බැහැපං, හිතන්, ඇවිදින්න, හිටහන්, කරන්න පටංගත්තොත්, නැවතියන්, නැඟිටින්න, ඉන්න, දීපන්, එන්න, නැගිටිනවා, කියපං, වරෙල්ලා, පලයං, එහෙනම් ඔයා මාව අස්කරලා දාන්න, දුවපන්, පැදපන්, සංතෝෂවෙයල්ලා, කතාබහකරන්න, ඇඳගන්න, ගොඩඑන්න, දුවපල්ලා, අල්ලන්න, පෙරළන්න, ඇරපන්, බලාගන්න, එවන්න, නවත්වනවා, දීපල්ලා, ගේන්න, බලමු, නගින්න, බහින්න, අස්කරගන්න, කරනවා, දෙනවා, නවත්තන්න, දුක්වෙන්න, යන්නකෝ, මරන්න, යමල්ලා, යවන්න, ඔබන්න, හිටගන්නවා, කියන්නකෝ, තේරුම්ගන්න, කාපන්, වහගන්නවා, අරගන්න, වෙනවා, යමන්, එන්න ඇතුලට, කරන්න, වරෙන්,, තියන්න, නිදාගන්න, ඉන්නවා, ගේ්න්න, ගැටගහන්න, කතාකරන්න, කියපන්, කරගන්න,ලිහන්න, මනින්න, වෙන්න, රවට්ටන්න, අඬන්න, හිටපං, දාපන්, අහන්න, හිනාවෙන්න, අරිනවා, වාඩිවෙන්න, උස්සන්න, දුවන්න, හරිගස්සන්න, ගහගන්න, වෙනවා,වදවෙන්න, අරින්න, නගිනවා, නැගිට්ටවන්න, පලයල්ලා, ගෙනියන්න, වෙයල්ලා, නිදාගනින්, වාඩිවෙන්න,වෙන්න, වක්කරපන්, බේරගන්න, වරෙන්, දියන්, වදවෙන්න, බයවෙන්න, පලයන්, පුහුණුවෙන්න, ඉවසන්න, ගහන්න, ඉදපන්, හිටපන්, නැඟිටපල්ලා, දාන්න, හිටපංකෝ, බලන්න, කන්න, ගනින්, ඉඩදෙන්න, පෙන්වන්න, කරහන්, අහන්නකෝ, මැරියන්, තියාගන්න, පටන්ගන්න, දාගන්න, උඩින් තියන්න, කියන්න, යන්න, නවතින්න, නඟින්න, එකතුවෙන්න, කරපන්, එන්නකෝ, යනවා, අතදාන්න, කරගන්න, අල්ලගන්න, වෙයන්, හිතන්න, විවේකගනින්, වරෙව්, නැඟිටපන්, කඩන්න";
         return verblist;
+    }
+
+    public Attribute getsegmentLength(){
+        return segmentLength;
+    }
+
+    public Attribute getlastWord(){
+        return lastWord;
+    }
+
+    public Attribute getpunctuationMark(){
+        return punctuationMark;
+    }
+
+    public Attribute getlastletter(){
+        return lastletter;
+    }
+
+    public Attribute getcuephrases(){
+        return cuephrases;
+    }
+
+    public Attribute getlineText(){
+        return verb;
+    }
+
+    public Attribute getpreviousDialogueAct(){
+        return previousDialogueAct;
+    }
+
+    public Attribute getbowCount(){
+        return bowCount;
+    }
+
+    public Attribute getverb(){
+        return verb;
+    }
+
+    public ArrayList<Attribute> getFeatureVector(){
+        return featureVectorAttributes;
+    }
+
+    public ArrayList<String> getFeatureClass(){
+        return featureVectorClassValues;
+    }
+
+    public Instances getTrainingSet(){
+        return TrainingSet;
+    }
+
+    public Instances getTestingSet(){
+        return TestingSet;
+    }
+
+    public List<String> getVerbs(){
+        return verbs;
     }
 
 }
