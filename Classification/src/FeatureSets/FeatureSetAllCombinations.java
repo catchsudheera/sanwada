@@ -135,36 +135,7 @@ public class FeatureSetAllCombinations {
             //cue phrases feature value declaration
             List wordlist = Arrays.asList(words);
 
-            if(wordlist.contains("ඇත්තෙන්ම")){
-                cueval+=1;
-            }
-            if(wordlist.contains("සහ") || wordlist.contains("හා")){
-                cueval+=2;
-            }
-            if(wordlist.contains("නිසා") || wordlist.contains("හින්ද")){
-                cueval+=4;
-            }
-            if(wordlist.contains("එසේම")){
-                cueval+=8;
-            }
-            if(wordlist.contains("එභෙත්") || wordlist.contains("නමුත්")){
-                cueval+=16;
-            }
-            if(wordlist.contains("වගේ") || wordlist.contains("වැනි") || wordlist.contains("වාගේ")){
-                cueval+=32;
-            }
-            if(wordlist.contains("ඉතින්") || wordlist.contains("එවිට")){
-                cueval+=64;
-            }
-            if(wordlist.contains("හෝ")){
-                cueval+=128;
-            }
-            if(wordlist.contains("හරි")){
-                cueval+=256;
-            }
-            if(wordlist.contains("එනිසා") || wordlist.contains("එබැවින්")){
-                cueval+=512;
-            }
+            cueval = cue_phrase(wordlist);
 
             Instance temp = new DenseInstance(9);
 
@@ -219,36 +190,8 @@ public class FeatureSetAllCombinations {
             char lastletter = words[words.length-1].charAt(words[words.length-1].length()-1);
             List wordlist = Arrays.asList(words);
 
-            if(wordlist.contains("ඇත්තෙන්ම")){
-                cueval+=1;
-            }
-            if(wordlist.contains("සහ") || wordlist.contains("හා")){
-                cueval+=2;
-            }
-            if(wordlist.contains("නිසා") || wordlist.contains("හින්ද")){
-                cueval+=4;
-            }
-            if(wordlist.contains("එසේම")){
-                cueval+=8;
-            }
-            if(wordlist.contains("එභෙත්") || wordlist.contains("නමුත්")){
-                cueval+=16;
-            }
-            if(wordlist.contains("වගේ") || wordlist.contains("වැනි") || wordlist.contains("වාගේ")){
-                cueval+=32;
-            }
-            if(wordlist.contains("ඉතින්") || wordlist.contains("එවිට")){
-                cueval+=64;
-            }
-            if(wordlist.contains("හෝ")){
-                cueval+=128;
-            }
-            if(wordlist.contains("හරි")){
-                cueval+=256;
-            }
-            if(wordlist.contains("එනිසා") || wordlist.contains("එබැවින්")){
-                cueval+=512;
-            }
+            cueval = cue_phrase(wordlist);
+
             Instance temp = new DenseInstance(9);
 
 //            temp.setValue(featureVectorAttributes.get(0),words.length);
@@ -624,6 +567,109 @@ public class FeatureSetAllCombinations {
             sets.add(set);
         }
         return sets;
+    }
+
+    public int cue_phrase(List wordlist){
+
+        if(wordlist.contains("ඇත්තෙන්ම")){
+            cueval+=1;
+        }
+
+        if(wordlist.contains("සහ") || wordlist.contains("හා")){
+            cueval+=2;
+        }
+
+        if(wordlist.contains("නිසා") || wordlist.contains("හින්ද")){
+            cueval+=4;
+        }
+
+        if(wordlist.contains("එසේම")){
+            cueval+=8;
+        }
+
+        if(wordlist.contains("එභෙත්") || wordlist.contains("නමුත්")){
+            cueval+=16;
+        }
+
+        if(wordlist.contains("වගේ") || wordlist.contains("වැනි") || wordlist.contains("වාගේ")){
+            cueval+=32;
+        }
+
+        if(wordlist.contains("ඉතින්") || wordlist.contains("එවිට")){
+            cueval+=64;
+        }
+
+        if(wordlist.contains("හෝ")){
+            cueval+=128;
+        }
+
+        if(wordlist.contains("හරි")){
+            cueval+=256;
+        }
+
+        if(wordlist.contains("එනිසා") || wordlist.contains("එබැවින්")){
+            cueval+=512;
+        }
+
+        return 0;
+
+    }
+
+    public String getVerbList(){
+        String verblist="හොයන්න, හැරෙනවා, ඉන්නකෝ, යොදාගන්න, නඟිනවා, නමපන්, ජීවත්වෙන්න, එනවා, උගන්නන්න, ඉඩතියන්න, අදින්න, දියල්ලා, ගන්න, දකින්න, දෙන්න, බැහැපං, හිතන්, ඇවිදින්න, හිටහන්, කරන්න පටංගත්තොත්, නැවතියන්, නැඟිටින්න, ඉන්න, දීපන්, එන්න, නැගිටිනවා, කියපං, වරෙල්ලා, පලයං, එහෙනම් ඔයා මාව අස්කරලා දාන්න, දුවපන්, පැදපන්, සංතෝෂවෙයල්ලා, කතාබහකරන්න, ඇඳගන්න, ගොඩඑන්න, දුවපල්ලා, අල්ලන්න, පෙරළන්න, ඇරපන්, බලාගන්න, එවන්න, නවත්වනවා, දීපල්ලා, ගේන්න, බලමු, නගින්න, බහින්න, අස්කරගන්න, කරනවා, දෙනවා, නවත්තන්න, දුක්වෙන්න, යන්නකෝ, මරන්න, යමල්ලා, යවන්න, ඔබන්න, හිටගන්නවා, කියන්නකෝ, තේරුම්ගන්න, කාපන්, වහගන්නවා, අරගන්න, වෙනවා, යමන්, එන්න ඇතුලට, කරන්න, වරෙන්,, තියන්න, නිදාගන්න, ඉන්නවා, ගේ්න්න, ගැටගහන්න, කතාකරන්න, කියපන්, කරගන්න,ලිහන්න, මනින්න, වෙන්න, රවට්ටන්න, අඬන්න, හිටපං, දාපන්, අහන්න, හිනාවෙන්න, අරිනවා, වාඩිවෙන්න, උස්සන්න, දුවන්න, හරිගස්සන්න, ගහගන්න, වෙනවා,වදවෙන්න, අරින්න, නගිනවා, නැගිට්ටවන්න, පලයල්ලා, ගෙනියන්න, වෙයල්ලා, නිදාගනින්, වාඩිවෙන්න,වෙන්න, වක්කරපන්, බේරගන්න, වරෙන්, දියන්, වදවෙන්න, බයවෙන්න, පලයන්, පුහුණුවෙන්න, ඉවසන්න, ගහන්න, ඉදපන්, හිටපන්, නැඟිටපල්ලා, දාන්න, හිටපංකෝ, බලන්න, කන්න, ගනින්, ඉඩදෙන්න, පෙන්වන්න, කරහන්, අහන්නකෝ, මැරියන්, තියාගන්න, පටන්ගන්න, දාගන්න, උඩින් තියන්න, කියන්න, යන්න, නවතින්න, නඟින්න, එකතුවෙන්න, කරපන්, එන්නකෝ, යනවා, අතදාන්න, කරගන්න, අල්ලගන්න, වෙයන්, හිතන්න, විවේකගනින්, වරෙව්, නැඟිටපන්, කඩන්න";
+        return verblist;
+    }
+
+    public Attribute getsegmentLength(){
+        return segmentLength;
+    }
+
+    public Attribute getlastWord(){
+        return lastWord;
+    }
+
+    public Attribute getpunctuationMark(){
+        return punctuationMark;
+    }
+
+    public Attribute getlastletter(){
+        return lastletter;
+    }
+
+    public Attribute getcuephrases(){
+        return cuephrases;
+    }
+
+    public Attribute getlineText(){
+        return verb;
+    }
+
+    public Attribute getpreviousDialogueAct(){
+        return previousDialogueAct;
+    }
+
+    public Attribute getverb(){
+        return verb;
+    }
+
+    public ArrayList<Attribute> getFeatureVector(){
+        return featureVectorAttributes;
+    }
+
+    public ArrayList<String> getFeatureClass(){
+        return featureVectorClassValues;
+    }
+
+    public Instances getTrainingSet(){
+        return TrainingSet;
+    }
+
+    public Instances getTestingSet(){
+        return TestingSet;
+    }
+
+    public List<String> getVerbs(){
+        return verbs;
     }
 
 }
